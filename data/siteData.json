@@ -1,0 +1,942 @@
+{
+  "countries": [
+    {
+      "name": "Qatar",
+      "slug": "qatar",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/qatar.svg"
+    },
+    {
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg"
+    },
+    {
+      "name": "Egypt",
+      "slug": "egypt",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg"
+    },
+    {
+      "name": "UAE",
+      "slug": "uae",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg"
+    },
+    {
+      "name": "Jordan",
+      "slug": "jordan",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/jordan.svg"
+    },
+    {
+      "name": "Morocco",
+      "slug": "morocco",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/morocco.svg"
+    },
+    {
+      "name": "Kuwait",
+      "slug": "kuwait",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/kuwait.svg"
+    },
+    {
+      "name": "Bahrain",
+      "slug": "bahrain",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/bahrain.svg"
+    },
+    {
+      "name": "Oman",
+      "slug": "oman",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/oman.svg"
+    },
+    {
+      "name": "Lebanon",
+      "slug": "lebanon",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/lebanon.svg"
+    },
+    {
+      "name": "Tunisia",
+      "slug": "tunisia",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/tunisia.svg"
+    },
+    {
+      "name": "Iraq",
+      "slug": "iraq",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/iraq.svg"
+    },
+    {
+      "name": "Syria",
+      "slug": "syria",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/syria.svg"
+    },
+    {
+      "name": "Algeria",
+      "slug": "algeria",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/algeria.svg"
+    },
+    {
+      "name": "Turkey",
+      "slug": "turkey",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/turkey.svg"
+    },
+    {
+      "name": "Palestine",
+      "slug": "palestine",
+      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/palestine.svg"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "Fintech",
+      "slug": "fintech",
+      "gradient": "linear-gradient(18deg,#AA397B,#862D52)"
+    },
+    {
+      "name": "AI",
+      "slug": "ai",
+      "gradient": "linear-gradient(27deg,#8D5083,#6D3E5E)"
+    },
+    {
+      "name": "Logistics",
+      "slug": "logistics",
+      "gradient": "linear-gradient(166deg,#466A72,#39505C)"
+    },
+    {
+      "name": "Energy",
+      "slug": "energy",
+      "gradient": "linear-gradient(60deg,#686825,#49521D)"
+    },
+    {
+      "name": "Healthcare",
+      "slug": "healthcare",
+      "gradient": "linear-gradient(96deg,#416E58,#325549)"
+    },
+    {
+      "name": "Retail",
+      "slug": "retail",
+      "gradient": "linear-gradient(169deg,#A14D28,#70431C)"
+    },
+    {
+      "name": "Talent",
+      "slug": "talent",
+      "gradient": "linear-gradient(106deg,#4A6974,#3C505E)"
+    },
+    {
+      "name": "Climate",
+      "slug": "climate",
+      "gradient": "linear-gradient(165deg,#5B6E48,#485739)"
+    },
+    {
+      "name": "Gaming",
+      "slug": "gaming",
+      "gradient": "linear-gradient(51deg,#803D72,#602E55)"
+    },
+    {
+      "name": "Media & entertainment",
+      "slug": "media-and-entertainment",
+      "gradient": "linear-gradient(73deg,#466A72,#39505C)"
+    },
+    {
+      "name": "Proptech",
+      "slug": "proptech",
+      "gradient": "linear-gradient(149deg,#A14D28,#70431C)"
+    },
+    {
+      "name": "Edtech",
+      "slug": "edtech",
+      "gradient": "linear-gradient(87deg,#416C6F,#35515B)"
+    },
+    {
+      "name": "Deep tech",
+      "slug": "deep-tech",
+      "gradient": "linear-gradient(11deg,#8D5083,#6D3E5E)"
+    },
+    {
+      "name": "Food & hospitality",
+      "slug": "food-and-hospitality",
+      "gradient": "linear-gradient(136deg,#9C5E28,#74481F)"
+    },
+    {
+      "name": "Consumer brands",
+      "slug": "consumer-brands",
+      "gradient": "linear-gradient(162deg,#99532B,#6E3F21)"
+    },
+    {
+      "name": "Beauty and wellness",
+      "slug": "beauty-and-wellness",
+      "gradient": "linear-gradient(101deg,#913F6E,#6D2F54)"
+    },
+    {
+      "name": "Biotech",
+      "slug": "biotech",
+      "gradient": "linear-gradient(78deg,#406B5F,#335149)"
+    }
+  ],
+  "heroStories": [
+    {
+      "id": "why-gulf-startups-are-building-around-the-corner-shop",
+      "title": "Why Gulf Startups Are Building Around the Corner Shop",
+      "tag": "Story",
+      "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1600&q=80",
+      "excerpt": "A neighbourhood shop can look like a small customer for a technology company. Across the Gulf, local baqalas process tens of billions in cash, making them the primary battleground for B2B tech and credit infrastructure.",
+      "url": "/read/why-gulf-startups-are-building-around-the-corner-shop"
+    },
+    {
+      "id": "the-women-behind-some-of-menas-biggest-companies",
+      "title": "The Women Behind Some of MENA’s Biggest Companies",
+      "tag": "Story",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1f4f2-3246-7c73-8640-c1a595f76f49-1.jpg",
+      "excerpt": "Trendyol is one of Turkey’s biggest technology companies. Insider sells its software to more than 1,500 brands across 28 countries. Huda Beauty became a global cosmetics business, while Hepsiburada became the first Turkish company to list on Nasdaq. They were built in different cities, across different industries, and at very different moments in the region’s startup history. But each had a woman on the founding team. Across MENA, women have helped build some of the region’s largest companies in e-commerce, enterprise software, beauty, logistics, fintech and investing. Their stories also show how much broader the region’s entrepreneurial landscape has become.",
+      "url": "/read/the-women-behind-some-of-menas-biggest-companies"
+    },
+    {
+      "id": "how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies",
+      "title": "How Peak Games Became a Starting Point for Turkey’s Next Gaming Companies",
+      "tag": "Story",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a188e2-79b7-7ae1-bb16-2060cbde2380-1.jpg",
+      "excerpt": "In 2019, five employees left Peak Games to build another mobile gaming company in Istanbul. Today, Peak Games alumni have built some of the highest grossing casual puzzle games in mobile history, establishing Istanbul as a global gaming superpower.",
+      "url": "/read/how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies"
+    },
+    {
+      "id": "what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
+      "title": "What It Takes to Take a Gulf Restaurant Brand Abroad",
+      "tag": "Story",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+      "excerpt": "At Harrods in London, Somewhere serves guacamole hummus, kunafa-wrapped shrimp and beef shawarma with beetroot rice. Homegrown Gulf concepts are now exporting regional flavors and hospitality tech across European and Asian capitals.",
+      "url": "/read/what-it-takes-to-take-a-gulf-restaurant-brand-abroad"
+    },
+    {
+      "id": "tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
+      "title": "Tabby vs Tamara: The Competition Is Moving Beyond Buy Now, Pay Later",
+      "tag": "Story",
+      "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1600&q=80",
+      "excerpt": "Tabby and Tamara became familiar to Gulf shoppers through a simple offer: buy something now and spread the payment across instalments. But with combined billions in valuation, the battle is shifting to everyday consumer banking and debit cards.",
+      "url": "/read/tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later"
+    }
+  ],
+  "startups": [
+    {
+      "id": "tabby",
+      "name": "Tabby",
+      "brandColor": "#6af990",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Fintech",
+      "hook": "Buy now, pay later and money app for shoppers in Saudi Arabia and the UAE",
+      "valuation": "$1.5B+ (Unicorn)",
+      "raised": "$950M+"
+    },
+    {
+      "id": "ninja",
+      "name": "Ninja",
+      "brandColor": "#ff4d4d",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Retail",
+      "hook": "Saudi quick commerce app delivering groceries and essentials in minutes",
+      "valuation": "$500M+",
+      "raised": "$110M+"
+    },
+    {
+      "id": "mnt-halan",
+      "name": "MNT-Halan",
+      "brandColor": "#00a8ff",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g24.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Egypt",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
+      "sector": "Fintech",
+      "hook": "Egyptian fintech offering loans, payments and e-commerce to underbanked customers",
+      "valuation": "$1.0B+ (Unicorn)",
+      "raised": "$520M+"
+    },
+    {
+      "id": "hala",
+      "name": "HALA",
+      "brandColor": "#ffd32a",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Fintech",
+      "hook": "HALA provides Saudi SMEs with banking, POS, payments and expense management",
+      "valuation": "$900M+",
+      "raised": "$157M+"
+    },
+    {
+      "id": "tamara",
+      "name": "Tamara",
+      "brandColor": "#ff9f1a",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Fintech",
+      "hook": "Saudi buy now, pay later and shopping app serving the Gulf",
+      "valuation": "$1.0B+ (Unicorn)",
+      "raised": "$500M+"
+    },
+    {
+      "id": "foodics",
+      "name": "Foodics",
+      "brandColor": "#17c0eb",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Fintech",
+      "hook": "Foodics provides a cloud-based restaurant POS and payments platform serving MENA F&B",
+      "valuation": "$750M+",
+      "raised": "$198M+"
+    },
+    {
+      "id": "fasset",
+      "name": "Fasset",
+      "brandColor": "#7158e2",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Fintech",
+      "hook": "Dubai-headquartered stablecoin-powered neobank offering USD accounts and cross-border settlement",
+      "valuation": "$1.0B+ (Unicorn)",
+      "raised": "$140M+"
+    },
+    {
+      "id": "kitopi",
+      "name": "Kitopi",
+      "brandColor": "#ff3838",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Food & hospitality",
+      "hook": "Dubai-based multi-brand restaurant group that began as a cloud kitchen platform",
+      "valuation": "$1.2B+ (Unicorn)",
+      "raised": "$804M+"
+    },
+    {
+      "id": "salla",
+      "name": "Salla",
+      "brandColor": "#2ecc71",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Retail",
+      "hook": "Saudi e-commerce SaaS platform that lets merchants build Arabic-first online stores",
+      "valuation": "$800M+",
+      "raised": "$145M+"
+    },
+    {
+      "id": "nana",
+      "name": "Nana",
+      "brandColor": "#3498db",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g24.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Retail",
+      "hook": "Saudi Arabia’s leading digital grocery platform operating in Riyadh and other cities",
+      "valuation": "$400M+",
+      "raised": "$210M+"
+    },
+    {
+      "id": "eyewa",
+      "name": "eyewa",
+      "brandColor": "#9b59b6",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Retail",
+      "hook": "MENA’s largest omnichannel eyewear retailer with over 100 physical stores",
+      "valuation": "$350M+",
+      "raised": "$130M+"
+    },
+    {
+      "id": "trukker",
+      "name": "TruKker",
+      "brandColor": "#e67e22",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Logistics",
+      "hook": "Digital freight network matching shippers with trucks across the Middle East",
+      "valuation": "$450M+",
+      "raised": "$196M+"
+    }
+  ],
+  "founders": [
+    {
+      "id": "wafa-al-obaidat",
+      "name": "Wafa Al Obaidat",
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
+      "role": "Founder and CEO",
+      "company": "PLAYBOOK",
+      "country": "Bahrain",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/bahrain.svg",
+      "sector": "Edtech",
+      "hook": "Magazine editor turned founder of PLAYBOOK, a network helping women connect, learn and lead across the region."
+    },
+    {
+      "id": "sophie-smith",
+      "name": "Sophie Smith",
+      "brandColor": "#E04A7B",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
+      "role": "Founder and CEO",
+      "company": "Nabta Health",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Healthcare",
+      "hook": "Founder of Nabta Health, a hybrid healthcare company tackling women’s health challenges in emerging markets."
+    },
+    {
+      "id": "rowan-alawi",
+      "name": "Rowan Alawi",
+      "brandColor": "#4B7BEC",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g24.jpg",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
+      "role": "Co-Founder",
+      "company": "Trella",
+      "country": "Egypt",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
+      "sector": "Logistics",
+      "hook": "Co-founder of Trella, the B2B digital freight network transforming heavy transport across Egypt, Saudi Arabia and Pakistan."
+    },
+    {
+      "id": "hosam-arab",
+      "name": "Hosam Arab",
+      "brandColor": "#6AF990",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
+      "role": "Co-Founder and CEO",
+      "company": "Tabby",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Fintech",
+      "hook": "Former Namshi co-founder who created Tabby, transforming everyday retail finance into a multi-billion dollar platform."
+    },
+    {
+      "id": "abdulmajeed-alsukhan",
+      "name": "Abdulmajeed Alsukhan",
+      "brandColor": "#FF9F1A",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
+      "role": "Co-Founder and CEO",
+      "company": "Tamara",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Fintech",
+      "hook": "Founder who scaled Tamara into Saudi Arabia's first homegrown fintech unicorn, pioneering consumer installment financing."
+    }
+  ],
+  "shorts": [
+    {
+      "id": "tabby-hosam-arab",
+      "href": "/shorts/tabby-hosam-arab",
+      "title": "Tabby: Hosam Arab",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/reel-covers/13-5d2d5bb387.webp",
+      "country": "Saudi Arabia",
+      "sector": "Fintech",
+      "dur": "0:57",
+      "tag": "Short"
+    },
+    {
+      "id": "huda-beauty-huda-kattan",
+      "href": "/shorts/huda-beauty-huda-kattan",
+      "title": "Huda Beauty: Huda Kattan",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/reel-covers/19-96164ee256.webp",
+      "country": "UAE",
+      "sector": "Retail",
+      "dur": "1:10",
+      "tag": "Short"
+    },
+    {
+      "id": "trendyol-demet-mutlu",
+      "href": "/shorts/trendyol-demet-mutlu",
+      "title": "Trendyol: Demet Mutlu",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/reel-covers/41-279308a18f.webp",
+      "country": "Turkey",
+      "sector": "Retail",
+      "dur": "1:20",
+      "tag": "Short"
+    },
+    {
+      "id": "instadeep-karim-beguir",
+      "href": "/shorts/instadeep-karim-beguir",
+      "title": "InstaDeep: Karim Beguir",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/stream-posters/0473d925-6376-40f4-a890-6c6e59e7a9c5-4c5235a4d4.jpg",
+      "country": "Tunisia",
+      "sector": "AI",
+      "dur": "1:21",
+      "tag": "Short"
+    },
+    {
+      "id": "getir-nazim-salur",
+      "href": "/shorts/getir-nazim-salur",
+      "title": "Getir: Nazım Salur",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/reel-covers/01-c2bc7248c0.webp",
+      "country": "Turkey",
+      "sector": "Retail",
+      "dur": "1:26",
+      "tag": "Short"
+    },
+    {
+      "id": "anghami-elie-habib",
+      "href": "/shorts/anghami-elie-habib",
+      "title": "Anghami: Elie Habib",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/reel-covers/03-66f5197a93.webp",
+      "country": "UAE",
+      "sector": "Media ",
+      "dur": "1:12",
+      "tag": "Short"
+    },
+    {
+      "id": "yassir-noureddine-tayebi",
+      "href": "/shorts/yassir-noureddine-tayebi",
+      "title": "Yassir: Noureddine Tayebi",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/stream-posters/74e647b4-a2d8-4f7f-8ae7-b040c37ee5a4-dda45072b1.jpg",
+      "country": "Algeria",
+      "sector": "Logistics",
+      "dur": "1:24",
+      "tag": "Short"
+    },
+    {
+      "id": "kitopi-mohamad-ballout",
+      "href": "/shorts/kitopi-mohamad-ballout",
+      "title": "Kitopi: Mohamad Ballout",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/reel-covers/34-43bf75e787.webp",
+      "country": "UAE",
+      "sector": "Food ",
+      "dur": "0:59",
+      "tag": "Short"
+    },
+    {
+      "id": "weekly-roundup-sept-21-25",
+      "href": "/read/weekly-roundup-sept-21-25",
+      "title": "Weekly Roundup: Sept 21-25",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/weekly-roundup-sept-21-25/01-e0f6f49a93.png",
+      "country": "Egypt",
+      "sector": "Fintech",
+      "dur": "9 slides",
+      "tag": "9 slides"
+    },
+    {
+      "id": "mckinsey-mafia",
+      "href": "/read/mckinsey-mafia",
+      "title": "McKinsey Mafia",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/mckinsey-mafia/01-421d214d12.png",
+      "country": "null",
+      "sector": "Fintech",
+      "dur": "9 slides",
+      "tag": "9 slides"
+    },
+    {
+      "id": "top-women-founders",
+      "href": "/read/top-women-founders",
+      "title": "Top Women Founders",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/top-women-founders/01-3754574161.png",
+      "country": "null",
+      "sector": "Retail",
+      "dur": "10 slides",
+      "tag": "10 slides"
+    },
+    {
+      "id": "qatar-university-carousel",
+      "href": "/read/qatar-university-carousel",
+      "title": "Qatar University",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/qatar-university-carousel/01-b679ec9fb8.png",
+      "country": "Qatar",
+      "sector": "Edtech",
+      "dur": "9 slides",
+      "tag": "9 slides"
+    },
+    {
+      "id": "careem-carousel",
+      "href": "/read/careem-carousel",
+      "title": "Careem",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1f4f2-3246-7c73-8640-c1a595f76f49-1.jpg",
+      "country": "UAE",
+      "sector": "Logistics",
+      "dur": "10 slides",
+      "tag": "10 slides"
+    },
+    {
+      "id": "the-women-behind-some-of-menas-biggest-companies",
+      "href": "/read/the-women-behind-some-of-menas-biggest-companies",
+      "title": "The Women Behind Some of MENA’s Biggest Companies",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1f4f2-3246-7c73-8640-c1a595f76f49-1.jpg",
+      "country": "Qatar",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies",
+      "href": "/read/how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies",
+      "title": "How Peak Games Became a Starting Point for Turkey’s Next Gaming Companies",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a188e2-79b7-7ae1-bb16-2060cbde2380-1.jpg",
+      "country": "Turkey",
+      "sector": "Gaming",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
+      "href": "/read/what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
+      "title": "What It Takes to Take a Gulf Restaurant Brand Abroad",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19892-930d-79f2-a6bf-ac1f10e277af-4.jpg",
+      "country": "UAE",
+      "sector": "Food ",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
+      "href": "/read/tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
+      "title": "Tabby vs Tamara: The Competition Is Moving Beyond Buy Now",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19886-3d5d-7c61-9eba-e228a3c2e944-2.jpg",
+      "country": "UAE",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-gulf-startups-are-building-around-the-corner-shop",
+      "href": "/read/why-gulf-startups-are-building-around-the-corner-shop",
+      "title": "Why Gulf Startups Are Building Around the Corner Shop",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1988e-fe6b-72b2-ad6b-536fb8ee5af6-4.jpg",
+      "country": "Saudi Arabia",
+      "sector": "Media ",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "how-mena-consumer-brands-find-customers-abroad",
+      "href": "/read/how-mena-consumer-brands-find-customers-abroad",
+      "title": "How MENA Consumer Brands Find Customers Abroad",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1989b-2c8b-7b83-bb52-21db61143424-1.jpg",
+      "country": "UAE",
+      "sector": "Healthcare",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-global-companies-pick-riyadh-hq",
+      "href": "/read/why-global-companies-pick-riyadh-hq",
+      "title": "Why Global Companies Are Opening Middle East Headquarters in Riyadh",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/why-global-companies-pick-riyadh-hq.webp",
+      "country": "Saudi Arabia",
+      "sector": "null",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "irans-hidden-unicorns",
+      "href": "/read/irans-hidden-unicorns",
+      "title": "Iran’s Hidden Unicorns: The Tech Giants the Global Market Has Never Priced",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/irans-hidden-unicorns.webp",
+      "country": "null",
+      "sector": "Retail",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "indian-entrepreneurs-who-built-fortunes-in-the-uae",
+      "href": "/read/indian-entrepreneurs-who-built-fortunes-in-the-uae",
+      "title": "Why So Many Indian Entrepreneurs Built Fortunes in the UAE",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/indian-entrepreneurs-who-built-fortunes-in-the-uae.webp",
+      "country": "UAE",
+      "sector": "Retail",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-menas-biggest-fintechs-came-from-egypt",
+      "href": "/read/why-menas-biggest-fintechs-came-from-egypt",
+      "title": "Why So Many of MENA’s Biggest Fintech Companies Came From Egypt",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/why-menas-biggest-fintechs-came-from-egypt.webp",
+      "country": "Egypt",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    }
+  ],
+  "carousels": [
+    {
+      "id": "weekly-roundup-sept-21-25",
+      "href": "/read/weekly-roundup-sept-21-25",
+      "title": "Weekly Roundup: Sept 21-25",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/weekly-roundup-sept-21-25/01-e0f6f49a93.png",
+      "country": "Egypt",
+      "sector": "Fintech",
+      "dur": "9 slides",
+      "tag": "9 slides"
+    },
+    {
+      "id": "mckinsey-mafia",
+      "href": "/read/mckinsey-mafia",
+      "title": "McKinsey Mafia",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/mckinsey-mafia/01-421d214d12.png",
+      "country": "null",
+      "sector": "Fintech",
+      "dur": "9 slides",
+      "tag": "9 slides"
+    },
+    {
+      "id": "top-women-founders",
+      "href": "/read/top-women-founders",
+      "title": "Top Women Founders",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/top-women-founders/01-3754574161.png",
+      "country": "null",
+      "sector": "Retail",
+      "dur": "10 slides",
+      "tag": "10 slides"
+    },
+    {
+      "id": "qatar-university-carousel",
+      "href": "/read/qatar-university-carousel",
+      "title": "Qatar University",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/visuals/qatar-university-carousel/01-b679ec9fb8.png",
+      "country": "Qatar",
+      "sector": "Edtech",
+      "dur": "9 slides",
+      "tag": "9 slides"
+    },
+    {
+      "id": "careem-carousel",
+      "href": "/read/careem-carousel",
+      "title": "Careem",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1f4f2-3246-7c73-8640-c1a595f76f49-1.jpg",
+      "country": "UAE",
+      "sector": "Logistics",
+      "dur": "10 slides",
+      "tag": "10 slides"
+    },
+    {
+      "id": "the-women-behind-some-of-menas-biggest-companies",
+      "href": "/read/the-women-behind-some-of-menas-biggest-companies",
+      "title": "The Women Behind Some of MENA’s Biggest Companies",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1f4f2-3246-7c73-8640-c1a595f76f49-1.jpg",
+      "country": "Qatar",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies",
+      "href": "/read/how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies",
+      "title": "How Peak Games Became a Starting Point for Turkey’s Next Gaming Companies",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a188e2-79b7-7ae1-bb16-2060cbde2380-1.jpg",
+      "country": "Turkey",
+      "sector": "Gaming",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
+      "href": "/read/what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
+      "title": "What It Takes to Take a Gulf Restaurant Brand Abroad",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19892-930d-79f2-a6bf-ac1f10e277af-4.jpg",
+      "country": "UAE",
+      "sector": "Food ",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
+      "href": "/read/tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
+      "title": "Tabby vs Tamara: The Competition Is Moving Beyond Buy Now",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19886-3d5d-7c61-9eba-e228a3c2e944-2.jpg",
+      "country": "UAE",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-gulf-startups-are-building-around-the-corner-shop",
+      "href": "/read/why-gulf-startups-are-building-around-the-corner-shop",
+      "title": "Why Gulf Startups Are Building Around the Corner Shop",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1988e-fe6b-72b2-ad6b-536fb8ee5af6-4.jpg",
+      "country": "Saudi Arabia",
+      "sector": "Media ",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "how-mena-consumer-brands-find-customers-abroad",
+      "href": "/read/how-mena-consumer-brands-find-customers-abroad",
+      "title": "How MENA Consumer Brands Find Customers Abroad",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1989b-2c8b-7b83-bb52-21db61143424-1.jpg",
+      "country": "UAE",
+      "sector": "Healthcare",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-global-companies-pick-riyadh-hq",
+      "href": "/read/why-global-companies-pick-riyadh-hq",
+      "title": "Why Global Companies Are Opening Middle East Headquarters in Riyadh",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/why-global-companies-pick-riyadh-hq.webp",
+      "country": "Saudi Arabia",
+      "sector": "null",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "irans-hidden-unicorns",
+      "href": "/read/irans-hidden-unicorns",
+      "title": "Iran’s Hidden Unicorns: The Tech Giants the Global Market Has Never Priced",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/irans-hidden-unicorns.webp",
+      "country": "null",
+      "sector": "Retail",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "indian-entrepreneurs-who-built-fortunes-in-the-uae",
+      "href": "/read/indian-entrepreneurs-who-built-fortunes-in-the-uae",
+      "title": "Why So Many Indian Entrepreneurs Built Fortunes in the UAE",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/indian-entrepreneurs-who-built-fortunes-in-the-uae.webp",
+      "country": "UAE",
+      "sector": "Retail",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-menas-biggest-fintechs-came-from-egypt",
+      "href": "/read/why-menas-biggest-fintechs-came-from-egypt",
+      "title": "Why So Many of MENA’s Biggest Fintech Companies Came From Egypt",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/why-menas-biggest-fintechs-came-from-egypt.webp",
+      "country": "Egypt",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    }
+  ],
+  "articles": [
+    {
+      "id": "the-women-behind-some-of-menas-biggest-companies",
+      "href": "/read/the-women-behind-some-of-menas-biggest-companies",
+      "title": "The Women Behind Some of MENA’s Biggest Companies",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1f4f2-3246-7c73-8640-c1a595f76f49-1.jpg",
+      "country": "Qatar",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies",
+      "href": "/read/how-peak-games-became-a-starting-point-for-turkeys-next-gaming-companies",
+      "title": "How Peak Games Became a Starting Point for Turkey’s Next Gaming Companies",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a188e2-79b7-7ae1-bb16-2060cbde2380-1.jpg",
+      "country": "Turkey",
+      "sector": "Gaming",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
+      "href": "/read/what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
+      "title": "What It Takes to Take a Gulf Restaurant Brand Abroad",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19892-930d-79f2-a6bf-ac1f10e277af-4.jpg",
+      "country": "UAE",
+      "sector": "Food ",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
+      "href": "/read/tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
+      "title": "Tabby vs Tamara: The Competition Is Moving Beyond Buy Now",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19886-3d5d-7c61-9eba-e228a3c2e944-2.jpg",
+      "country": "UAE",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-gulf-startups-are-building-around-the-corner-shop",
+      "href": "/read/why-gulf-startups-are-building-around-the-corner-shop",
+      "title": "Why Gulf Startups Are Building Around the Corner Shop",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1988e-fe6b-72b2-ad6b-536fb8ee5af6-4.jpg",
+      "country": "Saudi Arabia",
+      "sector": "Media ",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "how-mena-consumer-brands-find-customers-abroad",
+      "href": "/read/how-mena-consumer-brands-find-customers-abroad",
+      "title": "How MENA Consumer Brands Find Customers Abroad",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1989b-2c8b-7b83-bb52-21db61143424-1.jpg",
+      "country": "UAE",
+      "sector": "Healthcare",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-global-companies-pick-riyadh-hq",
+      "href": "/read/why-global-companies-pick-riyadh-hq",
+      "title": "Why Global Companies Are Opening Middle East Headquarters in Riyadh",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/why-global-companies-pick-riyadh-hq.webp",
+      "country": "Saudi Arabia",
+      "sector": "null",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "irans-hidden-unicorns",
+      "href": "/read/irans-hidden-unicorns",
+      "title": "Iran’s Hidden Unicorns: The Tech Giants the Global Market Has Never Priced",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/irans-hidden-unicorns.webp",
+      "country": "null",
+      "sector": "Retail",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "indian-entrepreneurs-who-built-fortunes-in-the-uae",
+      "href": "/read/indian-entrepreneurs-who-built-fortunes-in-the-uae",
+      "title": "Why So Many Indian Entrepreneurs Built Fortunes in the UAE",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/indian-entrepreneurs-who-built-fortunes-in-the-uae.webp",
+      "country": "UAE",
+      "sector": "Retail",
+      "dur": "",
+      "tag": "Story"
+    },
+    {
+      "id": "why-menas-biggest-fintechs-came-from-egypt",
+      "href": "/read/why-menas-biggest-fintechs-came-from-egypt",
+      "title": "Why So Many of MENA’s Biggest Fintech Companies Came From Egypt",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/articles/why-menas-biggest-fintechs-came-from-egypt.webp",
+      "country": "Egypt",
+      "sector": "Fintech",
+      "dur": "",
+      "tag": "Story"
+    }
+  ],
+  "deals": {
+    "headline": "$2.24bn",
+    "headlineSub": "raised by MENA startups from January to August, across 294 rounds.",
+    "headlineChange": "▼ 29% on last year",
+    "headlineCta": "See the data →",
+    "sectorCard": {
+      "tag": "Fintech · Jan to Aug",
+      "value": "$375m",
+      "desc": "Fintech led with $375m across 61 rounds, followed by retail with $312m across 42 rounds.",
+      "cta": "The sectors →"
+    },
+    "countryCard": {
+      "tag": "UAE · Jan to Aug",
+      "value": "71%",
+      "desc": "71% of it went to the UAE: $1.59bn of $2.24bn.",
+      "cta": "The countries →"
+    }
+  }
+}
