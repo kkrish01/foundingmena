@@ -55,9 +55,9 @@ export default function FoundersRail({ founders, onSelectFounder }: FoundersRail
           See all
         </span>
         <span className="rnav" style={{ display: 'flex', gap: '4px', marginLeft: '12px' }}>
-          <button
-            type="button"
-            aria-label="Previous"
+          <button 
+            type="button" 
+            aria-label="Previous" 
             onClick={scrollLeft}
             style={{
               background: 'rgba(255,255,255,0.06)',
@@ -72,9 +72,9 @@ export default function FoundersRail({ founders, onSelectFounder }: FoundersRail
               <path d="M15 5l-7 7 7 7"></path>
             </svg>
           </button>
-          <button
-            type="button"
-            aria-label="Next"
+          <button 
+            type="button" 
+            aria-label="Next" 
             onClick={scrollRight}
             style={{
               background: 'rgba(255,255,255,0.06)',
@@ -171,18 +171,18 @@ export default function FoundersRail({ founders, onSelectFounder }: FoundersRail
                 <h3>{founder.name}</h3>
 
                 <div className="row" style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: '8px 0' }}>
-                  <span
-                    className="ltile lchip co"
-                    style={{
-                      background: founder.companyTint || founder.brandColor || '#7D3C98',
-                      width: '24px',
-                      height: '24px',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      borderRadius: '5px',
-                      color: '#fff',
-                      fontSize: '11px',
+                  <span 
+                    className="ltile lchip co" 
+                    style={{ 
+                      background: founder.companyTint || founder.brandColor || '#7D3C98', 
+                      width: '24px', 
+                      height: '24px', 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center', 
+                      borderRadius: '5px', 
+                      color: '#fff', 
+                      fontSize: '11px', 
                       fontWeight: 'bold',
                       position: 'relative',
                       flexShrink: 0
