@@ -17,13 +17,13 @@ export default function CountriesSectors({
   onSelectSector,
 }: CountriesSectorsProps) {
   return (
-    <section className="section csec">
+    <section className="section csec" id="countries">
       <div className="sechead">
-        <h3>Countries & Sectors</h3>
+        <h3>Countries &amp; Sectors</h3>
       </div>
 
-      {/* Countries Tag Rail */}
-      <div className="tagrail" aria-label="Countries">
+      {/* Indian Cities Tag Rail */}
+      <div className="tagrail" aria-label="Cities">
         {countries.map((country) => (
           <a
             key={country.slug}
@@ -50,7 +50,7 @@ export default function CountriesSectors({
       </div>
 
       {/* Sectors Tag Rail */}
-      <div className="tagrail csec2" aria-label="Sectors" style={{ marginTop: '10px' }}>
+      <div className="tagrail csec2" aria-label="Sectors">
         {sectors.map((sector) => (
           <a
             key={sector.slug}

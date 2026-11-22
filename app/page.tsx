@@ -37,91 +37,93 @@ export default function Home() {
           {/* Mobile Appbar (auto-hidden on desktop) */}
           <Appbar />
 
-          {/* Hero Carousel: "Why Gulf Startups Are Building Around the Corner Shop" */}
+          {/* Hero Carousel: with authentic covers and bottom-right controls */}
           <HeroCarousel
             stories={siteData.heroStories}
             onSelectStory={setSelectedStory}
           />
 
-          {/* Countries & Sectors Tag Rails */}
-          <CountriesSectors
-            countries={siteData.countries}
-            sectors={siteData.sectors}
-          />
+          {/* Rails Container wrapping all content sections */}
+          <div id="rails">
+            {/* Countries & Sectors Tag Rails (with Indian Cities) */}
+            <CountriesSectors
+              countries={siteData.countries}
+              sectors={siteData.sectors}
+            />
 
-          {/* MENA's Founding 30: Startups (with 01, 02, 03, 04 crest badges, brand panels, valuations) */}
-          <StartupsRail
-            startups={siteData.startups}
-            onSelectStartup={setSelectedStartup}
-          />
+            {/* MENA's Founding 30: Startups */}
+            <StartupsRail
+              startups={siteData.startups}
+              onSelectStartup={setSelectedStartup}
+            />
 
-          {/* MENA's Founding 30: Founders (Wafa, Sophie, Rowan, Maha with cutout portraits and 30 backdrop) */}
-          <FoundersRail founders={siteData.founders} />
+            {/* MENA's Founding 30: Founders */}
+            <FoundersRail founders={siteData.founders} />
 
-          {/* Shorts (Vertical Video Reels - "Under three minutes") */}
-          {siteData.shorts && siteData.shorts.length > 0 && (
-            <ShortsRail shorts={siteData.shorts} />
-          )}
+            {/* Shorts (Vertical Video Reels) */}
+            {siteData.shorts && siteData.shorts.length > 0 && (
+              <ShortsRail shorts={siteData.shorts} />
+            )}
 
-          {/* Carousels (Visual Slide Decks - "Slides") */}
-          {siteData.carousels && siteData.carousels.length > 0 && (
-            <CarouselsRail carousels={siteData.carousels} />
-          )}
+            {/* Carousels (Slide Decks) */}
+            {siteData.carousels && siteData.carousels.length > 0 && (
+              <CarouselsRail carousels={siteData.carousels} />
+            )}
 
-          {/* Articles (Editorial Deep Dives) */}
-          {siteData.articles && siteData.articles.length > 0 && (
-            <ArticlesGrid articles={siteData.articles} />
-          )}
+            {/* Articles Grid */}
+            {siteData.articles && siteData.articles.length > 0 && (
+              <ArticlesGrid articles={siteData.articles} />
+            )}
 
-          {/* Deals & Data ($2.24bn, $375m, 71% Metrics Dashboard) */}
-          <DealsDataSection />
+            {/* Deals & Data Dashboard */}
+            <DealsDataSection />
 
-          {/* Sunset Gradient Newsletter Banner */}
-          <NewsletterBanner />
+            {/* Newsletter Banner */}
+            <NewsletterBanner />
 
-          {/* Footer Navigation & Copyright with clean, compact spacing */}
-          <footer 
-            className="footer" 
-            style={{ 
-              paddingTop: '24px', 
-              paddingBottom: '24px', 
-              borderTop: '1px solid rgba(255,255,255,0.08)', 
-              marginTop: '24px' 
-            }}
-          >
-            <nav className="fnav" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 18px', marginBottom: '18px', fontSize: '13px' }}>
-              <a href="/" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Home</a>
-              <a href="#the-30" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>The 30</a>
-              <a href="#newsletter" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Newsletter</a>
-              <a href="#countries" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Countries</a>
-              <a href="#watch" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Watch</a>
-              <a href="#articles" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Articles</a>
-              <a href="#the-30" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Companies</a>
-              <a href="#the-30-founders" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Founders</a>
-              <a href="#deals" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Deals & data</a>
-              <a href="#about" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>About</a>
-              <a href="#contact" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Contact</a>
-            </nav>
+            {/* Footer Navigation & Copyright */}
+            <footer 
+              className="footer" 
+              style={{ 
+                padding: '24px var(--pad) 24px', 
+                borderTop: '1px solid rgba(255,255,255,0.08)', 
+                marginTop: '24px' 
+              }}
+            >
+              <nav className="fnav" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 18px', marginBottom: '18px', fontSize: '13px' }}>
+                <a href="/" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Home</a>
+                <a href="#the-30" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>The 30</a>
+                <a href="#newsletter" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Newsletter</a>
+                <a href="#countries" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Cities</a>
+                <a href="#watch" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Watch</a>
+                <a href="#articles" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Articles</a>
+                <a href="#the-30" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Companies</a>
+                <a href="#the-30-founders" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Founders</a>
+                <a href="#deals" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Deals &amp; data</a>
+                <a href="#about" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>About</a>
+                <a href="#contact" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Contact</a>
+              </nav>
 
-            <div className="fmeta" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', color: 'rgba(255,255,255,0.4)', gap: '12px' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                <img 
-                  src="https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/logos/logo_row.svg" 
-                  alt="Founding MENA" 
-                  style={{ height: '16px', width: 'auto', opacity: 0.8 }}
-                />
-                <span>© 2026 Himma Media</span>
+              <div className="fmeta" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', color: 'rgba(255,255,255,0.4)', gap: '12px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                  <img 
+                    src="https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/logos/logo_row.svg" 
+                    alt="Founding MENA" 
+                    style={{ height: '16px', width: 'auto', opacity: 0.8 }}
+                  />
+                  <span>© 2026 Himma Media</span>
+                </div>
+
+                <div style={{ display: 'flex', gap: '14px' }}>
+                  <a href="#privacy" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Privacy</a>
+                  <span>·</span>
+                  <a href="#terms" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Terms</a>
+                  <span>·</span>
+                  <a href="#ethics" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Ethics</a>
+                </div>
               </div>
-
-              <div style={{ display: 'flex', gap: '14px' }}>
-                <a href="#privacy" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Privacy</a>
-                <span>·</span>
-                <a href="#terms" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Terms</a>
-                <span>·</span>
-                <a href="#ethics" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Ethics</a>
-              </div>
-            </div>
-          </footer>
+            </footer>
+          </div>
         </main>
       </div>
 

@@ -1,84 +1,84 @@
 {
   "countries": [
     {
-      "name": "Qatar",
-      "slug": "qatar",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/qatar.svg"
+      "name": "Bengaluru",
+      "slug": "bengaluru",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Saudi Arabia",
-      "slug": "saudi-arabia",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg"
+      "name": "Mumbai",
+      "slug": "mumbai",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Egypt",
-      "slug": "egypt",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg"
+      "name": "Delhi NCR",
+      "slug": "delhi-ncr",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "UAE",
-      "slug": "uae",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg"
+      "name": "Hyderabad",
+      "slug": "hyderabad",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Jordan",
-      "slug": "jordan",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/jordan.svg"
+      "name": "Chennai",
+      "slug": "chennai",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Morocco",
-      "slug": "morocco",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/morocco.svg"
+      "name": "Pune",
+      "slug": "pune",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Kuwait",
-      "slug": "kuwait",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/kuwait.svg"
+      "name": "Ahmedabad",
+      "slug": "ahmedabad",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Bahrain",
-      "slug": "bahrain",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/bahrain.svg"
+      "name": "Gurgaon",
+      "slug": "gurgaon",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Oman",
-      "slug": "oman",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/oman.svg"
+      "name": "Noida",
+      "slug": "noida",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Lebanon",
-      "slug": "lebanon",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/lebanon.svg"
+      "name": "Kolkata",
+      "slug": "kolkata",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Tunisia",
-      "slug": "tunisia",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/tunisia.svg"
+      "name": "Jaipur",
+      "slug": "jaipur",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Iraq",
-      "slug": "iraq",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/iraq.svg"
+      "name": "Kochi",
+      "slug": "kochi",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Syria",
-      "slug": "syria",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/syria.svg"
+      "name": "Chandigarh",
+      "slug": "chandigarh",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Algeria",
-      "slug": "algeria",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/algeria.svg"
+      "name": "Indore",
+      "slug": "indore",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Turkey",
-      "slug": "turkey",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/turkey.svg"
+      "name": "Goa",
+      "slug": "goa",
+      "flagSvg": "/flags/india.svg"
     },
     {
-      "name": "Palestine",
-      "slug": "palestine",
-      "flagSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/palestine.svg"
+      "name": "Surat",
+      "slug": "surat",
+      "flagSvg": "/flags/india.svg"
     }
   ],
   "sectors": [
@@ -170,19 +170,11 @@
   ],
   "heroStories": [
     {
-      "id": "why-gulf-startups-are-building-around-the-corner-shop",
-      "title": "Why Gulf Startups Are Building Around the Corner Shop",
-      "tag": "Story",
-      "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1600&q=80",
-      "excerpt": "A neighbourhood shop can look like a small customer for a technology company. Across the Gulf, local baqalas process tens of billions in cash, making them the primary battleground for B2B tech and credit infrastructure.",
-      "url": "/read/why-gulf-startups-are-building-around-the-corner-shop"
-    },
-    {
       "id": "the-women-behind-some-of-menas-biggest-companies",
       "title": "The Women Behind Some of MENA’s Biggest Companies",
       "tag": "Story",
       "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1f4f2-3246-7c73-8640-c1a595f76f49-1.jpg",
-      "excerpt": "Trendyol is one of Turkey’s biggest technology companies. Insider sells its software to more than 1,500 brands across 28 countries. Huda Beauty became a global cosmetics business, while Hepsiburada became the first Turkish company to list on Nasdaq. They were built in different cities, across different industries, and at very different moments in the region’s startup history. But each had a woman on the founding team. Across MENA, women have helped build some of the region’s largest companies in e-commerce, enterprise software, beauty, logistics, fintech and investing. Their stories also show how much broader the region’s entrepreneurial landscape has become.",
+      "excerpt": "Trendyol is one of Turkey’s biggest technology companies. Insider sells its software to more than 1,500 brands across 28 countries. Huda Beauty became a global cosmetics business, while Hepsiburada became the first Turkish company to list on Nasdaq. Across MENA, women have helped build some of the region’s largest companies in e-commerce, enterprise software, beauty, logistics, fintech and investing.",
       "url": "/read/the-women-behind-some-of-menas-biggest-companies"
     },
     {
@@ -197,7 +189,7 @@
       "id": "what-it-takes-to-take-a-gulf-restaurant-brand-abroad",
       "title": "What It Takes to Take a Gulf Restaurant Brand Abroad",
       "tag": "Story",
-      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19892-930d-79f2-a6bf-ac1f10e277af-4.jpg",
       "excerpt": "At Harrods in London, Somewhere serves guacamole hummus, kunafa-wrapped shrimp and beef shawarma with beetroot rice. Homegrown Gulf concepts are now exporting regional flavors and hospitality tech across European and Asian capitals.",
       "url": "/read/what-it-takes-to-take-a-gulf-restaurant-brand-abroad"
     },
@@ -205,9 +197,17 @@
       "id": "tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later",
       "title": "Tabby vs Tamara: The Competition Is Moving Beyond Buy Now, Pay Later",
       "tag": "Story",
-      "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1600&q=80",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a19886-3d5d-7c61-9eba-e228a3c2e944-2.jpg",
       "excerpt": "Tabby and Tamara became familiar to Gulf shoppers through a simple offer: buy something now and spread the payment across instalments. But with combined billions in valuation, the battle is shifting to everyday consumer banking and debit cards.",
       "url": "/read/tabby-vs-tamara-the-competition-is-moving-beyond-buy-now-pay-later"
+    },
+    {
+      "id": "why-gulf-startups-are-building-around-the-corner-shop",
+      "title": "Why Gulf Startups Are Building Around the Corner Shop",
+      "tag": "Story",
+      "image": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai-covers/01a1988e-fe6b-72b2-ad6b-536fb8ee5af6-4.jpg",
+      "excerpt": "A neighbourhood shop can look like a small customer for a technology company. Across the Gulf, local baqalas process tens of billions in cash, making them the primary battleground for B2B tech and credit infrastructure.",
+      "url": "/read/why-gulf-startups-are-building-around-the-corner-shop"
     }
   ],
   "startups": [

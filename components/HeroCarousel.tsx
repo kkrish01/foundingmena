@@ -23,7 +23,7 @@ export default function HeroCarousel({ stories, onSelectStory }: HeroCarouselPro
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev === stories.length - 1 ? 0 : prev + 1));
-    }, 8000);
+    }, 7000);
     return () => clearInterval(timer);
   }, [stories.length]);
 
@@ -55,8 +55,7 @@ export default function HeroCarousel({ stories, onSelectStory }: HeroCarouselPro
                   top: 0,
                   right: 0,
                   bottom: 0,
-                  objectFit: 'cover',
-                  filter: 'brightness(0.7) contrast(1.05)'
+                  objectFit: 'cover'
                 }}
               />
             </div>
@@ -68,28 +67,30 @@ export default function HeroCarousel({ stories, onSelectStory }: HeroCarouselPro
         <div className="hswipe">
           <div className="hwide"></div>
         </div>
-        <div className="hnav">
-          <button 
-            type="button" 
-            onClick={prevStory}
-            className="harr prev" 
-            aria-label="Previous story"
-          >
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
-              <path d="M15 5l-7 7 7 7"></path>
-            </svg>
-          </button>
-          <button 
-            type="button" 
-            onClick={nextStory}
-            className="harr next" 
-            aria-label="Next story"
-          >
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
-              <path d="M9 5l7 7-7 7"></path>
-            </svg>
-          </button>
-        </div>
+      </div>
+
+      {/* Navigation Arrows positioned at bottom right */}
+      <div className="hnav">
+        <button 
+          type="button" 
+          onClick={prevStory}
+          className="harr prev" 
+          aria-label="Previous story"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.25">
+            <path d="M15 5l-7 7 7 7"></path>
+          </svg>
+        </button>
+        <button 
+          type="button" 
+          onClick={nextStory}
+          className="harr next" 
+          aria-label="Next story"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.25">
+            <path d="M9 5l7 7-7 7"></path>
+          </svg>
+        </button>
       </div>
 
       <div className="hcopy">
@@ -122,11 +123,12 @@ export default function HeroCarousel({ stories, onSelectStory }: HeroCarouselPro
           </div>
         </div>
 
-        {/* Carousel Slide Dots */}
-        <div className="dots" style={{ display: 'flex', gap: '6px', marginTop: '16px' }}>
+        {/* Carousel Slide Indicators */}
+        <div className="dots">
           {stories.map((_, idx) => (
             <button
               key={idx}
+              type="button"
               onClick={() => setCurrentIndex(idx)}
               className={`dot ${idx === currentIndex ? 'on' : ''}`}
               aria-label={`Slide ${idx + 1}`}
@@ -134,12 +136,15 @@ export default function HeroCarousel({ stories, onSelectStory }: HeroCarouselPro
                 width: idx === currentIndex ? '24px' : '8px',
                 height: '4px',
                 borderRadius: '2px',
-                backgroundColor: idx === currentIndex ? '#f9bf43' : 'rgba(255,255,255,0.3)',
+                backgroundColor: idx === currentIndex ? '#f9bf43' : 'rgba(255,255,255,0.25)',
                 border: 'none',
                 cursor: 'pointer',
-                transition: 'all 0.3s ease'
+                transition: 'all 0.3s ease',
+                padding: 0
               }}
-            />
+            >
+              <i />
+            </button>
           ))}
         </div>
       </div>
