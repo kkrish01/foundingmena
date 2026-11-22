@@ -123,29 +123,92 @@ export default function HeroCarousel({ stories, onSelectStory }: HeroCarouselPro
           </div>
         </div>
 
-        {/* Carousel Slide Indicators */}
-        <div className="dots">
-          {stories.map((_, idx) => (
-            <button
-              key={idx}
-              type="button"
-              onClick={() => setCurrentIndex(idx)}
-              className={`dot ${idx === currentIndex ? 'on' : ''}`}
-              aria-label={`Slide ${idx + 1}`}
-              style={{
-                width: idx === currentIndex ? '24px' : '8px',
-                height: '4px',
-                borderRadius: '2px',
-                backgroundColor: idx === currentIndex ? '#f9bf43' : 'rgba(255,255,255,0.25)',
-                border: 'none',
-                cursor: 'pointer',
-                transition: 'all 0.3s ease',
-                padding: 0
-              }}
-            >
-              <i />
-            </button>
-          ))}
+        {/* Authentic Timeline Scrubber Dots matching original foundingmena.com */}
+        <div 
+          className="dots" 
+          style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: '6px', 
+            paddingTop: '12px' 
+          }}
+        >
+          {stories.map((_, idx) => {
+            const isActive = idx === currentIndex;
+            return (
+              <button
+                key={idx}
+                type="button"
+                onClick={() => setCurrentIndex(idx)}
+                aria-label={`Slide ${idx + 1}`}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  position: 'relative',
+                  height: '20px',
+                  padding: '0',
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer',
+                  width: isActive ? '34px' : '28px',
+                  transition: 'width 0.35s cubic-bezier(0.2, 0.8, 0.2, 1)'
+                }}
+              >
+                {isActive ? (
+                  // Active state: golden-amber glowing pill matching 0bd817f1.png
+                  <span
+                    style={{
+                      width: '100%',
+                      height: '5px',
+                      borderRadius: '999px',
+                      background: '#e09410',
+                      backgroundImage: 'linear-gradient(135deg, #f9bf43 0%, #e09410 100%)',
+                      boxShadow: '0 0 8px rgba(249, 191, 67, 0.45)',
+                      display: 'block',
+                      transition: 'all 0.35s ease'
+                    }}
+                  />
+                ) : (
+                  // Inactive state: connected track line with center bead dot matching 0bd817f1.png
+                  <span
+                    style={{
+                      width: '100%',
+                      height: '20px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      position: 'relative'
+                    }}
+                  >
+                    {/* Connecting line */}
+                    <span
+                      style={{
+                        position: 'absolute',
+                        left: 0,
+                        right: 0,
+                        height: '2px',
+                        background: 'rgba(255, 255, 255, 0.25)',
+                        borderRadius: '1px'
+                      }}
+                    />
+                    {/* Center bead dot */}
+                    <span
+                      style={{
+                        width: '6px',
+                        height: '6px',
+                        borderRadius: '50%',
+                        background: 'rgba(255, 255, 255, 0.55)',
+                        position: 'relative',
+                        zIndex: 1,
+                        transition: 'background 0.2s ease, transform 0.2s ease'
+                      }}
+                    />
+                  </span>
+                )}
+              </button>
+            );
+          })}
         </div>
       </div>
     </div>
