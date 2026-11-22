@@ -5,9 +5,10 @@ import { Founder } from '@/lib/api';
 
 interface FoundersRailProps {
   founders: Founder[];
+  onSelectFounder?: (founder: Founder) => void;
 }
 
-export default function FoundersRail({ founders }: FoundersRailProps) {
+export default function FoundersRail({ founders, onSelectFounder }: FoundersRailProps) {
   const railRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
@@ -54,9 +55,9 @@ export default function FoundersRail({ founders }: FoundersRailProps) {
           See all
         </span>
         <span className="rnav" style={{ display: 'flex', gap: '4px', marginLeft: '12px' }}>
-          <button 
-            type="button" 
-            aria-label="Previous" 
+          <button
+            type="button"
+            aria-label="Previous"
             onClick={scrollLeft}
             style={{
               background: 'rgba(255,255,255,0.06)',
@@ -71,9 +72,9 @@ export default function FoundersRail({ founders }: FoundersRailProps) {
               <path d="M15 5l-7 7 7 7"></path>
             </svg>
           </button>
-          <button 
-            type="button" 
-            aria-label="Next" 
+          <button
+            type="button"
+            aria-label="Next"
             onClick={scrollRight}
             style={{
               background: 'rgba(255,255,255,0.06)',
@@ -99,9 +100,10 @@ export default function FoundersRail({ founders }: FoundersRailProps) {
             data-tilt=""
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
+            onClick={() => onSelectFounder && onSelectFounder(founder)}
             style={{
               // @ts-ignore
-              '--brand': founder.brandColor,
+              '--brand': founder.brandColor || '#A8401A',
               cursor: 'pointer',
               transition: 'transform 0.15s ease-out, box-shadow 0.15s ease-out'
             }}
@@ -109,9 +111,14 @@ export default function FoundersRail({ founders }: FoundersRailProps) {
             <div className="panel">
               <span
                 className="gg sun"
+                data-bright="1"
+                data-live="1"
                 style={{
                   backgroundImage: `url(${founder.groundBg})`,
-                  backgroundColor: founder.brandColor
+                  backgroundColor: '#A8401A',
+                  // @ts-ignore
+                  '--gtint': '#A8401A',
+                  '--gfall': '#A8401A'
                 }}
                 aria-hidden="true"
               ></span>
@@ -164,8 +171,27 @@ export default function FoundersRail({ founders }: FoundersRailProps) {
                 <h3>{founder.name}</h3>
 
                 <div className="row" style={{ display: 'flex', alignItems: 'center', gap: '8px', margin: '8px 0' }}>
-                  <span className="ltile lchip co" style={{ background: founder.brandColor, width: '24px', height: '24px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '4px', color: '#fff', fontSize: '11px', fontWeight: 'bold' }}>
-                    {founder.name[0]}
+                  <span
+                    className="ltile lchip co"
+                    style={{
+                      background: founder.companyTint || founder.brandColor || '#7D3C98',
+                      width: '24px',
+                      height: '24px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      borderRadius: '5px',
+                      color: '#fff',
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      position: 'relative',
+                      flexShrink: 0
+                    }}
+                  >
+                    <svg className="ltd" aria-hidden="true" viewBox="0 0 30 30" preserveAspectRatio="none" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
+                      <rect x="0.75" y="0.75" width="28.5" height="28.5" rx="6.45" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="2.5 2.65" strokeDashoffset="3.74"></rect>
+                    </svg>
+                    <b className="ltg">{founder.companyLetter || (founder.company ? founder.company[0] : 'F')}</b>
                   </span>
                   <div className="who" style={{ display: 'flex', flexDirection: 'column', fontSize: '11px' }}>
                     <b style={{ color: '#fff3e0' }}>{founder.role}</b>

@@ -14,13 +14,15 @@ import ArticlesGrid from '@/components/ArticlesGrid';
 import DealsDataSection from '@/components/DealsDataSection';
 import NewsletterBanner from '@/components/NewsletterBanner';
 import StartupModal from '@/components/StartupModal';
+import FounderModal from '@/components/FounderModal';
 import StoryModal from '@/components/StoryModal';
 
 import siteData from '@/data/siteData.json';
-import { Startup, HeroStory } from '@/lib/api';
+import { Startup, HeroStory, Founder } from '@/lib/api';
 
 export default function Home() {
   const [selectedStartup, setSelectedStartup] = useState<Startup | null>(null);
+  const [selectedFounder, setSelectedFounder] = useState<Founder | null>(null);
   const [selectedStory, setSelectedStory] = useState<HeroStory | null>(null);
 
   return (
@@ -58,7 +60,10 @@ export default function Home() {
             />
 
             {/* MENA's Founding 30: Founders */}
-            <FoundersRail founders={siteData.founders} />
+            <FoundersRail 
+              founders={siteData.founders} 
+              onSelectFounder={setSelectedFounder}
+            />
 
             {/* Shorts (Vertical Video Reels) */}
             {siteData.shorts && siteData.shorts.length > 0 && (
@@ -131,6 +136,11 @@ export default function Home() {
       <StartupModal
         startup={selectedStartup}
         onClose={() => setSelectedStartup(null)}
+      />
+
+      <FounderModal
+        founder={selectedFounder}
+        onClose={() => setSelectedFounder(null)}
       />
 
       <StoryModal

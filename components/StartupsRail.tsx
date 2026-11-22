@@ -39,45 +39,6 @@ export default function StartupsRail({ startups, onSelectStartup }: StartupsRail
     e.currentTarget.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
   };
 
-  // Specific brand custom marks
-  const renderBrandMark = (startup: Startup, index: number) => {
-    if (startup.id === 'tabby') {
-      return (
-        <span style={{ fontSize: '72px', fontWeight: 900, color: '#100c08', fontFamily: 'sans-serif' }}>
-          t
-        </span>
-      );
-    }
-    if (startup.id === 'ninja') {
-      return (
-        <span style={{ fontSize: '42px', fontWeight: 900, color: '#ffffff', letterSpacing: '-0.04em', fontFamily: 'sans-serif' }}>
-          ninja
-        </span>
-      );
-    }
-    if (startup.id === 'mnt-halan') {
-      return (
-        <span style={{ fontSize: '36px', fontWeight: 900, color: '#ffffff', letterSpacing: '-0.02em', fontFamily: 'sans-serif' }}>
-          mnt halan
-        </span>
-      );
-    }
-    if (startup.id === 'hala') {
-      return (
-        <span style={{ fontSize: '42px', fontWeight: 800, color: '#ffffff', letterSpacing: '0.08em', fontFamily: 'sans-serif' }}>
-          HALA
-        </span>
-      );
-    }
-    return (
-      <img
-        src={startup.markSvg}
-        alt={startup.name}
-        style={{ width: '35.58cqw', height: '44.21cqw', left: '-4.23cqw', top: '-4.23cqw' }}
-      />
-    );
-  };
-
   return (
     <section className="section" id="the-30">
       <div className="sechead">
@@ -133,7 +94,7 @@ export default function StartupsRail({ startups, onSelectStartup }: StartupsRail
 
       <div className="rail" ref={railRef}>
         {startups.map((startup, idx) => {
-          const crestNumber = idx + 1;
+          const crestNumber = startup.rank || idx + 1;
           const crestPath = `/crest/company-house-${crestNumber <= 30 ? crestNumber : 1}.svg`;
 
           return (
@@ -145,7 +106,7 @@ export default function StartupsRail({ startups, onSelectStartup }: StartupsRail
               onMouseLeave={handleMouseLeave}
               style={{
                 // @ts-ignore
-                '--brand': startup.brandColor,
+                '--brand': startup.brandColor || '#6af990',
                 cursor: 'pointer',
                 transition: 'transform 0.15s ease-out, box-shadow 0.15s ease-out'
               }}
@@ -160,33 +121,47 @@ export default function StartupsRail({ startups, onSelectStartup }: StartupsRail
                     backgroundImage: `url(${startup.groundBg})`,
                     backgroundColor: startup.brandColor,
                     // @ts-ignore
-                    '--gtint': startup.brandColor,
-                    '--gfall': startup.brandColor
+                    '--gtint': startup.groundTint || startup.brandColor,
+                    '--gfall': startup.groundTint || startup.brandColor
                   }}
                   aria-hidden="true"
                 ></span>
 
-                {/* Big Center Logo */}
+                {/* Center SVG Logo */}
                 <div className="markwrap" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <i className="bm fit" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    {renderBrandMark(startup, idx)}
+                  <i className="bm fit" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%' }}>
+                    {startup.markSvg ? (
+                      <span className="fmk" style={{ width: '60%', height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <img 
+                          src={startup.markSvg} 
+                          alt={startup.name}
+                          style={{ maxWidth: '85%', maxHeight: '85%', objectFit: 'contain' }}
+                          loading="lazy"
+                        />
+                      </span>
+                    ) : (
+                      <span style={{ fontSize: '38px', fontWeight: 900, color: '#ffffff' }}>
+                        {startup.name}
+                      </span>
+                    )}
                   </i>
                 </div>
 
-                {/* Crest Badge on top-left (e.g. 01, 02, 03, 04) */}
+                {/* Crest Badge on top-left (01, 02, 03, 04) */}
                 <span className="badge" aria-hidden="true" style={{ position: 'absolute', top: '12px', left: '12px' }}>
-                  <figure className="crest" style={{ width: '44px', height: '44px' }}>
-                    <div className="crestim" style={{ width: '44px', height: '44px' }}>
+                  <figure className="crest" style={{ width: '54px', height: '54px' }}>
+                    <div className="crestim" style={{ width: '54px', height: '54px' }}>
                       <img 
                         className="crestsvg" 
                         src={crestPath} 
                         alt={`House ${crestNumber}`} 
-                        width="44" 
-                        height="44" 
+                        width="54" 
+                        height="54" 
                       />
                     </div>
                   </figure>
                 </span>
+                <i className="seam"></i>
               </div>
 
               <div className="plate">
@@ -198,7 +173,7 @@ export default function StartupsRail({ startups, onSelectStartup }: StartupsRail
 
                 <div className="pin">
                   <div className="chips">
-                    {idx === 0 && (
+                    {startup.isFeatured && (
                       <span className="chip feat">
                         <i className="fmmark" aria-hidden="true"></i>FM featured
                       </span>
@@ -220,16 +195,12 @@ export default function StartupsRail({ startups, onSelectStartup }: StartupsRail
                   </div>
 
                   <h3>{startup.name}</h3>
-                  <p className="hook">{startup.hook}</p>
+                  <p className="line">{startup.hook}</p>
 
-                  {/* Financials / Valuation at bottom of plate */}
-                  <div style={{ marginTop: '14px', paddingTop: '10px', borderTop: '1px solid rgba(255,255,255,0.08)', display: 'flex', alignItems: 'baseline', gap: '6px' }}>
-                    <span style={{ fontSize: '18px', fontWeight: 800, color: '#fff3e0', fontFamily: 'Bricolage Grotesque, sans-serif' }}>
-                      {startup.valuation?.split(' ')[0] || '$1.0bn'}
-                    </span>
-                    <span style={{ fontSize: '11px', color: 'rgba(255,255,255,0.5)', textTransform: 'lowercase' }}>
-                      valuation
-                    </span>
+                  {/* Valuation Matching Live Site */}
+                  <div className="stat">
+                    <b>{startup.valuation || '$1.0bn'}</b>
+                    <span>Valuation</span>
                   </div>
                 </div>
               </div>

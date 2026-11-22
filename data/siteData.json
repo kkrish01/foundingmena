@@ -214,225 +214,4896 @@
     {
       "id": "tabby",
       "name": "Tabby",
+      "rank": 1,
       "brandColor": "#6af990",
       "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#6af990",
       "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Fintech",
       "hook": "Buy now, pay later and money app for shoppers in Saudi Arabia and the UAE",
-      "valuation": "$1.5B+ (Unicorn)",
-      "raised": "$950M+"
+      "valuation": "$6.5bn",
+      "isFeatured": true
     },
     {
       "id": "ninja",
       "name": "Ninja",
-      "brandColor": "#ff4d4d",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 2,
+      "brandColor": "#5D6D7E",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#5D6D7E",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/9e44f9cd-2aea-47a7-a7d2-178dc7023fbf.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Retail",
       "hook": "Saudi quick commerce app delivering groceries and essentials in minutes",
-      "valuation": "$500M+",
-      "raised": "$110M+"
+      "valuation": "$1.5bn",
+      "isFeatured": true
     },
     {
       "id": "mnt-halan",
       "name": "MNT-Halan",
-      "brandColor": "#00a8ff",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g24.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 3,
+      "brandColor": "#D35400",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#D35400",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/1fd5cf94-8564-4985-8813-9f8674b86ee3.svg",
       "country": "Egypt",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
       "sector": "Fintech",
       "hook": "Egyptian fintech offering loans, payments and e-commerce to underbanked customers",
-      "valuation": "$1.0B+ (Unicorn)",
-      "raised": "$520M+"
+      "valuation": "$1.4bn",
+      "isFeatured": true
     },
     {
       "id": "hala",
       "name": "HALA",
-      "brandColor": "#ffd32a",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 4,
+      "brandColor": "#009877",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#009877",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/hala-c20250d03e.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Fintech",
-      "hook": "HALA provides Saudi SMEs with banking, POS, payments and expense management",
-      "valuation": "$900M+",
-      "raised": "$157M+"
+      "hook": "HALA provides Saudi SMEs with banking, POS, payments and expense management, and raised $157 million Series B at a $900 million valuation.",
+      "valuation": "$1.1bn",
+      "isFeatured": false
     },
     {
       "id": "tamara",
       "name": "Tamara",
-      "brandColor": "#ff9f1a",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 5,
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#7D3C98",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tamara-29b88b2f31.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Fintech",
       "hook": "Saudi buy now, pay later and shopping app serving the Gulf",
-      "valuation": "$1.0B+ (Unicorn)",
-      "raised": "$500M+"
+      "valuation": "$1bn",
+      "isFeatured": true
     },
     {
       "id": "foodics",
       "name": "Foodics",
-      "brandColor": "#17c0eb",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 6,
+      "brandColor": "#5830C5",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#5830C5",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/foodics-f6a2e8b93c.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Fintech",
-      "hook": "Foodics provides a cloud-based restaurant POS and payments platform serving MENA F&B",
-      "valuation": "$750M+",
-      "raised": "$198M+"
+      "hook": "Foodics provides a cloud-based restaurant POS and payments platform serving the MENA food and beverage sector, with over $170 million raised to date.",
+      "valuation": "$1bn",
+      "isFeatured": false
     },
     {
       "id": "fasset",
       "name": "Fasset",
-      "brandColor": "#7158e2",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 7,
+      "brandColor": "#5DCD97",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#5DCD97",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/65d1b972-68cc-41a0-bf94-ed6b64717c02.svg",
       "country": "UAE",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
       "sector": "Fintech",
-      "hook": "Dubai-headquartered stablecoin-powered neobank offering USD accounts and cross-border settlement",
-      "valuation": "$1.0B+ (Unicorn)",
-      "raised": "$140M+"
+      "hook": "Fasset is a Dubai-headquartered stablecoin-powered neobank offering USD accounts and cross-border settlement, valued at $1 billion after its Series C led by SBI Group.",
+      "valuation": "$1bn",
+      "isFeatured": false
     },
     {
       "id": "kitopi",
       "name": "Kitopi",
-      "brandColor": "#ff3838",
+      "rank": 8,
+      "brandColor": "#007b86",
       "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "groundTint": "#007b86",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/a9348b12-8a78-424b-843e-27a590b1c826.svg",
       "country": "UAE",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
-      "sector": "Food & hospitality",
+      "sector": "Food &amp; hospitality",
       "hook": "Dubai-based multi-brand restaurant group that began as a cloud kitchen platform",
-      "valuation": "$1.2B+ (Unicorn)",
-      "raised": "$804M+"
+      "valuation": "$1bn",
+      "isFeatured": true
     },
     {
       "id": "salla",
       "name": "Salla",
-      "brandColor": "#2ecc71",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 9,
+      "brandColor": "#014b58",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#014b58",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/b30dea98-1ad6-41a9-985d-47eadb516f2d.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Retail",
-      "hook": "Saudi e-commerce SaaS platform that lets merchants build Arabic-first online stores",
-      "valuation": "$800M+",
-      "raised": "$145M+"
+      "hook": "Salla is a Saudi e-commerce SaaS platform that lets merchants build Arabic-first online stores, and raised $130 million in a pre-IPO round led by Investcorp.",
+      "valuation": "$715m",
+      "isFeatured": false
     },
     {
       "id": "nana",
       "name": "Nana",
-      "brandColor": "#3498db",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g24.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 10,
+      "brandColor": "#2DA46E",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#2DA46E",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/7bef9404-9eed-4668-9821-408b3f4673ff.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Retail",
-      "hook": "Saudi Arabia’s leading digital grocery platform operating in Riyadh and other cities",
-      "valuation": "$400M+",
-      "raised": "$210M+"
+      "hook": "Nana is Saudi Arabia’s leading digital grocery platform, backed by Kingdom Holding Company and operating in Riyadh and other cities.",
+      "valuation": "$600m",
+      "isFeatured": false
     },
     {
       "id": "eyewa",
       "name": "eyewa",
-      "brandColor": "#9b59b6",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "rank": 11,
+      "brandColor": "#32a2a2",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#32a2a2",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/eyewa-32303818d9.svg",
       "country": "UAE",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
       "sector": "Retail",
-      "hook": "MENA’s largest omnichannel eyewear retailer with over 100 physical stores",
-      "valuation": "$350M+",
-      "raised": "$130M+"
+      "hook": "eyewa is the MENA region’s largest omnichannel eyewear retailer, and its $100 million Series C led by General Atlantic reinforced its position.",
+      "valuation": "$600m",
+      "isFeatured": false
     },
     {
       "id": "trukker",
       "name": "TruKker",
-      "brandColor": "#e67e22",
+      "rank": 12,
+      "brandColor": "#f89f02",
       "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
-      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/tabby-mark-51b59fa600.svg",
+      "groundTint": "#f89f02",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/f348bb2b-b031-42d9-9451-23072c345059.svg",
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
       "sector": "Logistics",
-      "hook": "Digital freight network matching shippers with trucks across the Middle East",
-      "valuation": "$450M+",
-      "raised": "$196M+"
+      "hook": "Digital freight network matching shippers with trucks across the Middle East and beyond",
+      "valuation": "$600m",
+      "isFeatured": true
+    },
+    {
+      "id": "breadfast",
+      "name": "",
+      "rank": 13,
+      "brandColor": "#aa0081",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#aa0081",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/breadfast-492fc534ff.svg",
+      "country": "Egypt",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
+      "sector": "Retail",
+      "hook": "Breadfast is Egypt’s leading online grocery and quick-commerce platform, with a $50 million pre-Series C round led by Novastar Ventures.",
+      "valuation": "$382m",
+      "isFeatured": false
+    },
+    {
+      "id": "lean-technologies",
+      "name": "Lean Technologies",
+      "rank": 14,
+      "brandColor": "#3A7BD5",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#3A7BD5",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/2026-11-19/1c779ee1-3cde-4f21-a8dd-c2a966f8e08c.webp",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Fintech",
+      "hook": "Lean Technologies builds MENA open banking and payments APIs, licensed by SAMA and ADGM, and raised $67.5 million in Series B led by General Catalyst.",
+      "valuation": "$371m",
+      "isFeatured": false
+    },
+    {
+      "id": "appliedai",
+      "name": "AppliedAI",
+      "rank": 15,
+      "brandColor": "#D35400",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#D35400",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/2026-11-19/9f63930c-a0a5-4764-9769-f61d3033bf32.png",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "AI",
+      "hook": "AppliedAI builds Opus, an agentic AI workflow platform for regulated industries, headquartered in Abu Dhabi and backed by G42 and Mubadala.",
+      "valuation": "$355m",
+      "isFeatured": false
+    },
+    {
+      "id": "huspy",
+      "name": "Huspy",
+      "rank": 16,
+      "brandColor": "#535E73",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#535E73",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/huspy-f7950e1108.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Proptech",
+      "hook": "Huspy is a UAE proptech platform for home buying, selling and mortgage financing, expanding across Saudi Arabia and Europe.",
+      "valuation": "$325m",
+      "isFeatured": false
+    },
+    {
+      "id": "wahed",
+      "name": "Wahed",
+      "rank": 17,
+      "brandColor": "#f7d234",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#f7d234",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/wahed-ff572bdcd6.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Fintech",
+      "hook": "Sharia-compliant investing app offering halal portfolios, ETFs and property investments",
+      "valuation": "$300m",
+      "isFeatured": true
+    },
+    {
+      "id": "zid",
+      "name": "Zid",
+      "rank": 18,
+      "brandColor": "#AF72FF",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#AF72FF",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/zid-27ebda3cfe.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Retail",
+      "hook": "Zid is a Saudi e-commerce enablement platform that lets merchants launch online stores, with over 10,000 merchants using its services.",
+      "valuation": "$275m",
+      "isFeatured": false
+    },
+    {
+      "id": "gathern",
+      "name": "Gathern",
+      "rank": 19,
+      "brandColor": "#4a238b",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#4a238b",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/315cb691-5aac-4cdd-8758-9f11975e53b4.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Proptech",
+      "hook": "Saudi marketplace for booking chalets, farms and private homes online",
+      "valuation": "$266m",
+      "isFeatured": true
+    },
+    {
+      "id": "nawy",
+      "name": "Nawy",
+      "rank": 20,
+      "brandColor": "#7fccc2",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#7fccc2",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/be3e9f84-a936-4d89-b3ba-eee22f42f51c.svg",
+      "country": "Egypt",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
+      "sector": "Proptech",
+      "hook": "Nawy is an Egyptian proptech platform for new and off-plan residential developments, with an IFC equity investment supporting its expansion.",
+      "valuation": "$260m",
+      "isFeatured": false
+    },
+    {
+      "id": "calo",
+      "name": "Calo",
+      "rank": 21,
+      "brandColor": "#28b17b",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#28b17b",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/calo-08293c3705.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Food &amp; hospitality",
+      "hook": "Calo delivers personalised meal plans designed by nutritionists, headquartered in Riyadh and expanding across the GCC.",
+      "valuation": "$250m",
+      "isFeatured": false
+    },
+    {
+      "id": "petroapp",
+      "name": "PetroApp",
+      "rank": 22,
+      "brandColor": "#2068E0",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#2068E0",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/3f0ae4d9-44df-4b3d-a410-750a35318528.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Fintech",
+      "hook": "PetroApp provides NFC-based fuel payment and fleet expense management for Saudi enterprises, with a $50 million round led by Jadwa Investment.",
+      "valuation": "$250m",
+      "isFeatured": false
+    },
+    {
+      "id": "sellanycar",
+      "name": "SellAnyCar",
+      "rank": 23,
+      "brandColor": "#16A085",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#16A085",
+      "markSvg": "/crest/company-house-23.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Retail",
+      "hook": "SellAnyCar.com is the Middle East’s largest car buying service, offering instant valuations and 30-minute guaranteed purchase across the UAE and Saudi Arabia.",
+      "valuation": "$210m",
+      "isFeatured": false
+    },
+    {
+      "id": "yap",
+      "name": "YAP",
+      "rank": 24,
+      "brandColor": "#272263",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#272263",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/3e897f9e-e491-40a7-9244-87bfb2f28d83.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Fintech",
+      "hook": "YAP is a UAE-based digital banking and payments platform that lets consumers manage money, cards and payments through a single app.",
+      "valuation": "$205m",
+      "isFeatured": false
+    },
+    {
+      "id": "nymcard",
+      "name": "NymCard",
+      "rank": 25,
+      "brandColor": "#D4A017",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#D4A017",
+      "markSvg": "/crest/company-house-25.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Fintech",
+      "hook": "NymCard builds MENA payments infrastructure including card issuing, lending and money movement, with a $33 million Series B led by QED Investors.",
+      "valuation": "$182m",
+      "isFeatured": false
+    },
+    {
+      "id": "cofe",
+      "name": "COFE",
+      "rank": 26,
+      "brandColor": "#0DBDB0",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#0DBDB0",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/77b44d7d-9681-452d-a16d-11a6aaf18dfb.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Food &amp; hospitality",
+      "hook": "COFE App is the region’s on-demand coffee and agentic commerce super app, founded in Kuwait and now headquartered in Saudi Arabia.",
+      "valuation": "$178m",
+      "isFeatured": false
+    },
+    {
+      "id": "flapkap",
+      "name": "FlapKap",
+      "rank": 27,
+      "brandColor": "#290dff",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#290dff",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/flapkap-ac6525de92.svg",
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "sector": "Fintech",
+      "hook": "FlapKap provides revenue-based financing for MENA SMEs, with a $34 million pre-Series A led by BECO Capital.",
+      "valuation": "$170m",
+      "isFeatured": false
+    },
+    {
+      "id": "salasa",
+      "name": "Salasa",
+      "rank": 28,
+      "brandColor": "#31dc81",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#31dc81",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/74c97d03-b443-450a-b01f-c5c81d79a9fd.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "Logistics",
+      "hook": "Salasa is a Saudi e-commerce fulfilment platform handling warehousing, packaging and delivery for merchants, with a $30 million Series B.",
+      "valuation": "$165m",
+      "isFeatured": false
+    },
+    {
+      "id": "lucidya",
+      "name": "Lucidya",
+      "rank": 29,
+      "brandColor": "#19174f",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#19174f",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/lucidya-2ee3b80a06.svg",
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "sector": "AI",
+      "hook": "Lucidya is a Saudi AI-native customer experience management platform serving clients across 13 countries, with a $30 million Series B.",
+      "valuation": "$165m",
+      "isFeatured": false
+    },
+    {
+      "id": "jo-academy",
+      "name": "",
+      "rank": 30,
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#7D3C98",
+      "markSvg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/marks/originals/jo-academy-212fa2fe9f.svg",
+      "country": "Jordan",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/jordan.svg",
+      "sector": "Edtech",
+      "hook": "Jo Academy is Jordan’s largest e-learning platform, founded in 2014 and backed by Jordan Capital and Investment Fund.",
+      "valuation": "$154m",
+      "isFeatured": false
     }
   ],
   "founders": [
     {
       "id": "wafa-al-obaidat",
       "name": "Wafa Al Obaidat",
+      "slug": "wafa-al-obaidat",
       "brandColor": "#7D3C98",
       "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
       "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q.webp",
       "role": "Founder and CEO",
       "company": "PLAYBOOK",
+      "companySlug": "playbook",
+      "companyLetter": "P",
+      "companyTint": "#7D3C98",
+      "companyMarkSvg": null,
       "country": "Bahrain",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/bahrain.svg",
+      "countryColour": "#C94860",
       "sector": "Edtech",
-      "hook": "Magazine editor turned founder of PLAYBOOK, a network helping women connect, learn and lead across the region."
+      "hook": "Magazine editor turned founder of PLAYBOOK, a network helping women connect, learn and invest",
+      "bio": "Magazine editor turned founder of PLAYBOOK, a network helping women connect, learn and invest",
+      "body": [
+        {
+          "text": "My entrepreneurial journey has focused on creating spaces where women thrive",
+          "type": "quote"
+        },
+        {
+          "text": "Wafa Al Obaidat attended Ibn Khuldoon National School and studied interior and spatial design at the University of the Arts London. In 2009 she became CEO of Obai & Hill, a role she still holds, and started Sketchbook, a digital magazine in London that she edited until 2013. She has also written a column for Khaleejesque, hosted the Women Power Podcast and founded both the Women Power Summit and Barrel and Drum. She is founder and CEO of PLAYBOOK, a Bahrain-based professional network for women built around connecting, learning and investing. It runs masterclasses, bootcamps and community events, and offers investor education and access to startup opportunities. The company reports more than 11,000 members in over 100 countries and more than 200 expert-led masterclasses.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "University of the Arts London",
+        "course": "BA Interior and Spatial Design (Interior Architecture)",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "290ee500-677b-4de5-b465-71936508ebab",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "university_id": 115,
+          "level": "undergraduate",
+          "course": "BA Interior and Spatial Design (Interior Architecture)",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "BA Interior and Spatial Design (Interior Architecture)",
+          "universitySlug": "university-of-the-arts-london",
+          "university": "University of the Arts London"
+        }
+      ],
+      "career": [
+        [
+          "Founder and CEO, PLAYBOOK",
+          ""
+        ],
+        [
+          "CEO, Obai & Hill",
+          ""
+        ],
+        [
+          "Editor in Chief, Sketchbook Magazine",
+          ""
+        ],
+        [
+          "Host, Women Power Podcast",
+          ""
+        ],
+        [
+          "Founder, Barrel and Drum",
+          ""
+        ],
+        [
+          "Founder, Women Power Summit",
+          ""
+        ],
+        [
+          "Columnist, Khaleejesque Media Est.",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "a3113a4c-334e-428a-9a8e-e2b5553b8960",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "organisation": "PLAYBOOK",
+          "role": "Founder and CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "d74d4f6d-d0bf-477b-8058-4a8ff22cc487",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "organisation": "Obai & Hill",
+          "role": "CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "7c7e812b-2d4f-43ca-a764-525e977f3456",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "organisation": "Sketchbook Magazine",
+          "role": "Editor in Chief",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "a9e6a3f4-7299-47f2-aba9-bdf9b00c2357",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "organisation": "Women Power Podcast",
+          "role": "Host",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "b0c27ebf-9d00-4667-9737-4dcd0e7f11b0",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "organisation": "Barrel and Drum",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "83dd041f-4ae9-41c3-a8fc-d5985d95eaf4",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "organisation": "Women Power Summit",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "76502f85-3fd0-4d9d-bc59-408fbf5cb2db",
+          "post_id": "0a62f95a-710f-48cb-a081-aabfa649d965",
+          "organisation": "Khaleejesque Media Est.",
+          "role": "Columnist",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/wafa-al-obaidat-8a992046"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.get-playbook.com/"
+        }
+      ],
+      "tags": [
+        "Bahrain",
+        "Edtech"
+      ]
     },
     {
       "id": "sophie-smith",
       "name": "Sophie Smith",
-      "brandColor": "#E04A7B",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
-      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
+      "slug": "sophie-smith",
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/136bdbed-1455-4f47-94ee-26195022cb2c/portrait-mw29s7mn-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/136bdbed-1455-4f47-94ee-26195022cb2c/portrait-mw29s7mn.webp",
       "role": "Founder and CEO",
       "company": "Nabta Health",
+      "companySlug": "nabta-health",
+      "companyLetter": "N",
+      "companyTint": "#7D3C98",
+      "companyMarkSvg": null,
       "country": "UAE",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
       "sector": "Healthcare",
-      "hook": "Founder of Nabta Health, a hybrid healthcare company tackling women’s health challenges in emerging markets."
+      "hook": "Former Accenture consultant whose Nabta Health blends digital tools with conventional care for women",
+      "bio": "Former Accenture consultant whose Nabta Health blends digital tools with conventional care for women",
+      "body": [
+        {
+          "text": "We adapted. We survived.",
+          "type": "quote"
+        },
+        {
+          "text": "Sophie Smith read history at the University of Cambridge and holds an MBA from the Quantic School of Business and Technology. She spent four years as a technology consultant at Accenture and founded several ventures, among them myZindagi, a platform for finding doctors in Pakistan, as well as Synnapps and SNS Consulting. She also co-founded 22Four. In March 2017 she founded Nabta Health, which is headquartered in Sharjah. Nabta describes its model as hybrid, combining fertility tracking, at-home testing, virtual consultations and a machine-learning personal assistant to help women identify, manage and prevent non-communicable diseases. Its first care pathway focused on PCOS, with the stated aim of making a diagnosis possible in under 90 days. In June 2020 the company reported that it served 250,000 women a month and had reached 18 million women through health-awareness campaigns since January 2018.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "University of Cambridge",
+        "course": "MA (Cantab) History",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "814489df-301b-4918-a826-4d9d5595217d",
+          "post_id": "caa79c5d-db29-48b0-a1e7-a83ab9e36386",
+          "university_id": 118,
+          "level": "undergraduate",
+          "course": "MA (Cantab) History",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "MA (Cantab) History",
+          "universitySlug": "university-of-cambridge",
+          "university": "University of Cambridge"
+        },
+        {
+          "id": "e19b1fb0-70e2-4cde-89e5-b8410933e106",
+          "post_id": "caa79c5d-db29-48b0-a1e7-a83ab9e36386",
+          "university_id": 119,
+          "level": "mba",
+          "course": "MBA",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "MBA",
+          "universitySlug": "quantic-school-of-business-and-technology",
+          "university": "Quantic School of Business and Technology"
+        }
+      ],
+      "career": [
+        [
+          "Founder and CEO, Nabta Health",
+          "2017 to present"
+        ],
+        [
+          "Co-founder, 22Four",
+          ""
+        ],
+        [
+          "Founder, SNS Consulting",
+          ""
+        ],
+        [
+          "Founder, Synnapps",
+          ""
+        ],
+        [
+          "Consultant, Accenture",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "ec9fef77-52a2-4867-8929-f853ac84d0d0",
+          "post_id": "caa79c5d-db29-48b0-a1e7-a83ab9e36386",
+          "organisation": "Nabta Health",
+          "role": "Founder and CEO",
+          "start_year": 2017,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "99c2010b-abc5-4fad-8a81-3bc0cb90d0e2",
+          "post_id": "caa79c5d-db29-48b0-a1e7-a83ab9e36386",
+          "organisation": "22Four",
+          "role": "Co-founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "7bc58aed-ad1e-4933-a428-68f563fe8380",
+          "post_id": "caa79c5d-db29-48b0-a1e7-a83ab9e36386",
+          "organisation": "SNS Consulting",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "370b9845-9a12-4fc2-b8ef-80e06dc90c58",
+          "post_id": "caa79c5d-db29-48b0-a1e7-a83ab9e36386",
+          "organisation": "Synnapps",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "064a4692-8b54-4c4f-b758-17e1b6499e2c",
+          "post_id": "caa79c5d-db29-48b0-a1e7-a83ab9e36386",
+          "organisation": "Accenture",
+          "role": "Consultant",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/sophie-louise-smith"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Healthcare"
+      ]
     },
     {
       "id": "rowan-alawi",
       "name": "Rowan Alawi",
-      "brandColor": "#4B7BEC",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g24.jpg",
-      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
-      "role": "Co-Founder",
-      "company": "Trella",
-      "country": "Egypt",
-      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
-      "sector": "Logistics",
-      "hook": "Co-founder of Trella, the B2B digital freight network transforming heavy transport across Egypt, Saudi Arabia and Pakistan."
+      "slug": "rowan-alawi",
+      "brandColor": "#30396f",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/88dcb6c9-cdce-4703-9820-baa729a3610e/portrait-mw29s80y-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/88dcb6c9-cdce-4703-9820-baa729a3610e/portrait-mw29s80y.webp",
+      "role": "Founder and CEO",
+      "company": "Trase",
+      "companySlug": "trase",
+      "companyLetter": "T",
+      "companyTint": "#30396f",
+      "companyMarkSvg": null,
+      "country": "Palestine",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/palestine.svg",
+      "countryColour": "#5B6B2A",
+      "sector": "Proptech",
+      "hook": "Mechatronics engineer and third-generation builder digitizing how construction projects in MENA are decided, signed and paid for",
+      "bio": "Mechatronics engineer and third-generation builder digitizing how construction projects in MENA are decided, signed and paid for",
+      "body": [
+        {
+          "text": "We reached out to more than 2,000 contractors and fewer than 200 agreed to have meetings with us, and none signed when we first started working. Today we work with 25 enterprise clients across four countries.",
+          "type": "quote"
+        },
+        {
+          "text": "Rowan Alawi set out to study architecture but chose engineering, earning a BEng in mechatronics, robotics and automation engineering at Birzeit University. A third-generation builder, she began as a site engineer at Al Nabali and Al Fares for construction. She then joined Freightos as employee number 15, building its quality assurance team and leading data and SaaS projects as it digitised global freight. She left to bring that change to construction. As CEO of AmalWork, she built partnerships backed by USAID, EXPO and EWC, and later earned an MBA from Stanford University. In January 2022 she co-founded Trase, the AI platform where construction projects are approved, inspected and paid for. Today Trase serves 25 enterprise clients on 113 live projects across Saudi Arabia, Qatar, Egypt and Morocco. Rowan is an IVLP alumna, a leading woman in tech, ConTech Leader of the Year 2026, TiE Women MENA 2026 winner and a CICA ConTech Laureate.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "Birzeit University",
+        "course": "BEng Mechatronics, Robotics and Automation Engineering",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "7dd9a4fe-72b0-4760-a4a4-9441817cef3d",
+          "post_id": "0f9e6ae6-713e-4459-bc8d-1a5e37077294",
+          "university_id": 126,
+          "level": "undergraduate",
+          "course": "BEng Mechatronics, Robotics and Automation Engineering",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "BEng Mechatronics, Robotics and Automation Engineering",
+          "universitySlug": "birzeit-university",
+          "university": "Birzeit University"
+        },
+        {
+          "id": "1fe7f059-35b3-4cba-83a7-b526fc248bdc",
+          "post_id": "0f9e6ae6-713e-4459-bc8d-1a5e37077294",
+          "university_id": 102,
+          "level": "mba",
+          "course": "MBA",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "MBA",
+          "universitySlug": "stanford-university",
+          "university": "Stanford University"
+        }
+      ],
+      "career": [
+        [
+          "Founder and CEO, Trase",
+          "2022 to present"
+        ],
+        [
+          "CEO, AmalWork",
+          ""
+        ],
+        [
+          "MP Project Manager, Project Data Manager, Team Lead and QA Engineer, Freightos",
+          ""
+        ],
+        [
+          "Site Engineer, Al Nabali and Al Fares for construction",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "1c7dadd0-c763-4541-a4b7-90616c904ab2",
+          "post_id": "0f9e6ae6-713e-4459-bc8d-1a5e37077294",
+          "organisation": "Trase",
+          "role": "Founder and CEO",
+          "start_year": 2022,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "d730dccd-787c-430f-8bc7-48203ef6ffa2",
+          "post_id": "0f9e6ae6-713e-4459-bc8d-1a5e37077294",
+          "organisation": "AmalWork",
+          "role": "CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "84da5f0f-2940-4ad0-8d4a-a639b6f5b18c",
+          "post_id": "0f9e6ae6-713e-4459-bc8d-1a5e37077294",
+          "organisation": "Freightos",
+          "role": "MP Project Manager, Project Data Manager, Team Lead and QA Engineer",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "0aa68102-887c-48ca-95dc-58904491ce02",
+          "post_id": "0f9e6ae6-713e-4459-bc8d-1a5e37077294",
+          "organisation": "Al Nabali and Al Fares for construction",
+          "role": "Site Engineer",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/rowanalawi"
+        },
+        {
+          "label": "Website",
+          "href": "https://gettrase.com/"
+        }
+      ],
+      "tags": [
+        "Palestine",
+        "Proptech"
+      ]
     },
     {
-      "id": "hosam-arab",
-      "name": "Hosam Arab",
-      "brandColor": "#6AF990",
-      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g12.jpg",
-      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
-      "role": "Co-Founder and CEO",
-      "company": "Tabby",
+      "id": "maha-bennani",
+      "name": "Maha Bennani",
+      "slug": "maha-bennani",
+      "brandColor": "#B03A2E",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/205d5929-b750-48cf-917f-8be598002bef/portrait-mvscw8t1-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/205d5929-b750-48cf-917f-8be598002bef/portrait-mvscw8t1.webp",
+      "role": "Co-founder and CEO",
+      "company": "LNKO",
+      "companySlug": "lnko",
+      "companyLetter": "L",
+      "companyTint": "#B03A2E",
+      "companyMarkSvg": null,
+      "country": "Morocco",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/morocco.svg",
+      "countryColour": "#3A4FB0",
+      "sector": "Retail",
+      "hook": "Co-founded Match Glasses in Montreal before launching LNKO, a direct-to-consumer eyewear brand in Morocco",
+      "bio": "Co-founded Match Glasses in Montreal before launching LNKO, a direct-to-consumer eyewear brand in Morocco",
+      "body": [
+        {
+          "text": "We’re thrilled to welcome Beltone Venture Capital as our partner in this next phase of growth across Africa.",
+          "type": "quote"
+        },
+        {
+          "text": "Maha Bennani took a scientific baccalauréat at the Lycée Français International Louis-Massignon, studied applied mathematics at the University of Paris I Panthéon-Sorbonne and earned a Bachelor of Commerce in finance at Concordia University. She worked at National Bank of Canada and CIBC Asset Management, and as a business development manager for OVH's Digital Launch Pad. In Montreal she co-founded Match Glasses, which she also led as CEO. In 2020 she co-founded LNKO, a Moroccan direct-to-consumer eyewear company that sells both in stores and online, and became its CEO. LNKO says it makes eyewear affordable and on trend by digitising the optical value chain. CDG Invest put $335,000 into the company in 2021. In February 2025, when Beltone Venture Capital invested to back LNKO's growth across Africa, Wamda reported that it had served more than 100,000 customers, ran 10 points of sale in Morocco and had an online presence in 24 countries.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "Concordia University",
+        "course": "BCom Finance",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "ae0654ec-9ce0-4e26-9c6d-5193f3305d62",
+          "post_id": "3c795167-b363-4db8-85c8-4d78455ff304",
+          "university_id": 129,
+          "level": "undergraduate",
+          "course": "BCom Finance",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "BCom Finance",
+          "universitySlug": "concordia-university",
+          "university": "Concordia University"
+        },
+        {
+          "id": "5ae520f3-e30a-4b95-bdca-745a99d99c42",
+          "post_id": "3c795167-b363-4db8-85c8-4d78455ff304",
+          "university_id": 130,
+          "level": "undergraduate",
+          "course": "DEUG Applied Mathematics",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "DEUG Applied Mathematics",
+          "universitySlug": "university-of-paris-1-pantheon-sorbonne",
+          "university": "University of Paris 1 Panthéon-Sorbonne"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder and CEO, LNKO",
+          "2020 to present"
+        ],
+        [
+          "Business Development Manager, Digital Launch Pad, OVH",
+          ""
+        ],
+        [
+          "Co-Founder & CEO, Match Glasses",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "49c8a9e2-ec45-4589-9e69-088e4e106531",
+          "post_id": "3c795167-b363-4db8-85c8-4d78455ff304",
+          "organisation": "LNKO",
+          "role": "Co-founder and CEO",
+          "start_year": 2020,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "73546013-6a15-4b7d-bb24-c717640c5c0f",
+          "post_id": "3c795167-b363-4db8-85c8-4d78455ff304",
+          "organisation": "OVH",
+          "role": "Business Development Manager, Digital Launch Pad",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "34713793-ed06-4334-93a1-beb2ca58097c",
+          "post_id": "3c795167-b363-4db8-85c8-4d78455ff304",
+          "organisation": "Match Glasses",
+          "role": "Co-Founder & CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/mahabennani"
+        },
+        {
+          "label": "X",
+          "href": "https://x.com/mahabennani_"
+        }
+      ],
+      "tags": [
+        "Morocco",
+        "Retail"
+      ]
+    },
+    {
+      "id": "lauren-hamilton",
+      "name": "Lauren Hamilton",
+      "slug": "lauren-hamilton",
+      "brandColor": "#D4A017",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/5fc9654d-27f0-4955-b183-29e04bbabaa1/portrait-mw29s8vy-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/5fc9654d-27f0-4955-b183-29e04bbabaa1/portrait-mw29s8vy.webp",
+      "role": "Founder and General Manager",
+      "company": "Ride Skipper",
+      "companySlug": "ride-skipper",
+      "companyLetter": "R",
+      "companyTint": "#D4A017",
+      "companyMarkSvg": null,
       "country": "UAE",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
-      "sector": "Fintech",
-      "hook": "Former Namshi co-founder who created Tabby, transforming everyday retail finance into a multi-billion dollar platform."
+      "countryColour": "#A23206",
+      "sector": "Logistics",
+      "hook": "Started Ride Skipper, a UAE chauffeur service using customers' own cars, after a C-section",
+      "bio": "Started Ride Skipper, a UAE chauffeur service using customers' own cars, after a C-section",
+      "body": [
+        {
+          "text": "I've spent two years proving the thesis that when drivers have job security and financial stability, versus the traditional gig economy model, they show up naturally calmer and safer behind the wheel. I'm excited for the next phase of growth we're entering, scaling the business to meet overwhelming demand.",
+          "type": "quote"
+        },
+        {
+          "text": "Lauren Hamilton spent ten years in sales and partnerships roles in the hotel industry before she ran into a problem first-hand that she couldn't stop thinking about. After a C-section left her unable to drive, she could not find a service in Dubai she trusted to carry her son safely, and the more she learned about the existing landscape, the more sure she was that it could be done differently, and better. She launched Ride Skipper in 2024, providing vetted professional drivers who drive customers in their own cars, and is its founder and general manager. Her thesis is that drivers with job security and financial stability, rather than the traditional gig-economy model, are calmer and safer behind the wheel. According to a 2026 speaker profile, in 18 months the business grew from six drivers taking bookings over WhatsApp to more than 30 drivers and a mobile app, and it is now scaling to meet demand.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "University of Southampton",
+        "course": "Law with European Legal Studies",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "f253d244-b506-458b-8053-467ce6299be4",
+          "post_id": "aa6ae3a7-067d-4735-a512-f4d90af20fd5",
+          "university_id": 131,
+          "level": "undergraduate",
+          "course": "Law with European Legal Studies",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "Law with European Legal Studies",
+          "universitySlug": "university-of-southampton",
+          "university": "University of Southampton"
+        }
+      ],
+      "career": [
+        [
+          "Founder and General Manager, Ride Skipper",
+          "2024 to present"
+        ],
+        [
+          "Account Director - Consultant, Activate OnDemand",
+          ""
+        ],
+        [
+          "Head of Business Partnerships, Aceplace",
+          ""
+        ],
+        [
+          "Business Development Director, Merit Incentives",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "cbb3c0da-a275-45ce-9f3a-a160e1fa928e",
+          "post_id": "aa6ae3a7-067d-4735-a512-f4d90af20fd5",
+          "organisation": "Ride Skipper",
+          "role": "Founder and General Manager",
+          "start_year": 2024,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "40334206-bf9f-496f-b60d-adf1e8ac407c",
+          "post_id": "aa6ae3a7-067d-4735-a512-f4d90af20fd5",
+          "organisation": "Activate OnDemand",
+          "role": "Account Director - Consultant",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "a56ba9be-a950-4c24-96f6-8239b904af08",
+          "post_id": "aa6ae3a7-067d-4735-a512-f4d90af20fd5",
+          "organisation": "Aceplace",
+          "role": "Head of Business Partnerships",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "d9713a43-4ab0-4df6-a9f5-c0bb9221695a",
+          "post_id": "aa6ae3a7-067d-4735-a512-f4d90af20fd5",
+          "organisation": "Merit Incentives",
+          "role": "Business Development Director",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/laurenbracken/"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.rideskipper.com/"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Logistics"
+      ]
     },
     {
-      "id": "abdulmajeed-alsukhan",
-      "name": "Abdulmajeed Alsukhan",
-      "brandColor": "#FF9F1A",
+      "id": "caroline-hazlehurst",
+      "name": "Caroline Hazlehurst",
+      "slug": "caroline-hazlehurst",
+      "brandColor": "#B03A2E",
       "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
-      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f225759d-4305-47cd-914e-ee5906bccf64/portrait-mw29s80q-cut.webp",
-      "role": "Co-Founder and CEO",
-      "company": "Tamara",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f23cbcc4-673d-48bd-8893-234980409e38/portrait-mwcdp1od-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f23cbcc4-673d-48bd-8893-234980409e38/portrait-mwcdp1od.webp",
+      "role": "Co-founder and CEO",
+      "company": "Base",
+      "companySlug": "base",
+      "companyLetter": "B",
+      "companyTint": "#B03A2E",
+      "companyMarkSvg": null,
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
+      "sector": "AI",
+      "hook": "Scaling executive; former Moove President and Calo COO, now Co-Founder and CEO of Base, AI infrastructure for business operations.",
+      "bio": "Scaling executive; former Moove President and Calo COO, now Co-Founder and CEO of Base, AI infrastructure for business operations.",
+      "body": [
+        {
+          "text": "I've spent my career scaling PE and venture-backed technology companies as President, COO and regional VP, and I've seen how much work sits between building a product and running a business. Founders need context across customers, contracts, finance and people, but it's scattered across separate tools. With Base, we're building AI infrastructure for running your business; applied AI tools that sit on top of a system of intelligence that brings context and persistent memory together. We want to do for running a business what vibe coding did for building a product: close the gap between having an idea and making it happen, so founders can spend less time managing complexity and more time building their vision.",
+          "type": "quote"
+        },
+        {
+          "text": "Caroline Hazlehurst is a growth and operating executive with 12 years scaling venture-backed technology companies as President, COO and regional VP, three of which reached unicorn valuations. She scaled Moove globally, took Bird EMEA from 0 to 90+ cities in 18 months, prepared Calo for IPO, and ran more than half of Deliveroo's global business. She has built and led organisations of 1,500+ people. Now Co-Founder and CEO of Base, Caroline is building AI infrastructure for business operations that connects a company's tool stack and resolves it into one queryable company brain, built on a knowledge graph. Her earlier career was in private equity at Bridgepoint and M&A at Rothschild.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "SOAS University of London",
+        "course": "LLB Law (Hons)",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "c918d460-b4cb-4c9e-96c2-d15aaa2a2b69",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "university_id": 136,
+          "level": "undergraduate",
+          "course": "LLB Law (Hons)",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "LLB Law (Hons)",
+          "universitySlug": "soas-university-of-london",
+          "university": "SOAS University of London"
+        }
+      ],
+      "career": [
+        [
+          "Co-Founder and CEO, Base",
+          "2026 to present"
+        ],
+        [
+          "Chief Operating Officer, Calo",
+          "2025 to 2026"
+        ],
+        [
+          "President, Moove",
+          "2021 to 2024"
+        ],
+        [
+          "Vice President, Europe, Middle East and Africa, Bird",
+          "2018 to 2021"
+        ],
+        [
+          "Director of Operations, General Manager UK and Ireland, Deliveroo",
+          "2015 to 2018"
+        ],
+        [
+          "Private Equity Investor, Bridgepoint",
+          "2013 to 2015"
+        ],
+        [
+          "Mergers and Acquisitions Analyst, Rothschild",
+          "2011 to 2013"
+        ],
+        [
+          "High Yield and Distressed Debt Sales and Trading Analyst, Barclays Capital",
+          "2010 to 2011"
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "fc0f2967-d835-439a-9919-ff6b4b162e6e",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Base",
+          "role": "Co-Founder and CEO",
+          "start_year": 2026,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "2ef43001-0625-47e2-975a-4ab02132cc19",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Calo",
+          "role": "Chief Operating Officer",
+          "start_year": 2025,
+          "end_year": 2026,
+          "sort": 1
+        },
+        {
+          "id": "97083521-341f-4a75-afa6-00cdd1139710",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Moove",
+          "role": "President",
+          "start_year": 2021,
+          "end_year": 2024,
+          "sort": 2
+        },
+        {
+          "id": "d8988d22-6ad5-451b-bdd9-296349e698a1",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Bird",
+          "role": "Vice President, Europe, Middle East and Africa",
+          "start_year": 2018,
+          "end_year": 2021,
+          "sort": 3
+        },
+        {
+          "id": "2f7d7312-8f36-4c66-a78b-2b62fa3fd68c",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Deliveroo",
+          "role": "Director of Operations, General Manager UK and Ireland",
+          "start_year": 2015,
+          "end_year": 2018,
+          "sort": 4
+        },
+        {
+          "id": "c01f185a-d27a-40d8-bcef-079b3dafb0b1",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Bridgepoint",
+          "role": "Private Equity Investor",
+          "start_year": 2013,
+          "end_year": 2015,
+          "sort": 5
+        },
+        {
+          "id": "ea95c081-79e1-4c3f-b143-56472f493b0f",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Rothschild",
+          "role": "Mergers and Acquisitions Analyst",
+          "start_year": 2011,
+          "end_year": 2013,
+          "sort": 6
+        },
+        {
+          "id": "11647fdc-a192-4681-afdb-480f27425939",
+          "post_id": "df68a88d-fa48-4502-846a-f1ec9198785d",
+          "organisation": "Barclays Capital",
+          "role": "High Yield and Distressed Debt Sales and Trading Analyst",
+          "start_year": 2010,
+          "end_year": 2011,
+          "sort": 7
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/carolinehazlehurst/"
+        },
+        {
+          "label": "Website",
+          "href": "https://withbase.ai/"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "AI"
+      ]
+    },
+    {
+      "id": "bassem-bouguerra",
+      "name": "Bassem Bouguerra",
+      "slug": "bassem-bouguerra",
+      "brandColor": "#C0392B",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/93a8accf-4271-4a08-9215-963ebf72d2e4/portrait-mw29s7qx-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/93a8accf-4271-4a08-9215-963ebf72d2e4/portrait-mw29s7qx.webp",
+      "role": "Founder and Chief Innovation Officer",
+      "company": "IntiGo",
+      "companySlug": "intigo",
+      "companyLetter": "I",
+      "companyTint": "#C0392B",
+      "companyMarkSvg": null,
+      "country": "Tunisia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/tunisia.svg",
+      "countryColour": "#4E6F8F",
+      "sector": "Logistics",
+      "hook": "Ex-Yahoo product director combining scooter taxis and last-mile delivery at Tunisia's IntiGo",
+      "bio": "Ex-Yahoo product director combining scooter taxis and last-mile delivery at Tunisia's IntiGo",
+      "body": [
+        {
+          "text": "Delivered a 20% MoM growth since 2020.",
+          "type": "quote"
+        },
+        {
+          "text": "$22",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "California State University, Long Beach",
+        "course": "BS Computer Science",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "de5fa323-c869-4c9f-b007-fa1c862521c7",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "university_id": 114,
+          "level": "undergraduate",
+          "course": "BS Computer Science",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "BS Computer Science",
+          "universitySlug": "california-state-university-long-beach",
+          "university": "California State University, Long Beach"
+        }
+      ],
+      "career": [
+        [
+          "Founder and Chief Innovation Officer, IntiGo",
+          "2018 to present"
+        ],
+        [
+          "Director of Product Management, Yahoo",
+          ""
+        ],
+        [
+          "CEO, IntilaQ Tunisia",
+          ""
+        ],
+        [
+          "Non-Resident Fellow, Atlantic Council",
+          ""
+        ],
+        [
+          "Founder-CEO, Jobi.tn",
+          ""
+        ],
+        [
+          "Advisor to the Government of Tunisia, Ministry of Technology and Communication",
+          ""
+        ],
+        [
+          "Software Engineer, Yahoo",
+          ""
+        ],
+        [
+          "Instructor, Miami Ad School",
+          ""
+        ],
+        [
+          "Senior Creative Developer, AKQA",
+          ""
+        ],
+        [
+          "Flash Consultant, PixelPushers/Civica",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "fff4f6f7-4536-416c-aee2-4e86d45dab6a",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "IntiGo",
+          "role": "Founder and Chief Innovation Officer",
+          "start_year": 2018,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "bb9eaa2e-9eaf-409e-beca-aa312a9e6ed3",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "Yahoo",
+          "role": "Director of Product Management",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "e0886e0a-ae53-420c-9c8c-a1b45bc86de1",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "IntilaQ Tunisia",
+          "role": "CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "85f80247-836a-44d7-b8bb-e3c9afdbe19b",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "Atlantic Council",
+          "role": "Non-Resident Fellow",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "fc0e177c-a6fe-48dd-8b97-855271746e5d",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "Jobi.tn",
+          "role": "Founder-CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "416815b6-269e-4d63-80a6-f5c7b6feca14",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "Ministry of Technology and Communication",
+          "role": "Advisor to the Government of Tunisia",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "284061de-a718-4c5f-948a-09e4f4a2dd2e",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "Yahoo",
+          "role": "Software Engineer",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        },
+        {
+          "id": "228ca90b-1e63-4a46-91d6-eaaca994a87a",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "Miami Ad School",
+          "role": "Instructor",
+          "start_year": null,
+          "end_year": null,
+          "sort": 7
+        },
+        {
+          "id": "367c7db6-e2b2-44d2-be15-f926d5efac36",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "AKQA",
+          "role": "Senior Creative Developer",
+          "start_year": null,
+          "end_year": null,
+          "sort": 8
+        },
+        {
+          "id": "e716bdad-2416-4b49-bc5b-106528827e14",
+          "post_id": "b265db5c-ec25-4991-930a-f58601a4e471",
+          "organisation": "PixelPushers/Civica",
+          "role": "Flash Consultant",
+          "start_year": null,
+          "end_year": null,
+          "sort": 9
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/bouguerra"
+        },
+        {
+          "label": "X",
+          "href": "https://twitter.com/tunisien"
+        }
+      ],
+      "tags": [
+        "Tunisia",
+        "Logistics"
+      ]
+    },
+    {
+      "id": "saleh-al-ghamdi",
+      "name": "Saleh Al-Ghamdi",
+      "slug": "saleh-al-ghamdi",
+      "brandColor": "#C0392B",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/defd7cc0-4501-4014-8a36-4fd45349ad77/portrait-mvaq4f27-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/defd7cc0-4501-4014-8a36-4fd45349ad77/portrait-mvaq4f27.webp",
+      "role": "Co-founder and CEO",
+      "company": "Ghanem",
+      "companySlug": "ghanem",
+      "companyLetter": "G",
+      "companyTint": "#C0392B",
+      "companyMarkSvg": null,
       "country": "Saudi Arabia",
       "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "countryColour": "#2F7A4A",
+      "sector": "Proptech",
+      "hook": "Ex-Lean Technologies GM offering fractional ownership of income-generating Saudi properties at Ghanem",
+      "bio": "Ex-Lean Technologies GM offering fractional ownership of income-generating Saudi properties at Ghanem",
+      "body": [
+        {
+          "text": "enabling more individuals to benefit from fractional ownership opportunities.",
+          "type": "quote"
+        },
+        {
+          "text": "$23",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder and CEO, Ghanem",
+          "2025 to present"
+        ],
+        [
+          "Senior Product Marketing Manager, Foodics",
+          ""
+        ],
+        [
+          "Head of Partnerships, EMKAN FINANCE",
+          ""
+        ],
+        [
+          "Independent Consultant, Guidepoint",
+          ""
+        ],
+        [
+          "General Manager - KSA, Lean Technologies",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "cf383e33-e6a1-41b0-8e63-02393e14294d",
+          "post_id": "7225d8eb-c338-4ac4-bafb-a2e11dddeaa4",
+          "organisation": "Ghanem",
+          "role": "Co-founder and CEO",
+          "start_year": 2025,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "8ad6aa5a-7ceb-4e9c-bf1f-77693523aacd",
+          "post_id": "7225d8eb-c338-4ac4-bafb-a2e11dddeaa4",
+          "organisation": "Foodics",
+          "role": "Senior Product Marketing Manager",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "34e031a8-f259-409d-a936-aa036bd5c924",
+          "post_id": "7225d8eb-c338-4ac4-bafb-a2e11dddeaa4",
+          "organisation": "EMKAN FINANCE",
+          "role": "Head of Partnerships",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "c68283e7-bcc9-4b83-bef1-b3ecd0439401",
+          "post_id": "7225d8eb-c338-4ac4-bafb-a2e11dddeaa4",
+          "organisation": "Guidepoint",
+          "role": "Independent Consultant",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "41bcb0ef-552b-47d5-b851-68a6d28a6cd2",
+          "post_id": "7225d8eb-c338-4ac4-bafb-a2e11dddeaa4",
+          "organisation": "Lean Technologies",
+          "role": "General Manager - KSA",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/salehwaheedg"
+        },
+        {
+          "label": "Website",
+          "href": "https://ghanem.sa/"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "Proptech"
+      ]
+    },
+    {
+      "id": "djamel-mohand",
+      "name": "Djamel Mohand",
+      "slug": "djamel-mohand",
+      "brandColor": "#C0392B",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/24a0e506-2345-42c7-b97d-87bb5023ee71/portrait-mw29s6h5-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/24a0e506-2345-42c7-b97d-87bb5023ee71/portrait-mw29s6h5.webp",
+      "role": "Co-founder",
+      "company": "Governata",
+      "companySlug": "governata",
+      "companyLetter": "G",
+      "companyTint": "#C0392B",
+      "companyMarkSvg": null,
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "countryColour": "#2F7A4A",
+      "sector": "AI",
+      "hook": "Former Foodics COO building Arabic-language data-governance software for Saudi organisations at Governata",
+      "bio": "Former Foodics COO building Arabic-language data-governance software for Saudi organisations at Governata",
+      "body": [
+        {
+          "text": "Data is the foundation of the present and future digital economy",
+          "type": "quote"
+        },
+        {
+          "text": "Djamel Mohand took preparatory classes at Lycée Lavoisier in Paris, then studied management at EDHEC Business School and international business at Maastricht University, finishing both in 2014. His career has taken in Reckitt Benckiser, Publicis Groupe, Bel and Amazon. At Jeeny he held roles from fulfilment manager to chief operating officer for Saudi Arabia, and he was also COO Saudi Arabia at Rocket Internet and managing director at Kitopi. From February 2021 to January 2025 he was COO of Foodics. In February 2025 he wrote that Foodics served more than 30,000 restaurants in over 25 countries, and that more than 2,000 people had been part of his teams there. Governata, the Riyadh startup he co-founded, launched in July 2025 with a platform to help local organisations meet Saudi data regulations while using AI for decisions. MENAbytes described it as Saudi-made, Arabic-language software aligned with Saudi Data & AI Authority requirements, covering data classification, quality and access management.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "EDHEC Business School",
+        "course": "Master in Management (MiM), Business Management",
+        "year": "2014"
+      },
+      "educations": [
+        {
+          "id": "d59b186f-321a-41ef-956b-fc46a06beb26",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "university_id": 116,
+          "level": "masters",
+          "course": "Master in Management (MiM), Business Management",
+          "start_year": 2010,
+          "end_year": 2014,
+          "sort": 0,
+          "degree": "Master in Management (MiM), Business Management",
+          "universitySlug": "edhec-business-school",
+          "university": "EDHEC Business School"
+        },
+        {
+          "id": "1e31b544-3661-4688-ad35-786c957af699",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "university_id": 117,
+          "level": "masters",
+          "course": "MSc International Business",
+          "start_year": 2013,
+          "end_year": 2014,
+          "sort": 1,
+          "degree": "MSc International Business",
+          "universitySlug": "maastricht-university",
+          "university": "Maastricht University"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder, Governata",
+          ""
+        ],
+        [
+          "COO, Foodics",
+          ""
+        ],
+        [
+          "Executive Director, Foodics",
+          ""
+        ],
+        [
+          "Managing Director, Kitopi",
+          ""
+        ],
+        [
+          "COO Saudi Arabia, Rocket Internet SE",
+          ""
+        ],
+        [
+          "Chief Operating Officer - KSA, Jeeny",
+          ""
+        ],
+        [
+          "VP Operations, Jeeny",
+          ""
+        ],
+        [
+          "Head of Operations, Jeeny",
+          ""
+        ],
+        [
+          "Fulfilment Manager, Jeeny",
+          ""
+        ],
+        [
+          "Marketplace, Amazon",
+          ""
+        ],
+        [
+          "International Sales Strategy, Bel",
+          ""
+        ],
+        [
+          "Assistant Account Executive - Renault International, Publicis Groupe",
+          ""
+        ],
+        [
+          "Demand Planning and Fulfilment, Reckitt Benckiser",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "2bf71c66-8dc2-4bf3-8fa0-196ebc699f01",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Governata",
+          "role": "Co-founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "ae60a6fd-ce53-4410-b83f-84b9fb6880e4",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Foodics",
+          "role": "COO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "2123dfbc-83df-4b14-afbb-ed4245de3c93",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Foodics",
+          "role": "Executive Director",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "090789e6-eb91-4a64-aa18-56eec5ac8b8f",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Kitopi",
+          "role": "Managing Director",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "d69c1ef5-da05-44ac-a677-eb159735bffa",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Rocket Internet SE",
+          "role": "COO Saudi Arabia",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "5a6154eb-0323-4b58-8a61-6b8e6ba14c81",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Jeeny",
+          "role": "Chief Operating Officer - KSA",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "e3f0d364-cc81-40b3-8ac0-583dd2f9a350",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Jeeny",
+          "role": "VP Operations",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        },
+        {
+          "id": "b77c1a2d-9212-4963-962b-c37d1a07b5e1",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Jeeny",
+          "role": "Head of Operations",
+          "start_year": null,
+          "end_year": null,
+          "sort": 7
+        },
+        {
+          "id": "7a933a7a-ca5d-4401-9b3b-345e6d19a47d",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Jeeny",
+          "role": "Fulfilment Manager",
+          "start_year": null,
+          "end_year": null,
+          "sort": 8
+        },
+        {
+          "id": "37dab6bd-1786-4a13-a678-e06043ee91c1",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Amazon",
+          "role": "Marketplace",
+          "start_year": null,
+          "end_year": null,
+          "sort": 9
+        },
+        {
+          "id": "ff1ae38c-3551-4d35-b6df-07fa5151edc0",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Bel",
+          "role": "International Sales Strategy",
+          "start_year": null,
+          "end_year": null,
+          "sort": 10
+        },
+        {
+          "id": "339fe060-a948-4306-93f3-12dd818ab550",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Publicis Groupe",
+          "role": "Assistant Account Executive - Renault International",
+          "start_year": null,
+          "end_year": null,
+          "sort": 11
+        },
+        {
+          "id": "eb58adfd-6c3b-4b14-8bac-d15541886fac",
+          "post_id": "0d322827-8bf9-417f-84bb-b5979baa8e2f",
+          "organisation": "Reckitt Benckiser",
+          "role": "Demand Planning and Fulfilment",
+          "start_year": null,
+          "end_year": null,
+          "sort": 12
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/djam"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "AI"
+      ]
+    },
+    {
+      "id": "ayman-el-tanbouly",
+      "name": "Ayman El Tanbouly",
+      "slug": "ayman-el-tanbouly",
+      "brandColor": "#E67E22",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/76e7fbbb-adc1-41ba-bafb-af7af2b80283/portrait-mvaw61zn-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/76e7fbbb-adc1-41ba-bafb-af7af2b80283/portrait-mvaw61zn.webp",
+      "role": "Co-founder and Managing Director",
+      "company": "Exits MENA",
+      "companySlug": "exits-mena",
+      "companyLetter": "E",
+      "companyTint": "#E67E22",
+      "companyMarkSvg": null,
+      "country": "Egypt",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
+      "countryColour": "#C99A2E",
       "sector": "Fintech",
-      "hook": "Founder who scaled Tamara into Saudi Arabia's first homegrown fintech unicorn, pioneering consumer installment financing."
+      "hook": "Former EBRD investment banker matching startups and SMEs with investors and buyers at Exits MENA",
+      "bio": "Former EBRD investment banker matching startups and SMEs with investors and buyers at Exits MENA",
+      "body": [
+        {
+          "text": "$24",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "The American University in Cairo",
+        "course": "Bachelor's, Accounting and Finance",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "9df8ea19-7ac2-42ef-a4e8-fc414dec52d3",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "university_id": 58,
+          "level": "undergraduate",
+          "course": "Bachelor's, Accounting and Finance",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "Bachelor's, Accounting and Finance",
+          "universitySlug": "the-american-university-in-cairo",
+          "university": "The American University in Cairo"
+        },
+        {
+          "id": "491b5abd-2a61-4d6a-89b1-d365c254e668",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "university_id": 97,
+          "level": "mba",
+          "course": "MBA, International Finance",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "MBA, International Finance",
+          "universitySlug": "university-of-warwick",
+          "university": "University of Warwick"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder and Managing Director, Exits MENA",
+          "2023 to present"
+        ],
+        [
+          "Climate Finance Consultant, Egyptian Ministry of Environment",
+          ""
+        ],
+        [
+          "Energy Investment Banker, EBRD",
+          ""
+        ],
+        [
+          "Infrastructure PPP Sell Side Advisor, IFC",
+          ""
+        ],
+        [
+          "Senior Financial Analyst and Financial Analyst, Arab African International Bank",
+          ""
+        ],
+        [
+          "Credit Risk Analyst, ADIB",
+          ""
+        ],
+        [
+          "Credit Analyst, BLOM BANK Egypt",
+          ""
+        ],
+        [
+          "Credit Analyst, EGbank",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "ba64bf2e-1269-4a43-95a2-3184be9ae89d",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "Exits MENA",
+          "role": "Co-founder and Managing Director",
+          "start_year": 2023,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "87be16e3-38ce-4451-b07b-e3fd4348f1f0",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "Egyptian Ministry of Environment",
+          "role": "Climate Finance Consultant",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "08478d3c-c3a2-4ce4-8b18-4defeb371044",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "EBRD",
+          "role": "Energy Investment Banker",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "7810c244-0775-490d-b691-cfb6f4ddec81",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "IFC",
+          "role": "Infrastructure PPP Sell Side Advisor",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "b629e652-4e46-4da6-94bb-78c975c36816",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "Arab African International Bank",
+          "role": "Senior Financial Analyst and Financial Analyst",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "4df84e72-10a2-4034-a2c1-9bbf81003a41",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "ADIB",
+          "role": "Credit Risk Analyst",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "f0a0f491-57bb-4c94-9fc6-2aa21ebf7648",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "BLOM BANK Egypt",
+          "role": "Credit Analyst",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        },
+        {
+          "id": "62c2801c-55fc-414d-8923-4456eb7127d0",
+          "post_id": "9359baa0-f304-4884-9449-6f485030e2f7",
+          "organisation": "EGbank",
+          "role": "Credit Analyst",
+          "start_year": null,
+          "end_year": null,
+          "sort": 7
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/ayman-el-tanbouly"
+        },
+        {
+          "label": "Website",
+          "href": "https://exits.me/"
+        }
+      ],
+      "tags": [
+        "Egypt",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "kamel-haddar",
+      "name": "Kamel Haddar",
+      "slug": "kamel-haddar",
+      "brandColor": "#3A7BD5",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/6915b0c4-13a6-49f5-babd-175ded787dde/portrait-mw29s80s-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/6915b0c4-13a6-49f5-babd-175ded787dde/portrait-mw29s80s.webp",
+      "role": "Founder and CEO",
+      "company": "temtem",
+      "companySlug": "temtem",
+      "companyLetter": "t",
+      "companyTint": "#3A7BD5",
+      "companyMarkSvg": null,
+      "country": "Algeria",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/algeria.svg",
+      "countryColour": "#2E7F6F",
+      "sector": "Logistics",
+      "hook": "Former BearingPoint consultant who grew temtem from Algerian mobility into a multi-service app",
+      "bio": "Former BearingPoint consultant who grew temtem from Algerian mobility into a multi-service app",
+      "body": [
+        {
+          "text": "We design 100 per cent made in Algeria products and services that serve local needs with one goal: improve people's lives, by getting the services that matter more easily and even innovative services that do not exist elsewhere.",
+          "type": "quote"
+        },
+        {
+          "text": "Kamel Haddar, born in 1981, holds a master's in computer science from ESIEE-IT and a specialised master's in marketing from ESCP Business School. He worked at 3M as a project manager and business analyst, then as a consultant at BearingPoint covering telecommunications, energy and utilities. In 2018 he launched temtem as a mobility app, and in 2019 the company raised a $4 million Series A. It later broadened into temtem One, a single app bringing together services including ride-hailing, e-commerce, home healthcare and payments, with an offer for diaspora users. In October 2020 Disrupt Africa reported that temtem One had more than 200,000 customers and 10,000 partners. Haddar also co-founded ATLAS, an association that supports Algerian students, and founded CasbahTech, a startup studio focused on digital solutions in Algeria.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "ESIEE-IT",
+        "course": "Master's, Computer Science",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "8e37d691-70eb-477f-8364-7eca0d825ab2",
+          "post_id": "805a654a-77ae-418f-bd28-90364331c433",
+          "university_id": 120,
+          "level": "masters",
+          "course": "Master's, Computer Science",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "Master's, Computer Science",
+          "universitySlug": "esiee-it",
+          "university": "ESIEE-IT"
+        },
+        {
+          "id": "98bf3a16-1425-48d7-88ef-d76191a27ca8",
+          "post_id": "805a654a-77ae-418f-bd28-90364331c433",
+          "university_id": 85,
+          "level": "masters",
+          "course": "Specialised Master's, Marketing",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "Specialised Master's, Marketing",
+          "universitySlug": "escp-business-school",
+          "university": "ESCP Business School"
+        }
+      ],
+      "career": [
+        [
+          "Founder and CEO, temtem",
+          "2018 to present"
+        ],
+        [
+          "Project Manager and Business Analyst, 3M",
+          ""
+        ],
+        [
+          "Consultant, BearingPoint",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "3cee58ae-07a9-4cb5-8064-ab3dd6e2318b",
+          "post_id": "805a654a-77ae-418f-bd28-90364331c433",
+          "organisation": "temtem",
+          "role": "Founder and CEO",
+          "start_year": 2018,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "732e17c5-9374-43ed-be5c-60ba87f2c972",
+          "post_id": "805a654a-77ae-418f-bd28-90364331c433",
+          "organisation": "3M",
+          "role": "Project Manager and Business Analyst",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "d49736c5-4e9b-412f-a0a9-99aba8544c06",
+          "post_id": "805a654a-77ae-418f-bd28-90364331c433",
+          "organisation": "BearingPoint",
+          "role": "Consultant",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/kamelhaddar"
+        }
+      ],
+      "tags": [
+        "Algeria",
+        "Logistics"
+      ]
+    },
+    {
+      "id": "mehrshad-pezeshk",
+      "name": "Mehrshad Pezeshk",
+      "slug": "mehrshad-pezeshk",
+      "brandColor": "#3A7BD5",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/b24da070-1e48-4504-9c00-1a12c7363484/portrait-mw29s80t-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/b24da070-1e48-4504-9c00-1a12c7363484/portrait-mw29s80t.webp",
+      "role": "Co-founder",
+      "company": "Boxy",
+      "companySlug": "boxy",
+      "companyLetter": "B",
+      "companyTint": "#3A7BD5",
+      "companyMarkSvg": null,
+      "country": "Iraq",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/iraq.svg",
+      "countryColour": "#6B5A2E",
+      "sector": "Logistics",
+      "hook": "Former AloPeyk CTO building one shipping platform for Iraq's fragmented courier sector at Boxy",
+      "bio": "Former AloPeyk CTO building one shipping platform for Iraq's fragmented courier sector at Boxy",
+      "body": [
+        {
+          "text": "With smart technology and the right infrastructure, we’re proving otherwise.",
+          "type": "quote"
+        },
+        {
+          "text": "Mehrshad Pezeshk studied at ASTON École Informatique and IESA. He co-founded Studio LOL in Paris as its CTO and, by his account, grew the agency from two developers to 20 engineers. He went on to found DPM Engineering, where he says he built a team of 40 engineers and delivered more than 100 projects for clients in Europe and North America. As co-founder and CTO of AloPeyk, since acquired, he reports scaling to more than 100,000 daily deliveries across eight cities and raising more than $20 million, and says the company reached profitability. He was also co-founder and CTO of FlashBox. In 2024 he co-founded Boxy, which aims to bring Iraq's fragmented courier sector into a single shipping platform that gives merchants real-time shipping options. In August 2025 Wamda reported that Boxy had received a $1.5 million pre-seed investment from EQIQ, and that its merchant count had doubled in the previous month.",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder, Boxy",
+          "2024 to present"
+        ],
+        [
+          "Co-Founder & CTO, FlashBox",
+          ""
+        ],
+        [
+          "Co-Founder & CTO, AloPeyk",
+          ""
+        ],
+        [
+          "Founder & CTO, DPM Engineering",
+          ""
+        ],
+        [
+          "Co-Founder & CTO, Studio LOL",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "ab439517-d5db-4cd5-a274-a24ff7edb8c7",
+          "post_id": "da94417a-cd57-4156-9a1a-8f515e4da0bd",
+          "organisation": "Boxy",
+          "role": "Co-founder",
+          "start_year": 2024,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "d1378b1f-6feb-4895-ac19-3936a64daf1f",
+          "post_id": "da94417a-cd57-4156-9a1a-8f515e4da0bd",
+          "organisation": "FlashBox",
+          "role": "Co-Founder & CTO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "9d79439b-4d73-4f03-a2a6-50decf62d23e",
+          "post_id": "da94417a-cd57-4156-9a1a-8f515e4da0bd",
+          "organisation": "AloPeyk",
+          "role": "Co-Founder & CTO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "5f5f8995-5309-4f29-a09d-92cff6fa9f46",
+          "post_id": "da94417a-cd57-4156-9a1a-8f515e4da0bd",
+          "organisation": "DPM Engineering",
+          "role": "Founder & CTO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "7bcffec4-7b71-49a5-8c20-839419953fa3",
+          "post_id": "da94417a-cd57-4156-9a1a-8f515e4da0bd",
+          "organisation": "Studio LOL",
+          "role": "Co-Founder & CTO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/mehrshadpezeshk"
+        }
+      ],
+      "tags": [
+        "Iraq",
+        "Logistics"
+      ]
+    },
+    {
+      "id": "wisam-costandi",
+      "name": "Wisam Costandi",
+      "slug": "wisam-costandi",
+      "brandColor": "#C0392B",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/fa8fc31d-37c6-45a9-a1f5-0949bf988391/portrait-mwaoz3y6-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/fa8fc31d-37c6-45a9-a1f5-0949bf988391/portrait-mwaoz3y6.webp",
+      "role": "Co-founder and CEO",
+      "company": "EMMA Systems",
+      "companySlug": "emma-systems",
+      "companyLetter": "E",
+      "companyTint": "#C0392B",
+      "companyMarkSvg": null,
+      "country": "Qatar",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/qatar.svg",
+      "countryColour": "#8A1538",
+      "sector": "Logistics",
+      "hook": "Founder of Qatar's IQ whose EMMA platform brings airport operations information into one view",
+      "bio": "Founder of Qatar's IQ whose EMMA platform brings airport operations information into one view",
+      "body": [
+        {
+          "text": "This investment from +VC is a major milestone for EMMA Systems.",
+          "type": "quote"
+        },
+        {
+          "text": "$25",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "Northwestern University",
+        "course": "BS Biomedical Engineering",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "28b6c45c-438b-46eb-bd27-57b530410b45",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "university_id": 121,
+          "level": "undergraduate",
+          "course": "BS Biomedical Engineering",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "BS Biomedical Engineering",
+          "universitySlug": "northwestern-university",
+          "university": "Northwestern University"
+        },
+        {
+          "id": "02d6a64e-cd81-4e5b-96f8-38fcd690b665",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "university_id": 122,
+          "level": "masters",
+          "course": "MS Biomedical Engineering",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "MS Biomedical Engineering",
+          "universitySlug": "university-of-california-davis",
+          "university": "University of California, Davis"
+        },
+        {
+          "id": "9ead71d4-3419-496c-a3e6-1505c2cf7f27",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "university_id": 122,
+          "level": "mba",
+          "course": "MBA, Technology Management and Finance (Graduate School of Management)",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2,
+          "degree": "MBA, Technology Management and Finance (Graduate School of Management)",
+          "universitySlug": "university-of-california-davis",
+          "university": "University of California, Davis"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder and CEO, EMMA Systems",
+          ""
+        ],
+        [
+          "Founder & Managing Director, IQ",
+          ""
+        ],
+        [
+          "Co-Founder, monqi, Inc",
+          ""
+        ],
+        [
+          "Engagement Manager, Reality Digital",
+          ""
+        ],
+        [
+          "Senior Consultant, Deloitte Consulting",
+          ""
+        ],
+        [
+          "Director, Technical Support, Global Datalink, Inc",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "fc05a6c0-33e8-4a77-939e-c24e843d0510",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "organisation": "EMMA Systems",
+          "role": "Co-founder and CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "7ae94905-91d7-4408-9167-031f376cb750",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "organisation": "IQ",
+          "role": "Founder & Managing Director",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "6d63749a-0a28-4837-8df0-c4c18f490fdd",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "organisation": "Inc",
+          "role": "Co-Founder, monqi",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "d6969af7-6bdd-4573-b725-5d2b98cc8f85",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "organisation": "Reality Digital",
+          "role": "Engagement Manager",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "d64b938a-c7c6-48d4-bf22-311b78dfc8f3",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "organisation": "Deloitte Consulting",
+          "role": "Senior Consultant",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "42e63095-64ca-41d6-a0b1-30d9b527d996",
+          "post_id": "a3c4c9c9-0e8c-46b8-96f2-e5d41095093c",
+          "organisation": "Inc",
+          "role": "Director, Technical Support, Global Datalink",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/wisam"
+        },
+        {
+          "label": "Website",
+          "href": "https://emma.aero/"
+        }
+      ],
+      "tags": [
+        "Qatar",
+        "Logistics"
+      ]
+    },
+    {
+      "id": "ayman-essawy",
+      "name": "Ayman Essawy",
+      "slug": "ayman-essawy",
+      "brandColor": "#3A7BD5",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/415e4343-ddb1-4a02-a308-1b36614dbcce/portrait-mvscxald-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/415e4343-ddb1-4a02-a308-1b36614dbcce/portrait-mvscxald.webp",
+      "role": "Founder and CEO",
+      "company": "Connect Money",
+      "companySlug": "connect-money",
+      "companyLetter": "C",
+      "companyTint": "#3A7BD5",
+      "companyMarkSvg": null,
+      "country": "Egypt",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/egypt.svg",
+      "countryColour": "#C99A2E",
+      "sector": "Fintech",
+      "hook": "Dsquares co-founder now building embedded-finance infrastructure for other businesses at Connect Money",
+      "bio": "Dsquares co-founder now building embedded-finance infrastructure for other businesses at Connect Money",
+      "body": [
+        {
+          "text": "We have seen this in Amazon with the payment services and in many other digital platforms.",
+          "type": "quote"
+        },
+        {
+          "text": "$26",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "Arab Academy for Science, Technology and Maritime Transport",
+        "course": "Bachelor's, Electronics and Communication Engineering",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "282e1ce7-3ce2-4f77-acd4-feb861990033",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "university_id": 123,
+          "level": "undergraduate",
+          "course": "Bachelor's, Electronics and Communication Engineering",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "Bachelor's, Electronics and Communication Engineering",
+          "universitySlug": "arab-academy-for-science-technology-and-maritime-transport",
+          "university": "Arab Academy for Science, Technology and Maritime Transport"
+        }
+      ],
+      "career": [
+        [
+          "Founder and CEO, Connect Money",
+          "2024 to present"
+        ],
+        [
+          "Co-Founder & COO, Dsquares",
+          "2012 to 2021"
+        ],
+        [
+          "Co-Founder & CEO, Lucky App",
+          ""
+        ],
+        [
+          "Board Member, Endeavor Egypt",
+          ""
+        ],
+        [
+          "Internet Marketing & VAS, Vodafone",
+          ""
+        ],
+        [
+          "Business Development & Operations, Sarmady - a Vodafone Company",
+          ""
+        ],
+        [
+          "Financing Operations, Temasek",
+          ""
+        ],
+        [
+          "Product Development & Pre-sales, Alkan Telecom",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "262049a5-80dc-473c-8953-7cc89de81199",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Connect Money",
+          "role": "Founder and CEO",
+          "start_year": 2024,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "a19131a6-bc62-445a-b2eb-be6689e076bd",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Dsquares",
+          "role": "Co-Founder & COO",
+          "start_year": 2012,
+          "end_year": 2021,
+          "sort": 1
+        },
+        {
+          "id": "b3ce9456-fd38-457a-9b0f-896b5c93292d",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Lucky App",
+          "role": "Co-Founder & CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "844e5524-8edb-4d0b-aa00-c64328d6a06e",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Endeavor Egypt",
+          "role": "Board Member",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "2090e7e9-fe0f-400b-8749-ca63d7dde77a",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Vodafone",
+          "role": "Internet Marketing & VAS",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "98a3267c-358e-47ac-a810-4502fcde008f",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Sarmady - a Vodafone Company",
+          "role": "Business Development & Operations",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "3f37fc6c-16ed-484c-9699-e874bff7388f",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Temasek",
+          "role": "Financing Operations",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        },
+        {
+          "id": "d413a6f2-598f-4467-9b12-538296f4a53f",
+          "post_id": "cf9d2775-cb5a-44de-82b7-634e7f5773fc",
+          "organisation": "Alkan Telecom",
+          "role": "Product Development & Pre-sales",
+          "start_year": null,
+          "end_year": null,
+          "sort": 7
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/aymanessawy"
+        },
+        {
+          "label": "Website",
+          "href": "https://connect.money/"
+        }
+      ],
+      "tags": [
+        "Egypt",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "hatem-kameli",
+      "name": "Hatem Kameli",
+      "slug": "hatem-kameli",
+      "brandColor": "#D4A017",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f368cd8f-f1a1-444d-993c-d28db592eee0/portrait-mw29s80s-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/f368cd8f-f1a1-444d-993c-d28db592eee0/portrait-mw29s80s.webp",
+      "role": "Co-founder and CEO",
+      "company": "resal",
+      "companySlug": "resal",
+      "companyLetter": "r",
+      "companyTint": "#D4A017",
+      "companyMarkSvg": null,
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "countryColour": "#2F7A4A",
+      "sector": "Fintech",
+      "hook": "Founded iCLICK and co-founded Lucidya before steering Resal into prepaid rewards software",
+      "bio": "Founded iCLICK and co-founded Lucidya before steering Resal into prepaid rewards software",
+      "body": [
+        {
+          "text": "I think during the pandemic, the e-commerce and the digital products and services helped a lot of people to survive, to send a reward and gifts, to help people educate their child and help us to deliver food and even medicine or health (services).",
+          "type": "quote"
+        },
+        {
+          "text": "Hatem Kameli studied computer science at King AbdulAziz University, graduating in 2007. In November 2013 he founded iCLICK, a digital marketing consultancy, and ran it as CEO until December 2017. He also co-founded Lucidya, an AI customer-experience platform, and sits on its board. Resal, which he co-founded and leads as CEO, started out as a digital gifting platform. The company dates its launch to 2018, although Arab News reported a soft launch in Jeddah in September 2016 and operations from February 2017. During the pandemic, Arab News reported, Resal's sales in 2020 rose 1,500% on the previous year. In 2021 and 2022 the company pivoted to become an all-in-one software business for prepaid digital gift cards and rewards, and it now describes its offering as digital value delivered through prepaid cards, rewards and loyalty programmes. In 2024 Resal raised a $9 million funding round.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "King Abdulaziz University",
+        "course": "BS Computer Science",
+        "year": "2007"
+      },
+      "educations": [
+        {
+          "id": "31eecb72-25bf-4b7c-acbb-2898f8cb26cf",
+          "post_id": "c1736681-fa50-400c-a3b2-e1ea770351ee",
+          "university_id": 52,
+          "level": "undergraduate",
+          "course": "BS Computer Science",
+          "start_year": 2003,
+          "end_year": 2007,
+          "sort": 0,
+          "degree": "BS Computer Science",
+          "universitySlug": "king-abdulaziz-university",
+          "university": "King Abdulaziz University"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder and CEO, resal",
+          ""
+        ],
+        [
+          "Founder & CEO, iCLICK- SA",
+          "2013 to present"
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "83f21d1f-dca3-4334-9623-75c7913abf54",
+          "post_id": "c1736681-fa50-400c-a3b2-e1ea770351ee",
+          "organisation": "resal",
+          "role": "Co-founder and CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "5aec2576-5246-48da-b7a2-60fcb784305a",
+          "post_id": "c1736681-fa50-400c-a3b2-e1ea770351ee",
+          "organisation": "iCLICK- SA",
+          "role": "Founder & CEO",
+          "start_year": 2013,
+          "end_year": null,
+          "sort": 1
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/hatemkameli"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.resal.me/"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "louai-djaffer",
+      "name": "Louai Djaffer",
+      "slug": "louai-djaffer",
+      "brandColor": "#3A7BD5",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/c8c3298e-004e-4540-8477-86c5c020bd92/portrait-mvscx45f-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/c8c3298e-004e-4540-8477-86c5c020bd92/portrait-mvscx45f.webp",
+      "role": "Co-founder and CEO",
+      "company": "Talenteo HR",
+      "companySlug": "talenteo-hr",
+      "companyLetter": "T",
+      "companyTint": "#3A7BD5",
+      "companyMarkSvg": null,
+      "country": "Algeria",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/algeria.svg",
+      "countryColour": "#2E7F6F",
+      "sector": "Talent",
+      "hook": "Co-founded recruitment platform Emploitic, then Talenteo, which automates HR administration and payroll",
+      "bio": "Co-founded recruitment platform Emploitic, then Talenteo, which automates HR administration and payroll",
+      "body": [
+        {
+          "text": "Our mission is to simplify HR management for businesses, enabling them to unlock their full potential and nurture their teams.",
+          "type": "quote"
+        },
+        {
+          "text": "Louai Djaffer completed a master's in organisational management at the École nationale d'Ingénieurs de Metz in 2003. In 2006 he co-founded Emploitic.com, an online recruitment platform that connects job seekers with employers, and served as its CEO until 2022. By his account Emploitic became Algeria's leading recruitment platform, and the company reports more than 30,000 hirings a year, though it gives no date for that figure. He has also held CEO roles at eTalent Solutions and Novojob West Africa. In 2022 he moved from recruitment into HR software, co-founding Talenteo with Tarik Metnani and taking the role of CEO. Talenteo automates administrative and payroll tasks for companies, and its decision-support indicators help them keep track of what they spend on salaries.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "École nationale d'ingénieurs de Metz",
+        "course": "Master, Management des organisations",
+        "year": "2003"
+      },
+      "educations": [
+        {
+          "id": "a68f37f8-a24c-44b9-a80b-3760888baca1",
+          "post_id": "bd3c2693-c0fb-4cb6-9732-7444bbe639c9",
+          "university_id": 124,
+          "level": "masters",
+          "course": "Master, Management des organisations",
+          "start_year": 2002,
+          "end_year": 2003,
+          "sort": 0,
+          "degree": "Master, Management des organisations",
+          "universitySlug": "ecole-nationale-dingenieurs-de-metz",
+          "university": "École nationale d'ingénieurs de Metz"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder and CEO, Talenteo HR",
+          "2022 to present"
+        ],
+        [
+          "Co-Founder & CEO, Emploitic.com",
+          "2006 to present"
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "fb727fca-4e42-4f29-be44-c3b3cc26fd3b",
+          "post_id": "bd3c2693-c0fb-4cb6-9732-7444bbe639c9",
+          "organisation": "Talenteo HR",
+          "role": "Co-founder and CEO",
+          "start_year": 2022,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "07451f64-743c-43e8-a546-8f8cc4fc6c32",
+          "post_id": "bd3c2693-c0fb-4cb6-9732-7444bbe639c9",
+          "organisation": "Emploitic.com",
+          "role": "Co-Founder & CEO",
+          "start_year": 2006,
+          "end_year": null,
+          "sort": 1
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/louai"
+        }
+      ],
+      "tags": [
+        "Algeria",
+        "Talent"
+      ]
+    },
+    {
+      "id": "umair-khalid",
+      "name": "Umair Khalid",
+      "slug": "umair-khalid",
+      "brandColor": "#16A085",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/e18d3f34-3330-4a4b-9244-e299a5fca99b/portrait-mv86j9bo-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/e18d3f34-3330-4a4b-9244-e299a5fca99b/portrait-mv86j9bo.webp",
+      "role": "Co-founder and CEO",
+      "company": "Kitchenara",
+      "companySlug": "kitchenara",
+      "companyLetter": "K",
+      "companyTint": "#16A085",
+      "companyMarkSvg": null,
+      "country": "Saudi Arabia",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/saudi-arabia.svg",
+      "countryColour": "#2F7A4A",
+      "sector": "Food & hospitality",
+      "hook": "Moved from operations roles at Careem and HungerStation to video-led food discovery at Kitchenara",
+      "bio": "Moved from operations roles at Careem and HungerStation to video-led food discovery at Kitchenara",
+      "body": [
+        {
+          "text": "We are incredibly excited to have the support of our investors from the United Arab Emirates, who share our vision of redefining the food delivery experience.",
+          "type": "quote"
+        },
+        {
+          "text": "$27",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder and CEO, Kitchenara",
+          "2023 to present"
+        ],
+        [
+          "Co-founder and CEO, Big Chefs",
+          "2021 to 2023"
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "127185c2-c78b-4754-ae3b-15b67e3594b3",
+          "post_id": "ef7c5888-c422-47cc-9f16-fea4d9a4c455",
+          "organisation": "Kitchenara",
+          "role": "Co-founder and CEO",
+          "start_year": 2023,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "8f48e55e-5bcf-4365-a4ac-30a839730dec",
+          "post_id": "ef7c5888-c422-47cc-9f16-fea4d9a4c455",
+          "organisation": "Big Chefs",
+          "role": "Co-founder and CEO",
+          "start_year": 2021,
+          "end_year": 2023,
+          "sort": 1
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/umairkhalidbasheer"
+        },
+        {
+          "label": "Website",
+          "href": "https://kitchenara.com/"
+        }
+      ],
+      "tags": [
+        "Saudi Arabia",
+        "Food & hospitality"
+      ]
+    },
+    {
+      "id": "misha-hanin",
+      "name": "Misha Hanin",
+      "slug": "misha-hanin",
+      "brandColor": "#D35400",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/ee02aa8e-d312-48b9-af66-e84717340dcb/portrait-mw29s7mp-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/ee02aa8e-d312-48b9-af66-e84717340dcb/portrait-mw29s7mp.webp",
+      "role": "Co-founder and CEO",
+      "company": "31 CONCEPT",
+      "companySlug": "31-concept",
+      "companyLetter": "3",
+      "companyTint": "#D35400",
+      "companyMarkSvg": null,
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
+      "sector": "Deep tech",
+      "hook": "Technology executive building UAE-based 31 CONCEPT to see inside encrypted network traffic",
+      "bio": "Technology executive building UAE-based 31 CONCEPT to see inside encrypted network traffic",
+      "body": [
+        {
+          "text": "We don't patch old DPI - we replaced it.",
+          "type": "quote"
+        },
+        {
+          "text": "$28",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder and CEO, 31 CONCEPT",
+          ""
+        ],
+        [
+          "President and CEO, DeepDive World",
+          "2017 to 2023"
+        ],
+        [
+          "CEO and Co-Founder, DeepDive Research",
+          ""
+        ],
+        [
+          "CEO and Co-Founder, iRangers International Inc.",
+          ""
+        ],
+        [
+          "Head of Technology, CAT Labs",
+          ""
+        ],
+        [
+          "Senior Solutions Architect, Compugen",
+          ""
+        ],
+        [
+          "Public Speaker on Business and Technology, Microsoft",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "eba00547-81b2-4edb-a67b-1e3ea9711c40",
+          "post_id": "b25d3f0d-69fe-4816-93e8-b4662ee2b6be",
+          "organisation": "31 CONCEPT",
+          "role": "Co-founder and CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "9f10c75e-a474-4cb7-b2d8-97fbfc2be516",
+          "post_id": "b25d3f0d-69fe-4816-93e8-b4662ee2b6be",
+          "organisation": "DeepDive World",
+          "role": "President and CEO",
+          "start_year": 2017,
+          "end_year": 2023,
+          "sort": 1
+        },
+        {
+          "id": "b2b26b6e-4ab8-4efd-a328-53c4e887d9af",
+          "post_id": "b25d3f0d-69fe-4816-93e8-b4662ee2b6be",
+          "organisation": "DeepDive Research",
+          "role": "CEO and Co-Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "a5035fe8-4f68-4028-954c-3d77c7ef028d",
+          "post_id": "b25d3f0d-69fe-4816-93e8-b4662ee2b6be",
+          "organisation": "iRangers International Inc.",
+          "role": "CEO and Co-Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "cfec453e-0e14-4d72-9be7-76a9e750b89e",
+          "post_id": "b25d3f0d-69fe-4816-93e8-b4662ee2b6be",
+          "organisation": "CAT Labs",
+          "role": "Head of Technology",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "6bdc9642-302d-4f9d-91fc-dd0727639ec1",
+          "post_id": "b25d3f0d-69fe-4816-93e8-b4662ee2b6be",
+          "organisation": "Compugen",
+          "role": "Senior Solutions Architect",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "176d01f7-861c-4fb8-9de9-a54b9fab97d4",
+          "post_id": "b25d3f0d-69fe-4816-93e8-b4662ee2b6be",
+          "organisation": "Microsoft",
+          "role": "Public Speaker on Business and Technology",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/mishahanin"
+        },
+        {
+          "label": "Website",
+          "href": "https://31c.io/"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Deep tech",
+        "AI"
+      ]
+    },
+    {
+      "id": "christian-kunz",
+      "name": "Christian Kunz",
+      "slug": "christian-kunz",
+      "brandColor": "#D4A017",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/cd530e05-c41f-4508-81f4-4b7665e24804/portrait-mw29s7rg-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/cd530e05-c41f-4508-81f4-4b7665e24804/portrait-mw29s7rg.webp",
+      "role": "Co-founder",
+      "company": "Prop-AI",
+      "companySlug": "prop-ai",
+      "companyLetter": "P",
+      "companyTint": "#D4A017",
+      "companyMarkSvg": null,
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
+      "sector": "Proptech",
+      "hook": "Former McKinsey associate partner and DIFC strategy chief who co-founded real-estate AI startup Prop-AI",
+      "bio": "Former McKinsey associate partner and DIFC strategy chief who co-founded real-estate AI startup Prop-AI",
+      "body": [
+        {
+          "text": "This funding marks a key milestone in our journey to build the most trusted AI infrastructure for real estate,",
+          "type": "quote"
+        },
+        {
+          "text": "Christian Kunz studied at Technische Universität Darmstadt from 2004 to 2010, earning an MSc in business administration and computer science. He started out as an assistant brand manager at Procter & Gamble before joining McKinsey, where he became an associate partner in McKinsey Digital and, by his account, led fintech and digital business building work in the Middle East. He also completed executive programmes in technology leadership at Carnegie Mellon's Tepper School of Business in 2014 and in creative transformation at MIT Sloan in 2023. From 2020 to 2024 he was DIFC's chief strategy, innovation and ventures officer. In 2023 he co-founded Prop-AI with Ranime El-Skaff. The company runs an AI-powered platform for searching, evaluating and presenting property. It closed a $1.5 million pre-seed round led by Plus VC, with other investors also taking part.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "Technische Universität Darmstadt",
+        "course": "MSc Business Administration and Computer Science",
+        "year": "2010"
+      },
+      "educations": [
+        {
+          "id": "d6a1775c-d9a7-459e-9bea-fcec758169ad",
+          "post_id": "7c68f960-6916-473c-b64c-8f14f50ab641",
+          "university_id": 125,
+          "level": "masters",
+          "course": "MSc Business Administration and Computer Science",
+          "start_year": 2004,
+          "end_year": 2010,
+          "sort": 0,
+          "degree": "MSc Business Administration and Computer Science",
+          "universitySlug": "technische-universitat-darmstadt",
+          "university": "Technische Universität Darmstadt"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder, Prop-AI",
+          "2023 to present"
+        ],
+        [
+          "Chief Strategy, Innovation and Ventures Officer, DIFC",
+          ""
+        ],
+        [
+          "Associate Partner, McKinsey Digital",
+          ""
+        ],
+        [
+          "Assistant Brand Manager, Procter & Gamble",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "ed053e37-1659-46af-a1ec-b8a49d11e5a5",
+          "post_id": "7c68f960-6916-473c-b64c-8f14f50ab641",
+          "organisation": "Prop-AI",
+          "role": "Co-founder",
+          "start_year": 2023,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "0ee677ce-f727-47b2-b891-203bb72a2722",
+          "post_id": "7c68f960-6916-473c-b64c-8f14f50ab641",
+          "organisation": "DIFC",
+          "role": "Chief Strategy, Innovation and Ventures Officer",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "3966eca1-f69d-4c48-a2f0-d60d69803fcb",
+          "post_id": "7c68f960-6916-473c-b64c-8f14f50ab641",
+          "organisation": "McKinsey Digital",
+          "role": "Associate Partner",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "cdee5274-33ef-436d-8a8d-38163377c93d",
+          "post_id": "7c68f960-6916-473c-b64c-8f14f50ab641",
+          "organisation": "Procter & Gamble",
+          "role": "Assistant Brand Manager",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/ckunz"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Proptech",
+        "AI"
+      ]
+    },
+    {
+      "id": "abdulrahman-al-hammadi",
+      "name": "Abdulrahman Al-Hammadi",
+      "slug": "abdulrahman-al-hammadi",
+      "brandColor": "#3A7BD5",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g46.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/3ab6293d-abde-4b34-a47a-4af7c8facdfd/portrait-mvaw5maq-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/3ab6293d-abde-4b34-a47a-4af7c8facdfd/portrait-mvaw5maq.webp",
+      "role": "Founder and Chairman",
+      "company": "Krti",
+      "companySlug": "krti",
+      "companyLetter": "K",
+      "companyTint": "#3A7BD5",
+      "companyMarkSvg": null,
+      "country": "Kuwait",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/kuwait.svg",
+      "countryColour": "#1F8A8A",
+      "sector": "Fintech",
+      "hook": "Went from engineering work at Kuwait Airways to founding Kuwaiti payments startup Krti",
+      "bio": "Went from engineering work at Kuwait Airways to founding Kuwaiti payments startup Krti",
+      "body": [
+        {
+          "text": "$29",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "Air Service Training",
+        "course": "",
+        "year": "2002"
+      },
+      "educations": [
+        {
+          "id": "5ea930d1-7e22-4bb7-a651-11a3cd2844d7",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "university_id": 137,
+          "level": "other",
+          "course": null,
+          "start_year": 1999,
+          "end_year": 2002,
+          "sort": 0,
+          "degree": null,
+          "universitySlug": "air-service-training",
+          "university": "Air Service Training"
+        },
+        {
+          "id": "6fe7eb26-c218-41c1-835f-9f8a97ae1dc9",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "university_id": 138,
+          "level": "other",
+          "course": "Fintech",
+          "start_year": 2019,
+          "end_year": 2019,
+          "sort": 1,
+          "degree": "Fintech",
+          "universitySlug": "georgetown-university",
+          "university": "Georgetown University"
+        },
+        {
+          "id": "529f2e91-7a4a-4c4c-8987-27735bf5c075",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "university_id": 111,
+          "level": "other",
+          "course": "Private Equity and Venture Capital, Saïd Business School",
+          "start_year": 2025,
+          "end_year": 2025,
+          "sort": 2,
+          "degree": "Private Equity and Venture Capital, Saïd Business School",
+          "universitySlug": "university-of-oxford",
+          "university": "University of Oxford"
+        }
+      ],
+      "career": [
+        [
+          "Founder and Chairman, Krti",
+          "2022 to present"
+        ],
+        [
+          "Founder and General Manager, Makaniz Almal",
+          ""
+        ],
+        [
+          "Vice President, Optimal Solution Training",
+          ""
+        ],
+        [
+          "Director of Business Development, Engineering and consulting firm",
+          ""
+        ],
+        [
+          "Engineering Assistant, Non-Destructive Testing Department, Kuwait Airways",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "45849bf2-7fd8-4cfc-9f7e-96ae83a37b51",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "organisation": "Krti",
+          "role": "Founder and Chairman",
+          "start_year": 2022,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "ea69ddb3-0259-4223-9b47-c80c3af7a2a8",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "organisation": "Makaniz Almal",
+          "role": "Founder and General Manager",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "cb2221df-eafe-4735-b5ea-26cd274e3a8d",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "organisation": "Optimal Solution Training",
+          "role": "Vice President",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "8b4bfb6f-2b7b-4836-8c6f-fbaf75bf58dc",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "organisation": "Engineering and consulting firm",
+          "role": "Director of Business Development",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "b48c8bcb-27db-4e7c-a708-f5bd1ab7f55c",
+          "post_id": "b700c506-3d70-4d10-900f-33dcb5b6b899",
+          "organisation": "Kuwait Airways",
+          "role": "Engineering Assistant, Non-Destructive Testing Department",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/abdulrahman-al-hammadi"
+        }
+      ],
+      "tags": [
+        "Kuwait",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "khalifa-saleh-al-haroon",
+      "name": "Khalifa Saleh Al Haroon",
+      "slug": "khalifa-saleh-al-haroon",
+      "brandColor": "#B03A2E",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/66387f73-9dd2-43fe-96ea-e095855d8154/portrait-mv86jhlo-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/66387f73-9dd2-43fe-96ea-e095855d8154/portrait-mv86jhlo.webp",
+      "role": "Founder",
+      "company": "PayLater",
+      "companySlug": "paylater",
+      "companyLetter": "P",
+      "companyTint": "#B03A2E",
+      "companyMarkSvg": null,
+      "country": "Qatar",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/qatar.svg",
+      "countryColour": "#8A1538",
+      "sector": "Fintech",
+      "hook": "Former Vodafone strategy head now building PayLater, a Sharia-compliant instalment-payment fintech in Qatar",
+      "bio": "Former Vodafone strategy head now building PayLater, a Sharia-compliant instalment-payment fintech in Qatar",
+      "body": [
+        {
+          "text": "On a mission to make the world a better place.",
+          "type": "quote"
+        },
+        {
+          "text": "Khalifa Saleh Al Haroon took the IB Diploma at Bayan and went on to earn law degrees from Anglia Ruskin University and the University of Essex. In 2008 he founded two ventures, Haroon United Group in August and I Love Qatar in October. He worked as an analyst at QNB Group and at Vodafone, where he was head of online and corporate strategy and head of interactive and innovation. He also ran marketing and communications at the Asian Football Confederation and at the Qatar Stars League, where he was executive director. With Mohammed Al-Delaimi he founded PayLater, a Sharia-compliant buy now, pay later company. Coverage in January 2026 described it as Qatar's first BNPL platform licensed by the Qatar Central Bank and reported a $10 million seed round. The same coverage said PayLater had passed 80,000 customers and more than $82 million in instalment transactions in its first year of operations.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "Anglia Ruskin University",
+        "course": "LLB Law",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "08b6212f-9a56-495e-a8ff-0472fd049ee1",
+          "post_id": "91231585-8b6f-45e6-bee4-1259a38632af",
+          "university_id": 127,
+          "level": "undergraduate",
+          "course": "LLB Law",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "LLB Law",
+          "universitySlug": "anglia-ruskin-university",
+          "university": "Anglia Ruskin University"
+        },
+        {
+          "id": "0ddc30eb-2ad1-4379-847c-63d87487f748",
+          "post_id": "91231585-8b6f-45e6-bee4-1259a38632af",
+          "university_id": 128,
+          "level": "undergraduate",
+          "course": "LLB Law",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "LLB Law",
+          "universitySlug": "university-of-essex",
+          "university": "University of Essex"
+        }
+      ],
+      "career": [
+        [
+          "Founder, PayLater",
+          ""
+        ],
+        [
+          "Executive Director of Marketing & Communications, Qatar Stars League",
+          ""
+        ],
+        [
+          "Director of Marketing and Communications, Asian Football Confederation",
+          ""
+        ],
+        [
+          "Head of Interactive & Innovation and Head of Online and Corporate Strategy, Vodafone",
+          ""
+        ],
+        [
+          "Analyst DCM, QNB Group",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "842f92f2-2c0e-4365-98e8-b1f7687153b0",
+          "post_id": "91231585-8b6f-45e6-bee4-1259a38632af",
+          "organisation": "PayLater",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "af376e21-5faa-4980-846b-b304edf0d23a",
+          "post_id": "91231585-8b6f-45e6-bee4-1259a38632af",
+          "organisation": "Qatar Stars League",
+          "role": "Executive Director of Marketing & Communications",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "ba979db1-f67a-41be-940a-aa766736bc6b",
+          "post_id": "91231585-8b6f-45e6-bee4-1259a38632af",
+          "organisation": "Asian Football Confederation",
+          "role": "Director of Marketing and Communications",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "3b6d63b8-4fe8-4ef3-9668-81e90d254f8d",
+          "post_id": "91231585-8b6f-45e6-bee4-1259a38632af",
+          "organisation": "Vodafone",
+          "role": "Head of Interactive & Innovation and Head of Online and Corporate Strategy",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "6cb9ec41-b3d3-4c7c-aa8e-14437b046477",
+          "post_id": "91231585-8b6f-45e6-bee4-1259a38632af",
+          "organisation": "QNB Group",
+          "role": "Analyst DCM",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/khalifaharoon"
+        }
+      ],
+      "tags": [
+        "Qatar",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "saed-khawaldeh",
+      "name": "Saed Khawaldeh",
+      "slug": "saed-khawaldeh",
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/d2cc3463-dc31-4b32-98c9-735e15ca9a13/portrait-mw29s7s8-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/d2cc3463-dc31-4b32-98c9-735e15ca9a13/portrait-mw29s7s8.webp",
+      "role": "Co-founder",
+      "company": "DESAISIV",
+      "companySlug": "desaisiv",
+      "companyLetter": "D",
+      "companyTint": "#7D3C98",
+      "companyMarkSvg": null,
+      "country": "Jordan",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/jordan.svg",
+      "countryColour": "#B8503A",
+      "sector": "Fintech",
+      "hook": "Biomedical engineer with an Oxford research background applying AI to corporate health insurance",
+      "bio": "Biomedical engineer with an Oxford research background applying AI to corporate health insurance",
+      "body": [
+        {
+          "text": "Redefining Corporate Health Insurance.",
+          "type": "quote"
+        },
+        {
+          "text": "Saed Khawaldeh's research interests span neuroscience, neurotechnology, biomedical engineering and machine learning. He joined Oxford in January 2018 to work on a master's thesis, earned a master's in biomedical engineering that September and then began a DPhil in clinical neurosciences. He founded Intelligence Analytica, which he led as CEO, and lists earlier posts as director of business development at the NHS and director of machine learning at Microsoft. In January 2022 he co-founded DESAISIV, which builds software that uses AI and automation for insurance work such as claims analysis, underwriting and pricing, with a focus on corporate health insurance. The company is headquartered in Jordan and says it has offices in Saudi Arabia, the UAE and Jordan. It reports more than 20 insurance partners, more than 10 products and more than 600 corporate clients served through TameenLink, though it gives no dates for these figures.",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder, DESAISIV",
+          "2022 to present"
+        ],
+        [
+          "Founder & CEO, Intelligence Analytica",
+          ""
+        ],
+        [
+          "Director of Business Development, NHS",
+          ""
+        ],
+        [
+          "Director of Machine Learning, Microsoft",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "5894e9ca-16d4-43e8-8210-69d5bf26f904",
+          "post_id": "4a338be9-b058-4843-9f3a-fe5d337fbe84",
+          "organisation": "DESAISIV",
+          "role": "Co-founder",
+          "start_year": 2022,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "0711f2bf-0981-47fa-a78f-f8f8ebc6aa44",
+          "post_id": "4a338be9-b058-4843-9f3a-fe5d337fbe84",
+          "organisation": "Intelligence Analytica",
+          "role": "Founder & CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "d6285b41-6bd8-4a76-9bd6-d49a4ed84952",
+          "post_id": "4a338be9-b058-4843-9f3a-fe5d337fbe84",
+          "organisation": "NHS",
+          "role": "Director of Business Development",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "4cc1bb30-ecf5-465b-875d-7c4f41f24f12",
+          "post_id": "4a338be9-b058-4843-9f3a-fe5d337fbe84",
+          "organisation": "Microsoft",
+          "role": "Director of Machine Learning",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/khawaldehsaed92"
+        },
+        {
+          "label": "X",
+          "href": "https://x.com/KhawaldehSaed92"
+        },
+        {
+          "label": "Website",
+          "href": "https://desaisiv.com/"
+        }
+      ],
+      "tags": [
+        "Jordan",
+        "Fintech",
+        "Healthcare"
+      ]
+    },
+    {
+      "id": "aankush-bhatia",
+      "name": "Aankush Bhatia",
+      "slug": "aankush-bhatia",
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/0c0ffc86-0b9c-49cf-8c1c-e3e089b2e76a/portrait-mv8bhhrp-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/0c0ffc86-0b9c-49cf-8c1c-e3e089b2e76a/portrait-mv8bhhrp.webp",
+      "role": "Founder and CEO",
+      "company": "KitchenomiKs",
+      "companySlug": "kitchenomiks",
+      "companyLetter": "K",
+      "companyTint": "#7D3C98",
+      "companyMarkSvg": null,
+      "country": "Oman",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/oman.svg",
+      "countryColour": "#B0652A",
+      "sector": "Food & hospitality",
+      "hook": "Hospitality operator of 25 years who built a cloud-kitchen platform in Oman",
+      "bio": "Hospitality operator of 25 years who built a cloud-kitchen platform in Oman",
+      "body": [
+        {
+          "text": "KitchenomiKs is my answer.",
+          "type": "quote"
+        },
+        {
+          "text": "Aankush Bhatia has spent, by his account, 25 years in food, hospitality and the experience economy, working across India and Oman and on more than 200 restaurants and outlets. His earlier experience included Ohri's Group, Essel World & Water Kingdom, Megabowl and Kingdom of Dreams, and he was general manager at Zouk and the BLS Visa Centre in Muscat. He went on to found Privé in Muscat. He is now founder and CEO of KitchenomiKs, which he describes as an Oman-born, technology-led hybrid food platform that runs its own food brands and supports other operators. The company's website says it was founded in October 2021. Bhatia says the operation includes a 30,000-square-foot flagship kitchen and six satellite kitchens, has served more than one million meals, and has raised and deployed $6.7 million over four years.",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Founder and CEO, KitchenomiKs",
+          ""
+        ],
+        [
+          "Founder, Privé Muscat",
+          ""
+        ],
+        [
+          "General Manager, Zouk & BLS Visa Centre Muscat",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "974abc5e-67f2-45aa-9597-a92016fad925",
+          "post_id": "604ec091-8a18-48de-bd1d-d73e8f7b6d22",
+          "organisation": "KitchenomiKs",
+          "role": "Founder and CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "7a813594-3a48-44ed-8cbe-0a6dd808f3ee",
+          "post_id": "604ec091-8a18-48de-bd1d-d73e8f7b6d22",
+          "organisation": "Privé Muscat",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "93a17314-613f-4644-98d2-cab4a0d0635a",
+          "post_id": "604ec091-8a18-48de-bd1d-d73e8f7b6d22",
+          "organisation": "Zouk & BLS Visa Centre Muscat",
+          "role": "General Manager",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/ankushbhatia"
+        },
+        {
+          "label": "Website",
+          "href": "https://kitchenomiks.com/"
+        }
+      ],
+      "tags": [
+        "Oman",
+        "Food & hospitality"
+      ]
+    },
+    {
+      "id": "saad-ahmed",
+      "name": "Saad Ahmed",
+      "slug": "saad-ahmed",
+      "brandColor": "#B03A2E",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/0ed88ba0-f000-4dc5-b63e-428265d8ffa3/portrait-mw288pai-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/0ed88ba0-f000-4dc5-b63e-428265d8ffa3/portrait-mw288pai.webp",
+      "role": "Founder and CEO",
+      "company": "Local",
+      "companySlug": "local",
+      "companyLetter": "L",
+      "companyTint": "#B03A2E",
+      "companyMarkSvg": null,
+      "country": "Bahrain",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/bahrain.svg",
+      "countryColour": "#C94860",
+      "sector": "Fintech",
+      "hook": "Building QR-based payments for restaurants, hotels and healthcare providers across the GCC",
+      "bio": "Building QR-based payments for restaurants, hotels and healthcare providers across the GCC",
+      "body": [
+        {
+          "text": "I’m building Local because payments in the GCC are slower than they should be.",
+          "type": "quote"
+        },
+        {
+          "text": "Saad Ahmed has spent his career on one problem: how money moves between businesses and the people they serve. Raised in Bahrain, he studied business, management and marketing at the New York Institute of Technology, then worked at Red Bull and FP7 McCann before leading projects across MENA at PwC. He left to found Retroban Middle East, growing it from 10 people to more than 40, and then RBW Fintech Services, where he built BWallet, Bahrain's first peer-to-peer digital wallet, working with regulators, banks, telecom operators and merchants. BWallet became the largest P2P digital wallet in Bahrain and Oman, signing more than 6,000 merchants and serving 100,000 customers in four years before he exited. Along the way he founded LocalBH Media Group (LocalBH, LocalRYDH, LocalDubai and more), a digital media network now reaching tens of millions of people a month across eight cities in Bahrain, Saudi Arabia and the UAE.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Local brings it all together. In restaurants, hotels and hospitals, paying is never a single moment. It is a chain of checkpoints: waiting for the bill, waiting for a card machine, queueing at a cashier, splitting, tipping, reconciling. Each one costs the customer time and the business revenue. Local collapses that chain into one flow on the customer's own phone: scan, see what you owe, pay in seconds, with no app, no terminal and no queue. Because it plugs straight into the systems merchants already run, Local sits at the centre of the business rather than at its edge, opening the door to lending, loyalty and customer data that a card machine never could.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Launched in June 2025, Local signed more than 250 merchants in its first year and operates across the UAE and Bahrain, with Saudi Arabia launching next. Merchants see higher order values, and staff take home more in tips because Local charges no fees on them. It started in restaurants, where the pain is most visible, and has already built a working prototype for hospital queues, billing and patient flow. Local has raised close to USD 3M at seed from 500 Global Sanabil, 21VC and VentureSouq.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "New York Institute of Technology",
+        "course": "BS Business, Management and Marketing",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "861892f3-e73b-45a6-a233-129825938e52",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "university_id": 132,
+          "level": "undergraduate",
+          "course": "BS Business, Management and Marketing",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "BS Business, Management and Marketing",
+          "universitySlug": "new-york-institute-of-technology",
+          "university": "New York Institute of Technology"
+        }
+      ],
+      "career": [
+        [
+          "Founder & CEO, Local",
+          ""
+        ],
+        [
+          "Founder & CEO, LocalBH Media Group (LocalBH, LocalRYDH, LocalDubai etc.)",
+          ""
+        ],
+        [
+          "Founder & CEO, RBW Fintech Services (BWallet, Bahrain and Oman's largest P2P digital wallet)",
+          ""
+        ],
+        [
+          "Founder, Retroban Middle East",
+          ""
+        ],
+        [
+          "MENA Project Leader, PwC",
+          ""
+        ],
+        [
+          "Client Services Executive, FP7 McCann",
+          ""
+        ],
+        [
+          "Red Bull",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "37a108a7-ce97-4ab0-8dd4-09d41c590fdd",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "organisation": "Local",
+          "role": "Founder & CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "46ce985d-8a4e-4bf2-b1a6-5ce6ed8fa924",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "organisation": "LocalBH Media Group (LocalBH, LocalRYDH, LocalDubai etc.)",
+          "role": "Founder & CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "dc915b20-d69d-431c-971f-680767272cab",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "organisation": "RBW Fintech Services (BWallet, Bahrain and Oman's largest P2P digital wallet)",
+          "role": "Founder & CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "d4b1b649-e5d8-478c-85fe-e30448202afa",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "organisation": "Retroban Middle East",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "081f8d11-7933-4bcd-84fa-c7e1b54aed43",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "organisation": "PwC",
+          "role": "MENA Project Leader",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "eade1442-57d5-4194-b2c3-b508dca963c0",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "organisation": "FP7 McCann",
+          "role": "Client Services Executive",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "7742e26a-58e5-4560-b4c7-f586e6a9ae17",
+          "post_id": "bb7a0c0c-99b5-4c77-85fb-d12805733d19",
+          "organisation": "Red Bull",
+          "role": "",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/saadahmed78/"
+        }
+      ],
+      "tags": [
+        "Bahrain",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "alexander-pinheiro-liakos",
+      "name": "Alexander Pinheiro Liakos",
+      "slug": "alexander-pinheiro-liakos",
+      "brandColor": "#E67E22",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/6a16f58f-a3ab-4b2d-a56b-ad4790555b3b/portrait-mvaw5r8s-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/6a16f58f-a3ab-4b2d-a56b-ad4790555b3b/portrait-mvaw5r8s.webp",
+      "role": "Co-founder and CEO",
+      "company": "Mifta",
+      "companySlug": "mifta",
+      "companyLetter": "M",
+      "companyTint": "#E67E22",
+      "companyMarkSvg": null,
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
+      "sector": "Proptech",
+      "hook": "Former venture capitalist and Antler founder co-building Mifta, an AI rental brokerage in Dubai",
+      "bio": "Former venture capitalist and Antler founder co-building Mifta, an AI rental brokerage in Dubai",
+      "body": [
+        {
+          "text": "Alexander Pinheiro Liakos is co-founder and CEO of Mifta, an AI-powered rental brokerage in Dubai, and was named one of MENA's Founding 30 for 2026. He began his career as one of the first hires at ThreeWire, a clinical-trial recruitment company later acquired by WIRB-Copernicus Group, then moved into venture capital, investing in early-stage US-based technology companies. He later founded a hospitality real estate venture in Mykonos, Greece, before joining Antler's founder program in Dubai, where Mifta was born. Today he is rebuilding how people rent homes, bringing search, viewings, negotiation, paperwork and payment into one seamless digital journey.",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder and CEO, Mifta",
+          ""
+        ],
+        [
+          "Founder, J.H. Juvenal Hospitality Real Estate Ltd.",
+          ""
+        ],
+        [
+          "Venture Founder, Antler",
+          ""
+        ],
+        [
+          "Venture Capitalist, Letters Capital Ltd",
+          ""
+        ],
+        [
+          "Venture Capitalist, Alrai Capital",
+          ""
+        ],
+        [
+          "Business Advisor, CROèe Global",
+          ""
+        ],
+        [
+          "Head of Operations, WCG ThreeWire",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "dd1f67be-6ac5-47b9-8633-5df99e916d9c",
+          "post_id": "d46cd7c5-62a7-4d96-98f1-fb798a2e9381",
+          "organisation": "Mifta",
+          "role": "Co-founder and CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "dad1f842-bdba-4be0-9dfb-9aa77060e4bd",
+          "post_id": "d46cd7c5-62a7-4d96-98f1-fb798a2e9381",
+          "organisation": "J.H. Juvenal Hospitality Real Estate Ltd.",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "576f3363-bb17-4414-95d4-187da9cfac21",
+          "post_id": "d46cd7c5-62a7-4d96-98f1-fb798a2e9381",
+          "organisation": "Antler",
+          "role": "Venture Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "483e55a0-9faf-4f5b-8bfe-7fb6db1b0cea",
+          "post_id": "d46cd7c5-62a7-4d96-98f1-fb798a2e9381",
+          "organisation": "Letters Capital Ltd",
+          "role": "Venture Capitalist",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "8df8df05-7f8c-442e-a0b2-d99f65305344",
+          "post_id": "d46cd7c5-62a7-4d96-98f1-fb798a2e9381",
+          "organisation": "Alrai Capital",
+          "role": "Venture Capitalist",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "d3a5d4f0-cebb-4408-975b-6749db4d2fdd",
+          "post_id": "d46cd7c5-62a7-4d96-98f1-fb798a2e9381",
+          "organisation": "CROèe Global",
+          "role": "Business Advisor",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        },
+        {
+          "id": "5dcf774c-bcfa-4ddb-96d9-a2833a56880d",
+          "post_id": "d46cd7c5-62a7-4d96-98f1-fb798a2e9381",
+          "organisation": "WCG ThreeWire",
+          "role": "Head of Operations",
+          "start_year": null,
+          "end_year": null,
+          "sort": 6
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/alex-liakos/"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.mifta.co/"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Proptech",
+        "AI"
+      ]
+    },
+    {
+      "id": "daniel-alimov",
+      "name": "Daniel Alimov",
+      "slug": "daniel-alimov",
+      "brandColor": "#D35400",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g50.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/6326507d-16fe-4c76-b0b2-fbd4bf022202/portrait-mvscwoov-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/6326507d-16fe-4c76-b0b2-fbd4bf022202/portrait-mvscwoov.webp",
+      "role": "Co-founder and CEO",
+      "company": "Retailhub",
+      "companySlug": "retailhub",
+      "companyLetter": "R",
+      "companyTint": "#D35400",
+      "companyMarkSvg": null,
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
+      "sector": "Retail",
+      "hook": "Built a grocery delivery startup acquired by X5, now turning shelf photos into retail decisions",
+      "bio": "Built a grocery delivery startup acquired by X5, now turning shelf photos into retail decisions",
+      "body": [
+        {
+          "text": "We've built a grocery delivery service from scratch in Russia. For 2 years (starting 2017), we were scaling it ourselves",
+          "type": "quote"
+        },
+        {
+          "text": "Daniel Alimov is the co-founder and CEO of Retailhub, the Dubai-based company bringing AI to grocery retail. Retailhub helps retailers, FMCG brands and aggregators fix product availability and out-of-stock problems, a $1 trillion-a-year drain on the industry. It works in partnership with Talabat, the region's largest delivery platform and part of the Delivery Hero group, and is scaling fast across the GCC.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Already operating in five markets, the platform processes hundreds of thousands of shelf images a day. In live stores the impact shows within months: orders with out-of-stock items drop two to three times while active online assortment grows. Retailhub is backed by Oraseya Capital, 21 Ventures, the former CEOs of Talabat and Majid Al Futtaim Carrefour, Hub71, Google AI and others.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Daniel is a serial founder with an exit behind him. In Kazan he built Dostavushka, a grocery delivery service, into the city's number-one e-grocery player within five months, then sold it to X5 Group, the retailer behind Pyaterochka and Perekrestok. He joined X5 as head of new business development to roll grocery delivery out nationally, a business that now processes around $1.5 billion in annual GMV. He moved to the UAE in 2021 and built Retailhub to solve the problems he faced daily at Dostavushka and X5.",
+          "type": "paragraph"
+        },
+        {
+          "text": "He trained in law, with a bachelor's degree from the University of London and a master's in international law, and was head of legal at a major infrastructure engineering firm by 22.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "University of London",
+        "course": "Bachelor's, Law",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "7a993927-525b-42c6-be4a-3fbe22daed1f",
+          "post_id": "97941a14-a7dd-4c38-99ea-7a1b72f890ca",
+          "university_id": 133,
+          "level": "undergraduate",
+          "course": "Bachelor's, Law",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "Bachelor's, Law",
+          "universitySlug": "university-of-london",
+          "university": "University of London"
+        },
+        {
+          "id": "56373074-3168-41ac-a5e0-5499a9b25871",
+          "post_id": "97941a14-a7dd-4c38-99ea-7a1b72f890ca",
+          "university_id": 134,
+          "level": "masters",
+          "course": "Master's, International Law",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "Master's, International Law",
+          "universitySlug": "russian-state-university-of-justice",
+          "university": "Russian State University of Justice"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder and CEO, Retailhub",
+          "2022 to present"
+        ],
+        [
+          "Co-Founder, E-Tips",
+          ""
+        ],
+        [
+          "New Business Development Head, X5 Retail Group",
+          ""
+        ],
+        [
+          "Founder, Dostavushka",
+          ""
+        ],
+        [
+          "Head of Legal, Mosgiprotrans",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "44873dd4-9c1c-4d75-af18-86ddb2a63764",
+          "post_id": "97941a14-a7dd-4c38-99ea-7a1b72f890ca",
+          "organisation": "Retailhub",
+          "role": "Co-founder and CEO",
+          "start_year": 2022,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "ebd175a2-3cb9-4258-9703-27de974a2f7f",
+          "post_id": "97941a14-a7dd-4c38-99ea-7a1b72f890ca",
+          "organisation": "E-Tips",
+          "role": "Co-Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "9017efa8-ab7a-4aa9-9b94-70c122cead4b",
+          "post_id": "97941a14-a7dd-4c38-99ea-7a1b72f890ca",
+          "organisation": "X5 Retail Group",
+          "role": "New Business Development Head",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "824af65c-0c11-4563-a753-916f017f1fd3",
+          "post_id": "97941a14-a7dd-4c38-99ea-7a1b72f890ca",
+          "organisation": "Dostavushka",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "400e9673-d1ec-4bf9-99fa-4f139d2c8b41",
+          "post_id": "97941a14-a7dd-4c38-99ea-7a1b72f890ca",
+          "organisation": "Mosgiprotrans",
+          "role": "Head of Legal",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/daniel-alimov-788137175?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACl9ApgBTmR0lwCIQUONplP054Pqqhi6B3Q&lipi=urn%3Ali%3Apage%3Acompanies_company_people_index%3B8c7e87df-58d5-4ac5-b965-705a7e7bb00e"
+        },
+        {
+          "label": "Website",
+          "href": "https://retailhub.ae/"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Retail",
+        "AI"
+      ]
+    },
+    {
+      "id": "denis-konoplev",
+      "name": "Denis Konoplev",
+      "slug": "denis-konoplev",
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/50352cd5-1ac0-4b8e-83fc-590917e29daf/portrait-mw29s7n6-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/50352cd5-1ac0-4b8e-83fc-590917e29daf/portrait-mw29s7n6.webp",
+      "role": "Co-founder and CEO",
+      "company": "RSA XB",
+      "companySlug": "rsa-xb",
+      "companyLetter": "R",
+      "companyTint": "#7D3C98",
+      "companyMarkSvg": null,
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
+      "sector": "Logistics",
+      "hook": "Seafood Souq co-founder now running RSA XB, a software-first cross-border logistics spin-out",
+      "bio": "Seafood Souq co-founder now running RSA XB, a software-first cross-border logistics spin-out",
+      "body": [
+        {
+          "text": "India is one of the fastest-growing e-commerce markets in the world, and its logistics sector is going through a major shift - service providers are getting more sophisticated, building their own end-to-end networks, and going after the global market.",
+          "type": "quote"
+        },
+        {
+          "text": "Denis Konoplev studied international business at Grenoble Ecole de Management and took an MSc in management of information systems and digital innovation at the London School of Economics. He co-founded Disperse, an AI startup for construction built on computer vision. He was later co-founder, COO and head of product at Seafood Souq, and head of product at Further Ventures. At RSA Global he worked as director of product and as digital transformation manager before moving to RSA Cross Border, which he co-founded and has led as CEO since December 2025, according to his profile. RSA XB is a spin-out building software-first logistics for cross-border e-commerce, starting with routes from India to the UK, Europe and the GCC. In 2026 it announced a $1.5 million seed round, to be deployed over 18 months, and reported 10% week-over-week growth in the 12 months before the May 2026 announcement.",
+          "type": "paragraph"
+        }
+      ],
+      "university": {
+        "institution": "London School of Economics",
+        "course": "MSc Management of Information Systems and Digital Innovation",
+        "year": ""
+      },
+      "educations": [
+        {
+          "id": "098d0a17-e41f-4d97-94a8-60d53f52754b",
+          "post_id": "4a2ca9f6-ca66-4ec9-aa4d-37264161166a",
+          "university_id": 92,
+          "level": "masters",
+          "course": "MSc Management of Information Systems and Digital Innovation",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0,
+          "degree": "MSc Management of Information Systems and Digital Innovation",
+          "universitySlug": "london-school-of-economics",
+          "university": "London School of Economics"
+        },
+        {
+          "id": "7b6c08a1-5916-4e44-9cd1-a1ca9e3b97b2",
+          "post_id": "4a2ca9f6-ca66-4ec9-aa4d-37264161166a",
+          "university_id": 135,
+          "level": "undergraduate",
+          "course": "Bachelor, International Business",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1,
+          "degree": "Bachelor, International Business",
+          "universitySlug": "grenoble-ecole-de-management",
+          "university": "Grenoble Ecole de Management"
+        }
+      ],
+      "career": [
+        [
+          "Co-founder and CEO, RSA XB",
+          "2025 to present"
+        ],
+        [
+          "Head of Product, Further Ventures",
+          ""
+        ],
+        [
+          "COO, Head of Product and Co-Founder, Seafood Souq",
+          ""
+        ],
+        [
+          "Co-Founder, Disperse",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "308c36cc-f320-4971-ad34-88dfe8044325",
+          "post_id": "4a2ca9f6-ca66-4ec9-aa4d-37264161166a",
+          "organisation": "RSA XB",
+          "role": "Co-founder and CEO",
+          "start_year": 2025,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "94a7425c-0ee6-42f0-b634-e026de6b6fe2",
+          "post_id": "4a2ca9f6-ca66-4ec9-aa4d-37264161166a",
+          "organisation": "Further Ventures",
+          "role": "Head of Product",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "a80727f5-a20b-4058-bb47-9bc2d739db15",
+          "post_id": "4a2ca9f6-ca66-4ec9-aa4d-37264161166a",
+          "organisation": "Seafood Souq",
+          "role": "COO, Head of Product and Co-Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "b5821778-7206-4f0a-b12a-d72a73049ab7",
+          "post_id": "4a2ca9f6-ca66-4ec9-aa4d-37264161166a",
+          "organisation": "Disperse",
+          "role": "Co-Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/onedenisk/"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.rsaxb.com/"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Logistics"
+      ]
+    },
+    {
+      "id": "nauman-ali",
+      "name": "Nauman Ali",
+      "slug": "nauman-ali",
+      "brandColor": "#7D3C98",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/07eb1b0d-c809-4b06-b5d3-48725f06d1ba/portrait-mw29s7rx-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/07eb1b0d-c809-4b06-b5d3-48725f06d1ba/portrait-mw29s7rx.webp",
+      "role": "Co-founder and CEO",
+      "company": "Orbii",
+      "companySlug": "orbii",
+      "companyLetter": "O",
+      "companyTint": "#7D3C98",
+      "companyMarkSvg": null,
+      "country": "UAE",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/uae.svg",
+      "countryColour": "#A23206",
+      "sector": "Fintech",
+      "hook": "Computer scientist building credit infrastructure that helps lenders originate and manage SME loans",
+      "bio": "Computer scientist building credit infrastructure that helps lenders originate and manage SME loans",
+      "body": [
+        {
+          "text": "Nauman Ali is the co-founder and CEO of Orbii, an intelligent lending infrastructure company that helps financial institutions and merchant platforms in MENA launch and scale lending programs. A computer scientist with 18 years in data science and AI, Nauman built fintech platforms at Microsoft, the Bank of England and Credit Suisse before founding Orbii in 2024.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Orbii gives lenders one platform for the full SME credit journey: intake, origination, decisioning, servicing and portfolio intelligence. In September 2025 the company raised a $3.6 million seed round. In 2025, more than $350 million was processed through the platform, which handled up to 15,000 applications a week at its peak.",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder and CEO, Orbii",
+          "2024 to present"
+        ],
+        [
+          "Microsoft",
+          ""
+        ],
+        [
+          "Bank of England",
+          ""
+        ],
+        [
+          "Credit Suisse",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "6646cfa5-500f-40fb-b733-af2ca8b9fd4d",
+          "post_id": "6552339f-c197-4c96-be16-dc75dced2a0c",
+          "organisation": "Orbii",
+          "role": "Co-founder and CEO",
+          "start_year": 2024,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "b3d05c5b-f1e5-4733-9f2c-504638f29bb8",
+          "post_id": "6552339f-c197-4c96-be16-dc75dced2a0c",
+          "organisation": "Microsoft",
+          "role": "",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "6f666414-53ba-4eec-8fc1-cc30bb5b12f5",
+          "post_id": "6552339f-c197-4c96-be16-dc75dced2a0c",
+          "organisation": "Bank of England",
+          "role": "",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "df06032c-596c-4b64-972c-c206bf0f12fa",
+          "post_id": "6552339f-c197-4c96-be16-dc75dced2a0c",
+          "organisation": "Credit Suisse",
+          "role": "",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/nali1/"
+        },
+        {
+          "label": "Website",
+          "href": "https://www.orbii.ai/"
+        }
+      ],
+      "tags": [
+        "UAE",
+        "Fintech"
+      ]
+    },
+    {
+      "id": "mohammad-alsufi",
+      "name": "Mohammad Alsufi",
+      "slug": "mohammad-alsufi",
+      "brandColor": "#4E7D00",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g47.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/d2800e50-c415-4f8e-9974-b4964e44e8f0/portrait-mw29s80x-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/d2800e50-c415-4f8e-9974-b4964e44e8f0/portrait-mw29s80x.webp",
+      "role": "Co-founder",
+      "company": "Cortad",
+      "companySlug": "cortad",
+      "companyLetter": "C",
+      "companyTint": "#4E7D00",
+      "companyMarkSvg": null,
+      "country": "Jordan",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/jordan.svg",
+      "countryColour": "#B8503A",
+      "sector": "AI",
+      "hook": "Sold AI learning platform NoNerds to JoAcademy, now co-founding Cortad, intelligence infrastructure for AI agents",
+      "bio": "Sold AI learning platform NoNerds to JoAcademy, now co-founding Cortad, intelligence infrastructure for AI agents",
+      "body": [
+        {
+          "text": "AI is becoming a new cognitive layer for humanity: infrastructure that reshapes how we think, learn, build, and make decisions.",
+          "type": "quote"
+        },
+        {
+          "text": "$2a",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder, Cortad (current)",
+          ""
+        ],
+        [
+          "Head of AI, JoAcademy",
+          ""
+        ],
+        [
+          "Founder, NoNerds (acquired)",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "062daf55-07bd-4769-8435-4021b33bc278",
+          "post_id": "9eab7dab-1d8f-46e1-aeac-ddb05164595c",
+          "organisation": "Cortad (current)",
+          "role": "Co-founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "63ff098a-3375-4672-8102-a756b004d106",
+          "post_id": "9eab7dab-1d8f-46e1-aeac-ddb05164595c",
+          "organisation": "JoAcademy",
+          "role": "Head of AI",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "f847710d-82f9-4bcf-b3cd-112576a33990",
+          "post_id": "9eab7dab-1d8f-46e1-aeac-ddb05164595c",
+          "organisation": "NoNerds (acquired)",
+          "role": "Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/mohammad-alsufi/"
+        },
+        {
+          "label": "Website",
+          "href": "https://cortad.com"
+        }
+      ],
+      "tags": [
+        "Jordan",
+        "AI"
+      ]
+    },
+    {
+      "id": "khalifa-manaa",
+      "name": "Khalifa Manaa",
+      "slug": "khalifa-manaa",
+      "brandColor": "#D35400",
+      "groundBg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/grounds/grey_g36.jpg",
+      "groundTint": "#A8401A",
+      "cutoutImg": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/07dde6bb-0ec5-46bc-873b-9f03455bdfc3/portrait-mw29s98i-cut.webp",
+      "portrait": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/uploads/ai/07dde6bb-0ec5-46bc-873b-9f03455bdfc3/portrait-mw29s98i.webp",
+      "role": "Co-founder",
+      "company": "Sampo Pricing",
+      "companySlug": "sampo-pricing",
+      "companyLetter": "S",
+      "companyTint": "#D35400",
+      "companyMarkSvg": null,
+      "country": "Oman",
+      "countryFlag": "https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/flags/oman.svg",
+      "countryColour": "#B0652A",
+      "sector": "AI",
+      "hook": "Repeat founder and startup mentor who co-founded Sampo, an Oman-born e-commerce pricing platform",
+      "bio": "Repeat founder and startup mentor who co-founded Sampo, an Oman-born e-commerce pricing platform",
+      "body": [
+        {
+          "text": "Push really doesn’t work at all. Pull does.",
+          "type": "quote"
+        },
+        {
+          "text": "Khalifa Manaa describes himself as from Finland and based in Dubai. He has been described as a product specialist, startup mentor, venture builder and occasional angel investor. He founded Shapr, where he was CEO, and before that co-founded RideHoop. He has mentored founders at Next Level and on in5 Dubai's Build your Startup with AI programme. In July 2024 he co-founded Sampo AI with Saif Al-Essai. Now trading as Sampo Pricing, the company offers competitor price monitoring, pricing recommendations and automated repricing for e-commerce retailers, with integrations including Shopify, WooCommerce, Salla and Zid. In January 2025 Sampo announced a $750,000 pre-seed round co-led by Omantel Innovation Labs and Waad VC, with Hexnture and Saudi angel investors taking part; the company called it the largest pre-seed investment in Oman. At the time it reported a database of more than 10 million regional products, and its website cites an average 22% rise in customer margins.",
+          "type": "paragraph"
+        }
+      ],
+      "university": null,
+      "educations": [],
+      "career": [
+        [
+          "Co-founder, Sampo Pricing",
+          "2024 to present"
+        ],
+        [
+          "Founder & CEO, Shapr",
+          ""
+        ],
+        [
+          "Co-Founder, RideHoop",
+          ""
+        ],
+        [
+          "Startup Mentor, in5 Dubai",
+          ""
+        ],
+        [
+          "Startup Mentor, Next Level",
+          ""
+        ],
+        [
+          "Advisor, Savimbo",
+          ""
+        ]
+      ],
+      "careerRows": [
+        {
+          "id": "d678dd84-89b7-48df-b061-b5fd080ba873",
+          "post_id": "cb59a744-117b-41ad-a7e1-597a992390cc",
+          "organisation": "Sampo Pricing",
+          "role": "Co-founder",
+          "start_year": 2024,
+          "end_year": null,
+          "sort": 0
+        },
+        {
+          "id": "5f46ccf5-08a1-429f-b2f8-2edbd6bc90fa",
+          "post_id": "cb59a744-117b-41ad-a7e1-597a992390cc",
+          "organisation": "Shapr",
+          "role": "Founder & CEO",
+          "start_year": null,
+          "end_year": null,
+          "sort": 1
+        },
+        {
+          "id": "ed99ff06-d3ef-4464-a1cf-115d8dd99000",
+          "post_id": "cb59a744-117b-41ad-a7e1-597a992390cc",
+          "organisation": "RideHoop",
+          "role": "Co-Founder",
+          "start_year": null,
+          "end_year": null,
+          "sort": 2
+        },
+        {
+          "id": "f122febd-8f44-4829-aede-8c44f93fc29c",
+          "post_id": "cb59a744-117b-41ad-a7e1-597a992390cc",
+          "organisation": "in5 Dubai",
+          "role": "Startup Mentor",
+          "start_year": null,
+          "end_year": null,
+          "sort": 3
+        },
+        {
+          "id": "8afafb09-d193-4a3a-a140-68c474b9c0c3",
+          "post_id": "cb59a744-117b-41ad-a7e1-597a992390cc",
+          "organisation": "Next Level",
+          "role": "Startup Mentor",
+          "start_year": null,
+          "end_year": null,
+          "sort": 4
+        },
+        {
+          "id": "fcf167d9-055d-4f3c-8ba6-ab9e94ebffb0",
+          "post_id": "cb59a744-117b-41ad-a7e1-597a992390cc",
+          "organisation": "Savimbo",
+          "role": "Advisor",
+          "start_year": null,
+          "end_year": null,
+          "sort": 5
+        }
+      ],
+      "honours": [
+        {
+          "kind": "forty",
+          "title": "MENA’s Founding 30",
+          "when": "2026",
+          "awarded": "2026",
+          "season": "house",
+          "num": "$undefined"
+        }
+      ],
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/khalifamanaa"
+        },
+        {
+          "label": "X",
+          "href": "https://x.com/khalifahmanaa"
+        },
+        {
+          "label": "Website",
+          "href": "https://getsampo.com/"
+        }
+      ],
+      "tags": [
+        "Oman",
+        "AI",
+        "Retail"
+      ]
     }
   ],
   "shorts": [
