@@ -12,17 +12,23 @@ import ShortsRail from '@/components/ShortsRail';
 import CarouselsRail from '@/components/CarouselsRail';
 import ArticlesGrid from '@/components/ArticlesGrid';
 import DealsDataSection from '@/components/DealsDataSection';
-import NewsletterBanner from '@/components/NewsletterBanner';
+import Footer from '@/components/Footer';
 import StartupModal from '@/components/StartupModal';
 import FounderModal from '@/components/FounderModal';
+import ShortModal from '@/components/ShortModal';
+import CarouselModal from '@/components/CarouselModal';
+import ArticleModal from '@/components/ArticleModal';
 import StoryModal from '@/components/StoryModal';
 
 import siteData from '@/data/siteData.json';
-import { Startup, HeroStory, Founder } from '@/lib/api';
+import { Startup, HeroStory, Founder, Short, Carousel, Article } from '@/lib/api';
 
 export default function Home() {
   const [selectedStartup, setSelectedStartup] = useState<Startup | null>(null);
   const [selectedFounder, setSelectedFounder] = useState<Founder | null>(null);
+  const [selectedShort, setSelectedShort] = useState<Short | null>(null);
+  const [selectedCarousel, setSelectedCarousel] = useState<Carousel | null>(null);
+  const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
   const [selectedStory, setSelectedStory] = useState<HeroStory | null>(null);
 
   return (
@@ -67,70 +73,52 @@ export default function Home() {
 
             {/* Shorts (Vertical Video Reels) */}
             {siteData.shorts && siteData.shorts.length > 0 && (
-              <ShortsRail shorts={siteData.shorts} />
+              <ShortsRail 
+                shorts={siteData.shorts} 
+                onSelectShort={setSelectedShort}
+              />
             )}
 
             {/* Carousels (Slide Decks) */}
             {siteData.carousels && siteData.carousels.length > 0 && (
-              <CarouselsRail carousels={siteData.carousels} />
+              <CarouselsRail 
+                carousels={siteData.carousels} 
+                onSelectCarousel={setSelectedCarousel}
+              />
             )}
 
             {/* Articles Grid */}
             {siteData.articles && siteData.articles.length > 0 && (
-              <ArticlesGrid articles={siteData.articles} />
+              <ArticlesGrid 
+                articles={siteData.articles} 
+                onSelectArticle={setSelectedArticle}
+              />
             )}
 
             {/* Deals & Data Dashboard */}
             <DealsDataSection />
 
-            {/* Newsletter Banner */}
-            <NewsletterBanner />
-
-            {/* Footer Navigation & Copyright */}
-            <footer 
-              className="footer" 
-              style={{ 
-                padding: '24px var(--pad) 24px', 
-                borderTop: '1px solid rgba(255,255,255,0.08)', 
-                marginTop: '24px' 
-              }}
-            >
-              <nav className="fnav" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px 18px', marginBottom: '18px', fontSize: '13px' }}>
-                <a href="/" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Home</a>
-                <a href="#the-30" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>The 30</a>
-                <a href="#newsletter" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Newsletter</a>
-                <a href="#countries" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Cities</a>
-                <a href="#watch" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Watch</a>
-                <a href="#articles" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Articles</a>
-                <a href="#the-30" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Companies</a>
-                <a href="#the-30-founders" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Founders</a>
-                <a href="#deals" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Deals &amp; data</a>
-                <a href="#about" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>About</a>
-                <a href="#contact" style={{ color: 'rgba(255,243,224,0.75)', textDecoration: 'none' }}>Contact</a>
-              </nav>
-
-              <div className="fmeta" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', fontSize: '11.5px', color: 'rgba(255,255,255,0.4)', gap: '12px' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                  <img 
-                    src="https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/logos/logo_row.svg" 
-                    alt="Founding MENA" 
-                    style={{ height: '16px', width: 'auto', opacity: 0.8 }}
-                  />
-                  <span>© 2026 Himma Media</span>
-                </div>
-
-                <div style={{ display: 'flex', gap: '14px' }}>
-                  <a href="#privacy" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Privacy</a>
-                  <span>·</span>
-                  <a href="#terms" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Terms</a>
-                  <span>·</span>
-                  <a href="#ethics" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Ethics</a>
-                </div>
-              </div>
-            </footer>
+            {/* Authentic Footer with Newsletter Banner & Navigation */}
+            <Footer />
           </div>
         </main>
       </div>
+
+      {/* Floating Scroll to Top Button */}
+      <button
+        type="button"
+        className="totop"
+        aria-label="Back to top"
+        onClick={() => {
+          if (typeof window !== 'undefined') {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }}
+      >
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.25" strokeLinecap="butt" strokeLinejoin="miter" aria-hidden="true">
+          <path d="M12 20V4M5 11l7-7 7 7" />
+        </svg>
+      </button>
 
       {/* Interactive Modal Views */}
       <StartupModal
@@ -141,6 +129,29 @@ export default function Home() {
       <FounderModal
         founder={selectedFounder}
         onClose={() => setSelectedFounder(null)}
+      />
+
+      <ShortModal
+        short={selectedShort}
+        onClose={() => setSelectedShort(null)}
+        onSelectShort={setSelectedShort}
+        allShorts={siteData.shorts}
+        articles={siteData.articles}
+      />
+
+      <CarouselModal
+        carousel={selectedCarousel}
+        onClose={() => setSelectedCarousel(null)}
+        onSelectCarousel={setSelectedCarousel}
+        allCarousels={siteData.carousels}
+        articles={siteData.articles}
+      />
+
+      <ArticleModal
+        article={selectedArticle}
+        onClose={() => setSelectedArticle(null)}
+        onSelectArticle={setSelectedArticle}
+        allArticles={siteData.articles}
       />
 
       <StoryModal

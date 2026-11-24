@@ -5,9 +5,10 @@ import { Article } from '@/lib/api';
 
 interface ArticlesGridProps {
   articles: Article[];
+  onSelectArticle?: (article: Article) => void;
 }
 
-export default function ArticlesGrid({ articles }: ArticlesGridProps) {
+export default function ArticlesGrid({ articles, onSelectArticle }: ArticlesGridProps) {
   const railRef = useRef<HTMLDivElement>(null);
 
   const scroll = (direction: 'left' | 'right') => {
@@ -28,7 +29,9 @@ export default function ArticlesGrid({ articles }: ArticlesGridProps) {
           </span>
         </a>
         <div className="sp"></div>
-        <span className="cnt mono">Deep dive</span>
+        <span className="seeall" style={{ cursor: 'pointer', fontSize: '13px' }}>
+          See all
+        </span>
         <span className="rnav" style={{ display: 'flex', gap: '4px', marginLeft: '12px' }}>
           <button type="button" aria-label="Previous" onClick={() => scroll('left')}>
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
@@ -43,60 +46,81 @@ export default function ArticlesGrid({ articles }: ArticlesGridProps) {
         </span>
       </div>
 
-      <div className="rail" ref={railRef}>
+      <div className="rail" ref={railRef} style={{ gap: '16px' }}>
         {articles.map((art) => (
-          <a
+          <div
             key={art.id}
-            className="c in w-v"
-            href={art.href}
-            style={{
-              width: '320px',
-              height: '320px',
-              borderRadius: '14px',
-              overflow: 'hidden',
-              position: 'relative',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'flex-end',
-              padding: '18px',
-              background: '#17110c',
-              border: '1px solid rgba(255,255,255,0.1)',
-              boxShadow: '0 8px 24px rgba(0,0,0,0.5)',
-              textDecoration: 'none'
-            }}
+            onClick={() => onSelectArticle && onSelectArticle(art)}
+            className="cursor-pointer group flex flex-col flex-shrink-0"
+            style={{ width: '320px' }}
           >
-            <div className="im gr" style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
+            {/* Top Visual Container (aspect 16/10) */}
+            <div 
+              className="relative w-full rounded-t-xl overflow-hidden bg-black border-t border-x border-white/10"
+              style={{ aspectRatio: '16/10' }}
+            >
               <img
                 src={art.image}
                 alt={art.title}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                loading="lazy"
+                className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
               />
-              <div 
+
+              {/* Story Pill Badge on top-left (matching Image 1) */}
+              <span 
+                className="chip mono tg"
                 style={{
                   position: 'absolute',
-                  inset: 0,
-                  background: 'linear-gradient(to top, rgba(16,12,8,0.95) 0%, rgba(16,12,8,0.3) 50%, transparent 100%)'
+                  top: '10px',
+                  left: '10px',
+                  zIndex: 6,
+                  fontSize: '11px',
+                  fontWeight: 700,
+                  padding: '2px 8px',
+                  borderRadius: '4px',
+                  backgroundColor: 'rgba(0,0,0,0.65)',
+                  color: '#fff',
+                  backdropFilter: 'blur(4px)',
+                  border: '1px solid rgba(255,255,255,0.15)'
                 }}
-              ></div>
-            </div>
-
-            <div style={{ position: 'relative', zIndex: 1 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '8px' }}>
-                <span className="chip mono" style={{ fontSize: '10px', padding: '2px 6px', background: 'rgba(255,255,255,0.12)', color: '#fff' }}>
-                  {art.tag || 'Story'}
-                </span>
-                <span className="chip" style={{ fontSize: '10px', padding: '2px 6px' }}>
-                  {art.sector}
-                </span>
-              </div>
-              <h4 style={{ color: '#fff3e0', fontSize: '17px', fontWeight: 'bold', margin: '0 0 6px', lineHeight: 1.25 }}>
-                {art.title}
-              </h4>
-              <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: '12px' }}>
-                {art.country}
+              >
+                STORY
               </span>
             </div>
-          </a>
+
+            {/* Bottom Content Plate (matching Image 1) */}
+            <div 
+              className="p-4 rounded-b-xl border border-white/10 bg-[#17110c] flex flex-col justify-between flex-1 group-hover:border-[#f9bf43]/50 transition shadow-md"
+              style={{ minHeight: '180px' }}
+            >
+              <div>
+                <h4 
+                  className="text-base font-bold text-white group-hover:text-[#f9bf43] transition line-clamp-2 leading-snug mb-2"
+                  title={art.title}
+                >
+                  {art.title}
+                </h4>
+                <p className="text-xs text-[#f8f0e4aa] line-clamp-2 leading-relaxed mb-4">
+                  {art.description}
+                </p>
+              </div>
+
+              {/* Bottom Meta Row (Date on Left, Sector Chip with Dot on Right) */}
+              <div className="flex items-center justify-between pt-2 border-t border-white/5">
+                <span className="text-xs font-mono text-[#f8f0e473] uppercase tracking-wider">
+                  {art.date || 'NOV 2026'}
+                </span>
+
+                <span 
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[11px] font-semibold text-[#f8f0e4cc]"
+                  style={{ background: 'rgba(255,255,255,0.08)' }}
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#f9bf43]"></span>
+                  <span>{art.sector}</span>
+                </span>
+              </div>
+            </div>
+          </div>
         ))}
       </div>
     </section>

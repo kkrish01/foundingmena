@@ -85,6 +85,34 @@ body {
   .content {
     box-sizing: border-box !important;
   }
+  .appbar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 120 !important;
+    pointer-events: none !important;
+    padding: 0 0 8px !important;
+    transition: background 0.22s ease, -webkit-backdrop-filter 0.22s ease, backdrop-filter 0.22s ease !important;
+    display: block !important;
+  }
+  .appbar > * {
+    pointer-events: auto !important;
+  }
+  .appbar.stuck {
+    -webkit-backdrop-filter: blur(22px) saturate(170%) !important;
+    backdrop-filter: blur(22px) saturate(170%) !important;
+    background: linear-gradient(rgba(16, 12, 8, 0.6) 55%, rgba(16, 12, 8, 0) 100%) !important;
+    box-shadow: none !important;
+  }
+  .appbar.stuck:before {
+    content: "" !important;
+    z-index: -1 !important;
+    background: linear-gradient(rgba(16, 12, 8, 0.92) 0%, rgba(16, 12, 8, 0.6) 55%, rgba(16, 12, 8, 0) 100%) !important;
+    position: absolute !important;
+    inset: 0 !important;
+    pointer-events: none !important;
+  }
 }
 
 /* Smooth horizontal card rails */
@@ -95,7 +123,9 @@ body {
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   gap: 16px;
+  padding-top: 14px;
   padding-bottom: 20px;
+  margin-top: -12px;
 }
 .rail::-webkit-scrollbar {
   display: none;
@@ -148,4 +178,200 @@ body.modal-open {
   overflow: hidden !important;
   height: 100% !important;
 }
+
+/* Deals & Data Module Authentic Styles */
+.data-module__NYeKAW__spot {
+  padding: 0 var(--pad);
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 16px;
+  display: grid;
+}
+.data-module__NYeKAW__spot > * {
+  min-height: 330px;
+}
+@media (max-width: 900px) {
+  .data-module__NYeKAW__spot {
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--pad);
+    scrollbar-width: none;
+    gap: 12px;
+    display: flex;
+    overflow-x: auto;
+  }
+  .data-module__NYeKAW__spot::-webkit-scrollbar {
+    display: none;
+  }
+  .data-module__NYeKAW__spot > * {
+    scroll-snap-align: start;
+    flex: 0 0 min(78vw, 340px);
+    min-height: 300px;
+  }
+  .data-module__NYeKAW__spot > :first-child {
+    flex-basis: min(86vw, 420px);
+  }
+}
+
+.data-module__NYeKAW__card {
+  --pad: 28px;
+  min-width: 0;
+  padding: var(--pad);
+  color: #fff3e0;
+  background: #17110c;
+  border-radius: 16px;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(255, 243, 224, 0.12);
+  container-type: inline-size;
+}
+.data-module__NYeKAW__card > * {
+  z-index: 1;
+  position: relative;
+}
+.data-module__NYeKAW__dune {
+  box-shadow: none;
+  background: #3a1d10 url(/textures/tex-sun.webp) 50%/cover;
+}
+.data-module__NYeKAW__dune:after {
+  content: "";
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(rgba(16, 12, 8, 0.12), rgba(16, 12, 8, 0.72));
+  position: absolute;
+  inset: 0;
+}
+.data-module__NYeKAW__tag {
+  font-family: 'Fustat', var(--font-fustat), system-ui, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #f9bf43;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+  display: inline-flex;
+}
+.data-module__NYeKAW__tag i {
+  background: #f9bf43;
+  border-radius: 2px;
+  flex: none;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+.data-module__NYeKAW__v {
+  font-family: 'Bricolage Grotesque', var(--font-bricolage), var(--font-fustat), system-ui, sans-serif;
+  letter-spacing: .01em;
+  font-variant-numeric: lining-nums;
+  margin-top: 18px;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  display: block;
+}
+.data-module__NYeKAW__z_l .data-module__NYeKAW__v {
+  margin-top: 20px;
+  font-size: 68px;
+}
+.data-module__NYeKAW__z_m .data-module__NYeKAW__v {
+  font-size: 46px;
+}
+.data-module__NYeKAW__d {
+  color: #fff3e0;
+  max-width: 460px;
+  margin: 12px 0 0;
+  font-size: 16px;
+  line-height: 1.45;
+}
+.data-module__NYeKAW__up {
+  color: #9bd88a;
+  font-weight: 600;
+}
+.data-module__NYeKAW__down {
+  color: #f08a6a;
+  font-weight: 600;
+}
+.data-module__NYeKAW__row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  display: flex;
+}
+.data-module__NYeKAW__row .btn {
+  min-height: 44px;
+}
+.data-module__NYeKAW__bleedBig {
+  margin: auto calc(-1 * var(--pad)) calc(-1 * var(--pad));
+  padding-top: 18px;
+  line-height: 0;
+}
+.data-module__NYeKAW__bleed {
+  margin: auto calc(-1 * var(--pad)) calc(-1 * var(--pad) + 12px);
+  padding-top: 18px;
+  line-height: 0;
+}
+.data-module__NYeKAW__shareW {
+  margin-top: auto;
+  padding-top: 22px;
+}
+.data-module__NYeKAW__shareK {
+  color: rgba(255, 243, 224, 0.72);
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 12px;
+  display: flex;
+}
+.data-module__NYeKAW__shareK i {
+  background: #f9bf43 url(/textures/tex-sun-bar.webp) 50%/cover;
+  border-radius: 3px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+.data-module__NYeKAW__shareK em {
+  opacity: .6;
+  background: #e8d5b5 url(/textures/tex-sand.webp) 50%/cover;
+  border-radius: 3px;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  display: inline-block;
+  font-style: normal;
+}
+
+/* Authentic Totop Button */
+.totop {
+  position: fixed !important;
+  right: 18px !important;
+  bottom: 24px !important;
+  z-index: 240 !important;
+  width: 44px !important;
+  height: 44px !important;
+  background: rgba(16, 12, 8, 0.85) !important;
+  border: 1px solid rgba(255, 243, 224, 0.2) !important;
+  border-radius: 8px !important;
+  color: #fff3e0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4) !important;
+  transition: all 0.2s ease !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+.totop:hover {
+  background: #17110c !important;
+  border-color: #f9bf43 !important;
+  color: #f9bf43 !important;
+  transform: translateY(-2px) !important;
+}
+
 

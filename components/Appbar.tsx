@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 interface AppbarProps {
@@ -8,14 +8,30 @@ interface AppbarProps {
 }
 
 export default function Appbar({ onSearchClick }: AppbarProps) {
+  const [isStuck, setIsStuck] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 15) {
+        setIsStuck(true);
+      } else {
+        setIsStuck(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="appbar overhero" id="appbar">
+    <header className={`appbar overhero ${isStuck ? 'stuck' : ''}`} id="appbar">
       <div className="abrow">
         <Link className="wmk" aria-label="Founding MENA" href="/">
           <img 
             src="https://qcmmrdyvzrooardtmwmx.supabase.co/storage/v1/object/public/media/brand/logos/logo_row.svg" 
             alt="Founding MENA"
-            style={{ height: '24px', width: 'auto' }}
+            style={{ height: '26px', width: 'auto' }}
           />
         </Link>
         <div className="sp"></div>

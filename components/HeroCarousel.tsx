@@ -63,10 +63,9 @@ export default function HeroCarousel({ stories, onSelectStory }: HeroCarouselPro
         ))}
       </div>
 
-      <div className="htop">
-        <div className="hswipe">
-          <div className="hwide"></div>
-        </div>
+      <div className="htop"></div>
+      <div className="hswipe">
+        <div className="hwide"></div>
       </div>
 
       {/* Navigation Arrows positioned at bottom right */}

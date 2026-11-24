@@ -6,197 +6,201 @@ export default function DealsDataSection() {
   return (
     <section className="section" id="deals" aria-labelledby="dm-spot-h">
       <div className="sechead">
-        <a style={{ display: 'contents' }} href="#deals">
-          <h3 id="dm-spot-h">Deals & data</h3>
+        <a style={{ display: 'contents' }} href="/deals">
+          <h3 id="dm-spot-h">Deals &amp; data</h3>
           <span className="cv">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.25">
-              <path d="M9 5l7 7-7 7"></path>
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.25"
+              strokeLinecap="butt"
+              strokeLinejoin="miter"
+              aria-hidden="true"
+            >
+              <path d="M9 5l7 7-7 7" />
             </svg>
           </span>
         </a>
       </div>
 
-      <div 
-        className="data-module__NYeKAW__spot"
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-          gap: '16px',
-          marginTop: '16px'
-        }}
-      >
-        {/* Card 1: Lead Total $2.24bn with Dune Texture & Wave */}
+      <div className="data-module__NYeKAW__spot">
+        {/* Card 1: Lead Total $2.24bn with Dune Silhouette & Peaks Line */}
         <article
-          className="data-module__NYeKAW__card data-module__NYeKAW__dune data-module__NYeKAW__k_lead"
-          style={{
-            position: 'relative',
-            borderRadius: '16px',
-            padding: '28px',
-            background: '#3a1d10 url(/textures/tex-sun.webp) 50%/cover',
-            color: '#fff3e0',
-            overflow: 'hidden',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
-            minHeight: '260px',
-            boxShadow: '0 8px 30px rgba(0,0,0,0.6)'
-          }}
+          className="data-module__NYeKAW__card data-module__NYeKAW__dune data-module__NYeKAW__k_lead data-module__NYeKAW__z_l"
+          aria-label="$2.24bn raised by MENA startups from January to August, across 294 rounds, down 29% on the same months last year."
         >
-          <div style={{ position: 'relative', zIndex: 1 }}>
-            <h4 className="data-module__NYeKAW__tag" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#f9bf43', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', margin: 0 }}>
-              <i style={{ width: '8px', height: '8px', background: '#f9bf43', borderRadius: '2px', display: 'inline-block' }}></i>
-              Spotlight · Deals and data
-            </h4>
+          <h4 className="data-module__NYeKAW__tag">
+            <i aria-hidden="true" />
+            Spotlight · Deals and data
+          </h4>
 
-            <div style={{ fontSize: '42px', fontWeight: 800, color: '#fff3e0', marginTop: '12px', lineHeight: 1, fontFamily: 'Bricolage Grotesque, sans-serif' }}>
-              $2.24bn
-            </div>
+          <b className="data-module__NYeKAW__v">$2.24bn</b>
 
-            <p style={{ color: 'rgba(255,243,224,0.85)', fontSize: '13px', marginTop: '10px', lineHeight: 1.4, maxWidth: '280px' }}>
-              raised by MENA startups from January to August, across 294 rounds.{' '}
-              <span style={{ color: '#ea7648', fontWeight: 700 }}>▼ 29%</span> on last year
-            </p>
-          </div>
+          <p className="data-module__NYeKAW__d">
+            raised by MENA startups from January to August, across 294 rounds.{' '}
+            <span className="data-module__NYeKAW__down">▼ 29%</span> on last year
+          </p>
 
-          <div style={{ position: 'relative', zIndex: 1, marginTop: '20px' }}>
-            <a 
-              href="#deals" 
-              className="btn" 
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px',
-                background: '#e8862f',
-                color: '#100c08',
-                fontWeight: 700,
-                fontSize: '12px',
-                padding: '8px 14px',
-                borderRadius: '6px',
-                textDecoration: 'none'
-              }}
+          <div className="data-module__NYeKAW__row">
+            <a
+              href="/deals?period=ytd#overview"
+              className="btn"
+              aria-label="See the data: $2.24bn raised by MENA startups from January to August, across 294 rounds, down 29% on the same months last year."
             >
-              See the report →
+              See the data →
             </a>
           </div>
-        </article>
 
-        {/* Card 2: Fintech $375m with Sparkline */}
-        <article
-          className="data-module__NYeKAW__card"
-          style={{
-            position: 'relative',
-            borderRadius: '16px',
-            padding: '28px',
-            background: '#17110c',
-            color: '#fff3e0',
-            border: '1px solid rgba(255,243,224,0.12)',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
-            minHeight: '260px'
-          }}
-        >
-          <div>
-            <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#f9bf43', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', margin: 0 }}>
-              <i style={{ width: '8px', height: '8px', background: '#f9bf43', borderRadius: '2px', display: 'inline-block' }}></i>
-              Fintech · Jan to Aug
-            </h4>
-
-            <div style={{ fontSize: '38px', fontWeight: 800, color: '#fff3e0', marginTop: '12px', lineHeight: 1, fontFamily: 'Bricolage Grotesque, sans-serif' }}>
-              $375m
-            </div>
-
-            <p style={{ color: 'rgba(255,243,224,0.7)', fontSize: '13px', marginTop: '10px', lineHeight: 1.4 }}>
-              Fintech led with $375m across 61 rounds, followed by retail with $312m across 42 rounds.
-            </p>
-          </div>
-
-          <div>
-            {/* Sparkline Wave */}
-            <svg viewBox="0 0 200 40" width="100%" height="40" style={{ margin: '10px 0' }}>
-              <path
-                d="M0 35 Q30 32, 60 25 T120 18 T160 8 T200 15"
+          <div className="data-module__NYeKAW__bleedBig">
+            <svg
+              className="dm-area"
+              viewBox="0 0 600 130"
+              preserveAspectRatio="none"
+              width="100%"
+              height={130}
+              aria-hidden="true"
+            >
+              <defs>
+                <pattern id="sun_S_1_" patternUnits="userSpaceOnUse" width="600" height="130">
+                  <image href="/textures/tex-sun-bar.webp" width="600" height="130" preserveAspectRatio="none" />
+                </pattern>
+                <pattern id="sand_S_1_" patternUnits="userSpaceOnUse" width="600" height="130">
+                  <image href="/textures/tex-sand.webp" width="600" height="130" preserveAspectRatio="none" />
+                </pattern>
+                <linearGradient id="glow_S_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
+                  <stop offset="0" stopColor="#E8692F" />
+                  <stop offset=".5" stopColor="#F08F3A" />
+                  <stop offset="1" stopColor="#F9BF43" />
+                </linearGradient>
+              </defs>
+              <polyline
+                points="0.0,4.0 85.7,56.2 171.4,108.0 257.1,93.7 342.9,85.1 428.6,118.6 514.3,15.3 600.0,78.3"
                 fill="none"
-                stroke="#f9bf43"
-                strokeWidth="2.5"
+                stroke="#E8D5B5"
+                strokeOpacity={0.55}
+                strokeWidth={1.6}
+                strokeDasharray="4 4"
+                vectorEffect="non-scaling-stroke"
               />
-              <circle cx="160" cy="8" r="4" fill="#f9bf43" />
+              <path
+                d="M0,130 L0.0,46.4 L85.7,79.8 L171.4,119.2 L257.1,104.8 L342.9,61.7 L428.6,105.0 L514.3,101.6 L600.0,73.0 L600,130 Z"
+                fill="url(#sun_S_1_)"
+              />
+              <polyline
+                points="0.0,46.4 85.7,79.8 171.4,119.2 257.1,104.8 342.9,61.7 L428.6,105.0 L514.3,101.6 L600.0,73.0"
+                fill="none"
+                stroke="#F9BF43"
+                strokeWidth={2.4}
+                strokeLinejoin="round"
+                vectorEffect="non-scaling-stroke"
+              />
             </svg>
-
-            <a 
-              href="#sectors" 
-              style={{
-                color: '#fff3e0',
-                fontSize: '12px',
-                fontWeight: 600,
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '4px'
-              }}
-            >
-              The sectors →
-            </a>
           </div>
         </article>
 
-        {/* Card 3: UAE 71% with Bar Visualizer */}
+        {/* Card 2: August 2026 $375m with Sparkline */}
         <article
-          className="data-module__NYeKAW__card"
-          style={{
-            position: 'relative',
-            borderRadius: '16px',
-            padding: '28px',
-            background: '#17110c',
-            color: '#fff3e0',
-            border: '1px solid rgba(255,243,224,0.12)',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
-            minHeight: '260px'
-          }}
+          className="data-module__NYeKAW__card data-module__NYeKAW__z_m"
+          aria-label="August 2026: $375m raised across 27 rounds."
         >
-          <div>
-            <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px', color: '#f9bf43', fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.1em', margin: 0 }}>
-              <i style={{ width: '8px', height: '8px', background: '#f9bf43', borderRadius: '2px', display: 'inline-block' }}></i>
-              UAE · Jan to Aug
-            </h4>
+          <h4 className="data-module__NYeKAW__tag">
+            <i aria-hidden="true" />
+            August 2026
+          </h4>
 
-            <div style={{ fontSize: '38px', fontWeight: 800, color: '#fff3e0', marginTop: '12px', lineHeight: 1, fontFamily: 'Bricolage Grotesque, sans-serif' }}>
-              71%
-            </div>
+          <b className="data-module__NYeKAW__v">$375m</b>
 
-            <p style={{ color: 'rgba(255,243,224,0.7)', fontSize: '13px', marginTop: '10px', lineHeight: 1.4 }}>
-              71% of total regional capital went to startups in the UAE: $1.59bn of $2.24bn.
-            </p>
+          <p className="data-module__NYeKAW__d">across 27 rounds, 97% of it in the UAE.</p>
+
+          <div className="data-module__NYeKAW__row">
+            <a
+              href="/deals?month=2026-08#monthly"
+              className="btn g"
+              aria-label="The month: August 2026: $375m raised across 27 rounds."
+            >
+              The month →
+            </a>
           </div>
 
-          <div>
-            {/* Progress Segment Bar */}
-            <div style={{ height: '14px', borderRadius: '4px', overflow: 'hidden', display: 'flex', margin: '14px 0' }}>
-              <div style={{ width: '71%', background: 'linear-gradient(90deg, #f9bf43, #ea7648)' }}></div>
-              <div style={{ width: '29%', background: 'rgba(255,255,255,0.15)' }}></div>
-            </div>
+          <div className="data-module__NYeKAW__bleed">
+            <svg
+              className="dm-spark"
+              viewBox="0 0 300 70"
+              preserveAspectRatio="none"
+              width="100%"
+              height={70}
+              aria-hidden="true"
+            >
+              <polyline
+                points="0.0,3.0 27.3,24.8 54.5,30.4 81.8,24.1 109.1,25.5 136.4,11.4 163.6,43.1 190.9,36.0 218.2,31.8 245.5,26.2 272.7,23.4 300.0,36.0"
+                fill="none"
+                stroke="#F9BF43"
+                strokeWidth={1.8}
+                strokeLinejoin="round"
+                vectorEffect="non-scaling-stroke"
+              />
+            </svg>
+          </div>
+        </article>
 
-            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'rgba(255,255,255,0.5)', marginBottom: '8px' }}>
-              <span>UAE (71%)</span>
-              <span>Rest of MENA (29%)</span>
-            </div>
+        {/* Card 3: UAE 71% with Segmented Bar */}
+        <article
+          className="data-module__NYeKAW__card data-module__NYeKAW__z_m"
+          aria-label="71% of the money raised from January to August went to startups in the UAE: $1.59bn of $2.24bn."
+        >
+          <h4 className="data-module__NYeKAW__tag">
+            <i aria-hidden="true" />
+            UAE · Jan to Aug
+          </h4>
 
-            <a 
-              href="#countries" 
-              style={{
-                color: '#fff3e0',
-                fontSize: '12px',
-                fontWeight: 600,
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '4px'
-              }}
+          <b className="data-module__NYeKAW__v">71%</b>
+
+          <p className="data-module__NYeKAW__d">71% of it went to the UAE: $1.59bn of $2.24bn.</p>
+
+          <div className="data-module__NYeKAW__row">
+            <a
+              href="/deals?country=uae#countries"
+              className="btn g"
+              aria-label="The countries: 71% of the money raised from January to August went to startups in the UAE: $1.59bn of $2.24bn."
             >
               The countries →
             </a>
+          </div>
+
+          <div className="data-module__NYeKAW__shareW">
+            <svg
+              className="dm-share"
+              viewBox="0 0 300 18"
+              preserveAspectRatio="none"
+              width="100%"
+              height={18}
+              aria-hidden="true"
+            >
+              <defs>
+                <pattern id="sun_S_2_" patternUnits="userSpaceOnUse" width="300" height="18">
+                  <image href="/textures/tex-sun-bar.webp" width="300" height="18" preserveAspectRatio="xMidYMid slice" />
+                </pattern>
+                <pattern id="sand_S_2_" patternUnits="userSpaceOnUse" width="300" height="18">
+                  <image href="/textures/tex-sand.webp" width="300" height="18" preserveAspectRatio="xMidYMid slice" />
+                </pattern>
+                <linearGradient id="glow_S_2_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="0">
+                  <stop offset="0" stopColor="#E8692F" />
+                  <stop offset=".5" stopColor="#F08F3A" />
+                  <stop offset="1" stopColor="#F9BF43" />
+                </linearGradient>
+              </defs>
+              <rect x={0} y={0} width={300} height={18} rx={4} fill="url(#sand_S_2_)" opacity={0.4} />
+              <rect x={0} y={0} width={212.46872766261617} height={18} rx={4} fill="url(#sun_S_2_)" />
+            </svg>
+            <span className="data-module__NYeKAW__shareK">
+              <i />
+              UAE
+              <em />
+              The rest
+            </span>
           </div>
         </article>
       </div>

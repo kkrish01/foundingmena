@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Startup } from '@/lib/api';
+import Footer from '@/components/Footer';
 
 interface StartupModalProps {
   startup: Startup | null;
@@ -9,6 +10,8 @@ interface StartupModalProps {
 }
 
 export default function StartupModal({ startup, onClose }: StartupModalProps) {
+  const [copied, setCopied] = useState(false);
+
   // Prevent double scrollbar by locking body & html scroll while modal is active
   useEffect(() => {
     if (startup) {
@@ -20,6 +23,21 @@ export default function StartupModal({ startup, onClose }: StartupModalProps) {
       };
     }
   }, [startup]);
+
+  const handleShare = () => {
+    if (typeof window !== 'undefined' && startup) {
+      if (navigator.share) {
+        navigator.share({
+          title: `${startup.name} · Founding MENA`,
+          url: window.location.href,
+        }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      }
+    }
+  };
 
   if (!startup) return null;
 
@@ -63,33 +81,49 @@ export default function StartupModal({ startup, onClose }: StartupModalProps) {
       style={{ scrollbarWidth: 'thin' }}
     >
       {/* Top Fixed Navigation Bar */}
-      <div 
-        className="sticky top-0 z-30 flex items-center justify-between px-6 py-4 bg-[#100c08]/95 backdrop-blur-md border-b border-white/10"
-        style={{ height: '64px' }}
-      >
-        <button
-          type="button"
-          onClick={onClose}
-          className="flex items-center gap-2 text-white/80 hover:text-white transition px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold cursor-pointer"
-          aria-label="Back"
-        >
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
-            <path d="M15 5l-7 7 7 7"></path>
-          </svg>
-          <span>Back</span>
-        </button>
-
-        <div className="flex items-center gap-3">
+      <div className="sticky top-0 z-30 bg-[#100c08]/95 backdrop-blur-md border-b border-white/10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between w-full" style={{ height: '64px' }}>
           <button
             type="button"
             onClick={onClose}
-            className="p-2 rounded-full hover:bg-white/10 text-white/70 hover:text-white transition cursor-pointer"
-            aria-label="Close"
+            className="flex items-center gap-2 text-white/80 hover:text-white transition px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold cursor-pointer"
+            aria-label="Back"
           >
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.25">
-              <path d="M6 18L18 6M6 6l12 12"></path>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
+              <path d="M15 5l-7 7 7 7"></path>
             </svg>
+            <span>Back</span>
           </button>
+
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={handleShare}
+              className="p-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-white/80 hover:text-white transition cursor-pointer flex items-center justify-center relative"
+              aria-label="Share"
+              title="Share"
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25" strokeLinecap="butt" strokeLinejoin="miter">
+                <path d="M12 3v12M7 8l5-5 5 5M5 14v6h14v-6"></path>
+              </svg>
+              {copied && (
+                <span className="absolute -bottom-8 right-0 bg-[#f9bf43] text-[#100c08] text-[10px] font-bold px-2 py-0.5 rounded shadow whitespace-nowrap">
+                  Copied!
+                </span>
+              )}
+            </button>
+            <button
+              type="button"
+              onClick={onClose}
+              className="p-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-white/80 hover:text-white transition cursor-pointer flex items-center justify-center"
+              aria-label="Close"
+              title="Close"
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
+                <path d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -435,18 +469,10 @@ export default function StartupModal({ startup, onClose }: StartupModalProps) {
             ))}
           </div>
         </div>
-
-        {/* Bottom Close Button */}
-        <div className="pt-6 border-t border-white/10 flex justify-center">
-          <button
-            type="button"
-            onClick={onClose}
-            className="px-6 py-2.5 rounded-lg bg-[#f9bf43] hover:bg-[#ea7648] text-[#100c08] font-bold text-xs uppercase tracking-wider transition cursor-pointer"
-          >
-            Close Profile
-          </button>
-        </div>
       </div>
+
+      {/* Authentic Footer Component inside modal */}
+      <Footer />
     </div>
   );
 }

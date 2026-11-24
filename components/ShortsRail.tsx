@@ -1,13 +1,154 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Short } from '@/lib/api';
 
 interface ShortsRailProps {
   shorts: Short[];
+  onSelectShort?: (short: Short) => void;
 }
 
-export default function ShortsRail({ shorts }: ShortsRailProps) {
+function ShortCard({ short, onClick }: { short: Short; onClick: () => void }) {
+  const [isHovered, setIsHovered] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const videoSrc = short.videoUrl
+    ? `/api/media?url=${encodeURIComponent(short.videoUrl)}`
+    : null;
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play().catch(() => {});
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    if (videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+    }
+  };
+
+  return (
+    <div
+      className="c in w-v shortc cursor-pointer group flex flex-col"
+      onClick={onClick}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      style={{
+        width: '210px',
+        flexShrink: 0,
+        borderRadius: '12px',
+        overflow: 'hidden',
+        background: '#0d0907',
+        border: '1px solid rgba(255,255,255,0.08)',
+        boxShadow: '0 4px 16px rgba(0,0,0,0.4)',
+        transition: 'transform 0.15s ease-out, box-shadow 0.15s ease-out'
+      }}
+    >
+      {/* 9:16 Video Thumbnail Container */}
+      <div 
+        className="im gr relative w-full overflow-hidden bg-black" 
+        style={{ aspectRatio: '9/16' }}
+      >
+        <img
+          src={short.image}
+          alt={short.title}
+          loading="lazy"
+          className="absolute inset-0 w-full h-full object-cover transition-opacity duration-200"
+          style={{ opacity: isHovered && videoSrc ? 0 : 1 }}
+        />
+
+        {videoSrc && (
+          <video
+            ref={videoRef}
+            src={videoSrc}
+            playsInline
+            muted
+            loop
+            preload="none"
+            className="absolute inset-0 w-full h-full object-cover transition-opacity duration-200 pointer-events-none"
+            style={{ opacity: isHovered ? 1 : 0 }}
+          />
+        )}
+
+        {/* Top-Left Short Badge */}
+        <span 
+          className="chip mono tg"
+          style={{
+            position: 'absolute',
+            top: '8px',
+            left: '8px',
+            zIndex: 6,
+            fontSize: '11px',
+            fontWeight: 700,
+            padding: '2px 8px',
+            borderRadius: '4px',
+            backgroundColor: 'rgba(0,0,0,0.65)',
+            color: '#fff',
+            backdropFilter: 'blur(4px)',
+            border: '1px solid rgba(255,255,255,0.15)'
+          }}
+        >
+          SHORT
+        </span>
+
+        {/* Bottom-Right Play Button Icon */}
+        <span 
+          className="playsm" 
+          aria-hidden="true"
+          style={{
+            position: 'absolute',
+            bottom: '8px',
+            right: '8px',
+            zIndex: 6,
+            width: '28px',
+            height: '28px',
+            borderRadius: '50%',
+            backgroundColor: 'rgba(16,12,8,0.75)',
+            border: '1px solid rgba(255,255,255,0.25)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: '#fff',
+            backdropFilter: 'blur(4px)'
+          }}
+        >
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+            <polygon points="6 4 20 12 6 20 6 4"></polygon>
+          </svg>
+        </span>
+      </div>
+
+      {/* Bottom Text Strip Box */}
+      <div 
+        className="sstrip"
+        style={{
+          background: '#0d0907',
+          padding: '10px 12px',
+          borderTop: '1px solid rgba(255,255,255,0.08)'
+        }}
+      >
+        <div 
+          className="ct font-semibold text-white text-xs truncate" 
+          title={short.title}
+          style={{
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis'
+          }}
+        >
+          {short.title}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function ShortsRail({ shorts, onSelectShort }: ShortsRailProps) {
   const railRef = useRef<HTMLDivElement>(null);
 
   const scroll = (direction: 'left' | 'right') => {
@@ -28,7 +169,7 @@ export default function ShortsRail({ shorts }: ShortsRailProps) {
           </span>
         </a>
         <div className="sp"></div>
-        <span className="cnt mono">Under three minutes</span>
+        <span className="cnt mono">UNDER THREE MINUTES</span>
         <span className="rnav" style={{ display: 'flex', gap: '4px', marginLeft: '12px' }}>
           <button type="button" aria-label="Previous" onClick={() => scroll('left')}>
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
@@ -43,60 +184,13 @@ export default function ShortsRail({ shorts }: ShortsRailProps) {
         </span>
       </div>
 
-      <div className="rail" ref={railRef}>
+      <div className="rail" ref={railRef} style={{ gap: '16px' }}>
         {shorts.map((short) => (
-          <a
+          <ShortCard
             key={short.id}
-            className="c in w-v shortc"
-            href={short.href}
-            style={{
-              width: '240px',
-              height: '380px',
-              borderRadius: '14px',
-              overflow: 'hidden',
-              position: 'relative',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'flex-end',
-              padding: '16px',
-              background: '#17110c',
-              border: '1px solid rgba(255,255,255,0.1)',
-              boxShadow: '0 8px 24px rgba(0,0,0,0.5)',
-              textDecoration: 'none'
-            }}
-          >
-            <div className="im gr" style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-              <img
-                src={short.image}
-                alt={short.title}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
-              <div 
-                style={{
-                  position: 'absolute',
-                  inset: 0,
-                  background: 'linear-gradient(to top, rgba(16,12,8,0.95) 0%, rgba(16,12,8,0.3) 50%, transparent 100%)'
-                }}
-              ></div>
-            </div>
-
-            <div style={{ position: 'relative', zIndex: 1 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '8px' }}>
-                <span className="chip mono" style={{ fontSize: '10px', padding: '2px 6px', background: '#f9bf43', color: '#100c08', fontWeight: 'bold' }}>
-                  {short.dur || 'SHORT'}
-                </span>
-                <span className="chip" style={{ fontSize: '10px', padding: '2px 6px' }}>
-                  {short.sector}
-                </span>
-              </div>
-              <h4 style={{ color: '#fff3e0', fontSize: '15px', fontWeight: 'bold', margin: '0 0 4px', lineHeight: 1.25 }}>
-                {short.title}
-              </h4>
-              <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: '11px' }}>
-                {short.country}
-              </span>
-            </div>
-          </a>
+            short={short}
+            onClick={() => onSelectShort && onSelectShort(short)}
+          />
         ))}
       </div>
     </section>

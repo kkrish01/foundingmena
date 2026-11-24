@@ -5,9 +5,10 @@ import { Carousel } from '@/lib/api';
 
 interface CarouselsRailProps {
   carousels: Carousel[];
+  onSelectCarousel?: (carousel: Carousel) => void;
 }
 
-export default function CarouselsRail({ carousels }: CarouselsRailProps) {
+export default function CarouselsRail({ carousels, onSelectCarousel }: CarouselsRailProps) {
   const railRef = useRef<HTMLDivElement>(null);
 
   const scroll = (direction: 'left' | 'right') => {
@@ -28,7 +29,7 @@ export default function CarouselsRail({ carousels }: CarouselsRailProps) {
           </span>
         </a>
         <div className="sp"></div>
-        <span className="cnt mono">Slides</span>
+        <span className="cnt mono">SLIDES</span>
         <span className="rnav" style={{ display: 'flex', gap: '4px', marginLeft: '12px' }}>
           <button type="button" aria-label="Previous" onClick={() => scroll('left')}>
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.25">
@@ -43,60 +44,52 @@ export default function CarouselsRail({ carousels }: CarouselsRailProps) {
         </span>
       </div>
 
-      <div className="rail" ref={railRef}>
+      <div className="rail" ref={railRef} style={{ gap: '16px' }}>
         {carousels.map((c) => (
-          <a
+          <div
             key={c.id}
-            className="c in w-v"
-            href={c.href}
-            style={{
-              width: '280px',
-              height: '320px',
-              borderRadius: '14px',
-              overflow: 'hidden',
-              position: 'relative',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'flex-end',
-              padding: '16px',
-              background: '#17110c',
-              border: '1px solid rgba(255,255,255,0.1)',
-              boxShadow: '0 8px 24px rgba(0,0,0,0.5)',
-              textDecoration: 'none'
+            tabIndex={0}
+            role="button"
+            onClick={() => onSelectCarousel && onSelectCarousel(c)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                onSelectCarousel && onSelectCarousel(c);
+              }
             }}
+            className="cursor-pointer group flex flex-col flex-shrink-0 focus:outline-none"
+            style={{ width: '240px' }}
           >
-            <div className="im gr" style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
+            {/* Slide Cover Image (4:5 Aspect Ratio matching Image 1) */}
+            <div 
+              className="relative w-full rounded-xl overflow-hidden bg-[#17110c] border border-white/10 group-hover:border-[#f9bf43]/60 group-focus-visible:ring-2 group-focus-visible:ring-[#f9bf43] group-focus-visible:border-transparent transition-all shadow-md group-hover:scale-[1.02] duration-200"
+              style={{ aspectRatio: '4/5' }}
+            >
               <img
                 src={c.image}
                 alt={c.title}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                loading="lazy"
+                className="w-full h-full object-cover"
               />
-              <div 
-                style={{
-                  position: 'absolute',
-                  inset: 0,
-                  background: 'linear-gradient(to top, rgba(16,12,8,0.95) 0%, rgba(16,12,8,0.2) 60%, transparent 100%)'
-                }}
-              ></div>
             </div>
 
-            <div style={{ position: 'relative', zIndex: 1 }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '8px' }}>
-                <span className="chip mono" style={{ fontSize: '10px', padding: '2px 6px', background: 'rgba(255,255,255,0.15)', color: '#fff' }}>
-                  {c.dur || '9 slides'}
-                </span>
-                <span className="chip" style={{ fontSize: '10px', padding: '2px 6px' }}>
-                  {c.sector}
-                </span>
-              </div>
-              <h4 style={{ color: '#fff3e0', fontSize: '16px', fontWeight: 'bold', margin: '0 0 4px', lineHeight: 1.25 }}>
+            {/* Bottom Label Info (matching Image 1) */}
+            <div className="pt-2.5">
+              <h4 
+                className="text-sm font-bold text-white group-hover:text-[#f9bf43] transition line-clamp-1 m-0"
+                title={c.title}
+              >
                 {c.title}
               </h4>
-              <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: '11px' }}>
-                {c.country}
-              </span>
+              <div className="flex items-center gap-1.5 text-xs font-mono text-[#f8f0e473] mt-1">
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <rect x="7" y="7" width="10" height="10"></rect>
+                </svg>
+                <span>{c.slideCount || 9} slides</span>
+              </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </section>

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useRef } from 'react';
+import Link from 'next/link';
 import { Founder } from '@/lib/api';
 
 interface FoundersRailProps {
@@ -42,14 +43,14 @@ export default function FoundersRail({ founders, onSelectFounder }: FoundersRail
   return (
     <section className="section" id="the-30-founders">
       <div className="sechead">
-        <a style={{ display: 'contents' }} href="#the-30-founders">
+        <Link style={{ display: 'contents' }} href="/the-30/founders">
           <h3>MENA’s Founding 30: Founders</h3>
           <span className="cv">
             <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.25">
               <path d="M9 5l7 7-7 7"></path>
             </svg>
           </span>
-        </a>
+        </Link>
         <div className="sp"></div>
         <span className="seeall" style={{ cursor: 'pointer' }}>
           See all

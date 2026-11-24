@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useRef } from 'react';
+import Link from 'next/link';
 import { Startup } from '@/lib/api';
 
 interface StartupsRailProps {
@@ -42,14 +43,14 @@ export default function StartupsRail({ startups, onSelectStartup }: StartupsRail
   return (
     <section className="section" id="the-30">
       <div className="sechead">
-        <a style={{ display: 'contents' }} href="#the-30">
+        <Link style={{ display: 'contents' }} href="/the-30">
           <h3>MENA’s Founding 30: Startups</h3>
           <span className="cv">
             <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.25">
               <path d="M9 5l7 7-7 7"></path>
             </svg>
           </span>
-        </a>
+        </Link>
         <div className="sp"></div>
         <span className="seeall" style={{ cursor: 'pointer' }}>
           See all
